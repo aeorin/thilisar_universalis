@@ -39,7 +39,7 @@ erg_ideas = {
 	}
 }
 
-german_ideas = {
+naren_human_ideas = {
 	start = {
 		infantry_power = 0.1
 		merc_maintenance_modifier = -0.15
@@ -50,7 +50,7 @@ german_ideas = {
 	}
 	
 	trigger = {
-		culture_group = germanic
+		culture = naren_human_culture
 	}
 	free = yes        #will be added at load.
 	
