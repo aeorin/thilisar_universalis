@@ -18,7 +18,7 @@ erg_ideas = {
 		legitimacy = 1 = 1
 	}
 
-	bonus_colonist = {
+	erg_colonists = {
 			colonists = 1
 	}
 	desert_warfare = {
