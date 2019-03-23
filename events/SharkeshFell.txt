@@ -42,7 +42,6 @@ country_event = {
 			change_culture = general_orc_culture
 			add_core = NAR
 			add_unrest = 30
-			if
 		}
 	}
 
