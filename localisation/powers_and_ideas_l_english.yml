@@ -1,4 +1,22 @@
 ﻿l_english:
+ elosven_ideas:0 "Elosveni Ideas"
+ elosven_ideas_start:0 "Elosveni Traditions"
+ elosven_ideas_bonus:0 "Elosveni Ambition"
+ war_academy:0 "War Academy"
+ war_academy_desc:0 "Establishment of specialised national war academy helps to ensure proficiency of military leaders."
+ clairvoyants:0 "Clairvoyants"
+ clairvoyants_desc:0 "Magical practices of premenitions is apllied to research."
+ magus_corps:0 "Magus corps"
+ magus_corps_desc:0 "Profesional military magi improves efficiency of the army."
+ applied_magic:0 "Applied Magic"
+ applied_magic_desc:0 "Aplication of magic to everyday life hugely improves every aspoct of governance."
+ illusionism:0 "Illusionism"
+ illusionism_desc:0 "Instead of only targeting enemies with illusory spells, allied units morale can be boosted with those."
+ cultural_divergence:0 "Cultural Divergence"
+ cultural_divergence_desc:0 "Population becomes so isolated from outside world, that as times progress, all outsiders are starting to look like savages."
+ unnatural_prosperity:0 "Unnatural Prosperity"
+ unnatural_prosperity_desc:0 "Collecting taxes with magic is so easy!"
+
  naren_human_ideas:0 "Naren Ideas - Human"
  naren_human_ideas_start:0 "Naren Human Traditions"
  naren_human_ideas_bonus:0 "Naren Human Ambition"
@@ -16,6 +34,7 @@
  thurn_und_taxis_desc:0 "The House of Thurn und Taxis pioneered the German postal service, a complex network of the communication which covers various Thilisar regions and all of Naren."
  residenzstadt:0 "Residenzstadt"
  residenzstadt_desc:0 "Naren Dukes make their residences in cities, and govern the land from there. In this way, the cities become not only administrative and economic centers, but also many cultural buildings are constructed by their monarchs."
+
  erg_ideas:0 "Erg Ideas"
  erg_ideas_start:0 "Erg Traditions"
  erg_ideas_bonus:0 "Erg Ambition"
@@ -29,6 +48,7 @@
  humanoid_eaters_desc:0 "Once the conquered population is subservient, just gradually eat through them."
  fast_breeders:0 "Fast Breeders"
  fast_breeders_desc:0 "If the drones die, just make more"
+
  mil_tech_cost_modifier:0 "Military Technology Cost"
  adm_tech_cost_modifier:0 "Administrative Technology Cost"
  dip_tech_cost_modifier:0 "Diplomatic Technology Cost"

@@ -15,11 +15,11 @@ erg_ideas = {
 	free = yes
 	
 	broodmothers = {
-		legitimacy = 1 = 1
+		legitimacy = 1
 	}
 
 	erg_colonists = {
-			colonists = 1
+		colonists = 1
 	}
 	desert_warfare = {
 		hostile_attrition = 1
@@ -36,6 +36,59 @@ erg_ideas = {
 	}
 	fast_breeders = {
 		manpower_recovery_speed = 0.1
+	}
+}
+
+elosven_ideas = {
+	start = {
+		colonists = -2
+		production_efficiency = 0.20
+	}
+
+	bonus = {
+		development_cost = -0.2
+	}
+
+	trigger = {
+		culture_group = elosven_group
+	}
+	free = yes
+
+	applied_magic = {
+		development_cost = -0.2
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
+	}
+	war_academy = {
+		leader_land_shock = 2
+		leader_land_fire = 2
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
+	}
+	clairvoyants = {
+		technology_cost = -0.15
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
+	}
+	magus_corps = {
+		army_tradition = 1
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
+	}
+	illusionism = {
+		discipline = 0.1
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
+	}
+	cultural_divergence = {
+		land_morale = 0.15
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
+	}
+	unnatural_prosperity = {
+		global_tax_modifier = 0.2
+		land_forcelimit_modifier = -0.05
+		global_manpower_modifier = -0.05
 	}
 }
 
