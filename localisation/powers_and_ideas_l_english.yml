@@ -1,4 +1,23 @@
 ﻿l_english:
+ ################################################################################################
+ elven_ideas:0 "Elven Ideas"
+ elven_ideas_start:0 "Elven Traditions"
+ elven_ideas_bonus:0 "Elven Ambitions"
+ dicipline:0 "Dicipline"
+ ships_that_cross_oceans:0 "Ships That Cross Oceans"
+ elven_culture:0 "Elven Culture"
+ trading_exotics:0 "Trading Exotics"
+ swift_recovery:0 "Swift Recovery"
+ glory_of_the_elves:0 "Glory of the Elves"
+ leaving_these_shores:0 "Leaving These Shores"
+ dicipline_desc:0 ""
+ ships_that_cross_oceans_desc:0 ""
+ elven_culture_desc:0 ""
+ trading_exotics_desc:0 ""
+ swift_recovery_desc:0 ""
+ glory_of_the_elves_desc:0 ""
+ leaving_these_shores_desc:0 ""
+ ################################################################################################
  elosven_ideas:0 "Elosveni Ideas"
  elosven_ideas_start:0 "Elosveni Traditions"
  elosven_ideas_bonus:0 "Elosveni Ambition"
