@@ -1,5 +1,43 @@
 # These ideas are loaded after all country ideas, but before default idea.
 
+orc_ideas = {
+    start = {
+        infantry_cost = -0.1
+    }
+
+    bonus = {
+        fire_damage_received = -0.1
+    }
+
+    trigger = {
+        culture_group = orc_group
+    }
+    free = yes		#will be added at load.
+
+    tribal_duty = {
+        manpower_recovery_speed = 0.1
+        infantry_cost = -0.2
+        mercenary_cost = 0.2
+    }
+    hordeleaders = {
+         leader_land_manuever = 3
+    }
+    swift_recovery = {
+        reinforce_speed = 0.35
+        recover_army_morale_speed = 0.35
+    }
+    religous_cleansing = {
+        global_missionary_strength = 0.5
+    }
+    foxholes = {
+        defensiveness = 0.25
+    }
+    born_for_war = {
+         war_exhaustion = -0.1
+         war_exhaustion_cost = -0.2
+    }
+}
+
 elven_ideas = {
     start = {
         diplomatic_upkeep = 1
@@ -45,7 +83,7 @@ elven_ideas = {
         global_ship_cost = -0.25
         naval_forcelimit_modifier = 0.25
     }
-  }
+}
 
 erg_ideas = {
 	start = {
