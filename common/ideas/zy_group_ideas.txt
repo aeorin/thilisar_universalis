@@ -103,7 +103,7 @@ naren_human_ideas = {
 	}
 	
 	trigger = {
-		culture = naren_human_culture
+		primary_culture = naren_human_culture
 	}
 	free = yes        #will be added at load.
 	
