@@ -1,0 +1,7 @@
+name="Thilisar Universalis"
+path="mod/thilisar_universalis"
+replace_path="map"
+replace_path="history"
+replace_path="missions"
+replace_path="history/provinces"
+supported_version = "1.28.*.*"

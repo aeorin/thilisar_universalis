@@ -1,0 +1,53 @@
+country_event = {
+	id = 2005
+	title = "EVTNAME2005"
+	desc = "EVTDESC2005"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+		has_global_flag = sharkesh_fell
+		any_owned_province = {
+			culture_group = human_group
+			region = naren_region
+			NOT = {
+				has_province_flag = blood_soaked
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 50
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				culture_group = human_group
+				region = naren_region
+				NOT = {
+					has_province_flag = blood_soaked
+				}
+			}
+			if = {limit = {base_manpower = 2}   add_base_manpower = -1}
+			if = {limit = {base_production = 2} add_base_production = -1}
+			if = {limit = {base_tax = 2}        add_base_tax = -1}
+			if = {limit = {base_manpower = 5}   add_base_manpower = -2}
+			if = {limit = {base_production = 5} add_base_production = -2}
+			if = {limit = {base_tax = 5}        add_base_tax = -2}
+			set_province_flag = blood_soaked
+			set_province_flag = turned_orc
+			change_religion = shamanism
+			change_culture = general_orc_culture
+			add_core = NAR
+			add_unrest = 30
+			if
+		}
+	}
+
+	option = {
+		name = "EVTOPTA2005"
+		enable_religion = shamanism
+	}
+}

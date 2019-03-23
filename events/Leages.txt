@@ -1,0 +1,29 @@
+country_event = {
+	id = 2004
+	title = "EVTNAME2004"
+	desc = "EVTDESC2004"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+		is_year = 1470
+		NOT = {
+			has_global_flag = leages_enabled
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		set_global_flag = leages_enabled
+	}
+
+	option = {
+		name = "EVTOPTA2004"
+		enable_hre_leagues = yes
+	}
+}
+

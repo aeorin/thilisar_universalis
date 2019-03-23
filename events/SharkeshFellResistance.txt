@@ -1,0 +1,42 @@
+country_event = {
+	id = 2006
+	title = "EVTNAME2006"
+	desc = "EVTDESC2006"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+		has_global_flag = sharkesh_fell
+		any_owned_province = {
+			culture_group = human_group
+			region = naren_region
+			NOT = {
+				has_province_flag = blood_soaked
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 150
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				culture_group = human_group
+				region = naren_region
+				NOT = {
+					has_province_flag = blood_soaked
+				}
+			}
+			set_province_flag = blood_soaked
+		}
+	}
+
+	option = {
+		name = "EVTOPTA2006"
+		enable_religion = shamanism
+	}
+}
+

@@ -1,0 +1,58 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 20 81 23 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ardon #2" = 20
+	"Erwin  #3" = 20
+	"Lend  #5" = 20
+	"Khor  #1" = 20
+	"Flar  #0" = 20
+	"Fregar #4" = 20
+}
+
+leader_names = {
+    Ardon
+    Erwin
+    Lend
+    Khor
+}
+
+ship_names = {
+	Muna Namu
+}
+
+
+army_names = {
+	"$PROVINCE$ Batallion"
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

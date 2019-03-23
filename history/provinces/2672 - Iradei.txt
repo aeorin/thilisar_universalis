@@ -1,0 +1,19 @@
+owner = IRD
+controller = IRD
+add_core = IRD
+culture = nad_culture
+religion = animism
+base_tax = 6
+base_production = 5
+trade_goods = cloth	#fustians
+base_manpower = 8
+capital = "Iradei"
+is_city = yes
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american
+extra_cost = 8
+

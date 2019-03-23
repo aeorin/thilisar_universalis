@@ -1,0 +1,28 @@
+vassal = {
+	first = NAD
+	second = BDO
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = NAD
+	second = BDI
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = NAD
+	second = ALT
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = NAD
+	second = IRD
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+

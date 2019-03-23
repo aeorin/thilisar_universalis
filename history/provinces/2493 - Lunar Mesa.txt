@@ -1,0 +1,16 @@
+owner = LMS
+controller = LMS
+add_core = LMS
+culture = high_elf_culture
+religion = confucianism
+base_tax = 1
+base_production = 1
+trade_goods = cloth	#fustians
+base_manpower = 1
+is_city = no
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american

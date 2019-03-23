@@ -1,0 +1,61 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 281 155 111}
+
+historical_idea_groups = {
+	expansion_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Supreme Leader Odreon" = 100
+}
+
+leader_names = {
+    Truzh'ga
+    Tonqa
+    Runh'zh'muth
+    Zh'murnh
+    Aeorin
+    Zh'onh'sh'och
+    Sh'at'tash
+    Tush'ozh'at
+    Ch'aregr
+    Ech'nh'azh
+    Zh'ok
+}
+
+ship_names = {
+	En'h
+}
+
+
+army_names = {
+	"$PROVINCE$ Horde"
+}
+
+fleet_names = {
+	"$PROVINCE$ Swimmers"
+}

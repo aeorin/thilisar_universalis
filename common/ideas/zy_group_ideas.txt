@@ -1,0 +1,79 @@
+# These ideas are loaded after all country ideas, but before default idea.
+
+erg_ideas = {
+	start = {
+		global_manpower_modifier = 0.1
+	}
+	
+	bonus = {
+		land_forcelimit_modifier  = 0.1
+	}
+	
+	trigger = {
+		culture_group = erg_group
+	}
+	free = yes
+	
+	broodmothers = {
+		legitimacy = 1 = 1
+	}
+
+	bonus_colonist = {
+			colonists = 1
+	}
+	desert_warfare = {
+		hostile_attrition = 1
+	}
+	trans_saharan_trade = {
+		trade_efficiency = 0.1
+		caravan_power = 0.2
+	}
+	swarms = {
+		infantry_cost = -0.1
+	}
+	humanoid_eaters = {
+		culture_conversion_cost = -0.20
+	}
+	fast_breeders = {
+		manpower_recovery_speed = 0.1
+	}
+}
+
+german_ideas = {
+	start = {
+		infantry_power = 0.1
+		merc_maintenance_modifier = -0.15
+	}
+	
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trigger = {
+		culture_group = germanic
+	}
+	free = yes        #will be added at load.
+	
+	zunft = {
+		production_efficiency = 0.10
+	}
+	fruhlings_und_herbstmesse = {
+		global_own_trade_power = 0.10
+		trade_efficiency = 0.05
+	}
+	reichskreis = {
+		diplomatic_reputation = 1
+	}
+	polizeiordnung = {
+		global_unrest = -1
+	}
+	cuius_regio_eius_religio = {
+		global_missionary_strength = 0.01
+	}
+	thurn_und_taxis = {
+		diplomatic_upkeep = 1
+	}
+	residenzstadt = {
+		prestige = 1
+	}
+}

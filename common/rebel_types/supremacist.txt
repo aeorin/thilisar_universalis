@@ -1,0 +1,150 @@
+
+######################################################################
+# Supremacists - made from Particularists.
+######################################################################
+supremacists_rebels = {
+	
+	color = { 120 195 120 }
+	
+	area = nation 					# Stays within the nation
+	government = any				# Don't care about gov type				
+	defection = none				# Will not defect
+	independence = none				# Does not strive for independence
+	gfx_type = culture_province
+	will_relocate = yes	
+
+	resilient = no					# Can retreat
+	reinforcing = yes				# Can reinforce
+	general = yes					# Does use generals
+	smart = yes						# Do assault forts, tactically withdraw from battle, etc.
+	unit_transfer = no				# Units do not remain after enforcing demands.
+	
+	artillery = 0.0
+	infantry = 0.7
+	cavalry = 0.3
+	
+	morale = 0.95
+	
+	# Possible handle actions
+	handle_action_negotiate = yes
+	handle_action_stability = yes
+	handle_action_build_core = yes
+	handle_action_send_missionary = yes		
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 2
+        modifier = {
+            factor = 100
+            owner = {
+                NOT = { accepted_culture = ROOT}
+                NOT = { culture_group = ROOT}
+                NOT = { primary_culture = ROOT}
+            }
+        }
+
+        modifier = {
+            factor = 9
+            owner = {
+                NOT = { culture_group = ROOT}
+                NOT = { primary_culture = ROOT}
+            }
+        }
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 2.0
+			is_capital = yes
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+	
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 		NOT = { local_autonomy = 80 }
+ 	}
+	siege_won_effect = {
+		add_local_autonomy = 10
+		if = {
+		    limit = {
+		        NOT = {
+		            culture_group = REB
+		        }
+		    }
+            if = {
+                limit = {
+                    NOT = {base_tax = 2}
+                    NOT = {base_production = 2}
+                    NOT = {base_manpower = 2}
+                }
+                change_culture = REB
+            }
+            if = {
+                limit = {
+                    NOT = {base_tax = 2}
+                    NOT = {base_production = 2}
+                    base_manpower = 2
+                }
+                add_base_manpower = -1;
+            }
+            if = {
+                limit = {
+                    NOT = {base_tax = 2}
+                    base_production = 2
+                }
+                add_base_production = -1;
+            }
+            if = {
+                limit = {
+                    base_tax = 2
+                }
+                add_base_tax = -1;
+            }
+		}
+	}	
+	
+	# Country scope
+	can_negotiate_trigger = {
+		always = yes
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+
+	# Localisation for their demands TODO
+	demands_description = "supremacists_rebels_demand"
+	
+	# Country scope
+	demands_enforced_effect = {
+		every_owned_province = {
+			limit = {
+				has_rebel_faction = REB
+			}
+			add_local_autonomy = 60
+		}
+	}
+}

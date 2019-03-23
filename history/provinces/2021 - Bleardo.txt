@@ -1,0 +1,19 @@
+owner = BDO
+controller = BDO
+add_core = BDO
+culture = nad_culture
+religion = animism
+base_tax = 4
+base_production = 4
+trade_goods = cloth	#fustians
+base_manpower = 6
+capital = "Bleardo"
+is_city = yes
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american
+extra_cost = 8
+

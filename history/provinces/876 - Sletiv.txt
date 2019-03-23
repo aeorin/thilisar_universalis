@@ -1,0 +1,19 @@
+# 870 - Nevrath
+owner = SLT
+controller = SLT
+add_core = SLT
+culture = eshlends_culture
+religion = animism
+base_tax = 4
+base_production = 5
+trade_goods = cloth	#fustians
+base_manpower = 8
+capital = "Sletiv"
+is_city = yes
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+

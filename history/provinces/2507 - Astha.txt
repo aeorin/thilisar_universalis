@@ -1,0 +1,16 @@
+owner = AHA
+controller = AHA
+add_core = AHA
+culture = high_elf_culture
+religion = catholic
+base_tax = 6
+base_production = 3
+trade_goods = cloth	#fustians
+base_manpower = 3
+is_city = no
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american

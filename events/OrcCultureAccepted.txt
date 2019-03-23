@@ -1,0 +1,45 @@
+country_event = {
+	id = 2008
+	title = "EVTNAME2008"
+	desc = "EVTDESC2008"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+		has_global_flag = sharkesh_fell
+		any_owned_province = {
+			has_province_flag = turned_orc
+			NOT = {
+			    has_province_flag = orc_culture_accepted
+			}
+            owner = {
+                accepted_culture = general_orc_culture
+            }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+                has_province_flag = turned_orc
+                NOT = {
+                    has_province_flag = orc_culture_accepted
+                }
+                owner = {
+                    accepted_culture = general_orc_culture
+                }
+			}
+			set_province_flag = orc_culture_accepted
+			add_unrest = -10
+		}
+	}
+
+	option = {
+		name = "EVTOPTA2008"
+	}
+}
