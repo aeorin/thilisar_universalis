@@ -81,10 +81,13 @@ supremacists_rebels = {
 		}
 	}
 	
- 	# Province Scope
- 	siege_won_trigger = {
- 		NOT = { local_autonomy = 80 }
- 	}
+	# Province Scope
+	siege_won_trigger = {
+		OR = {
+			NOT = { local_autonomy = 80 }
+			NOT = { culture_group = REB }
+		}
+	}
 	siege_won_effect = {
 		add_local_autonomy = 10
 		if = {
