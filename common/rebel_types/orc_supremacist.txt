@@ -4,7 +4,7 @@
 ######################################################################
 supremacists_rebels = {
 	
-	color = { 120 195 120 }
+	color = { 150 50 50 }
 	
 	area = nation 					# Stays within the nation
 	government = any				# Don't care about gov type				
@@ -40,6 +40,7 @@ supremacists_rebels = {
 		factor = 2
         modifier = {
             factor = 100
+            culture_group = orc_group
             owner = {
                 NOT = { accepted_culture = ROOT}
                 NOT = { culture_group = ROOT}
@@ -49,6 +50,7 @@ supremacists_rebels = {
 
         modifier = {
             factor = 9
+            culture_group = orc_group
             owner = {
                 NOT = { culture_group = ROOT}
                 NOT = { primary_culture = ROOT}
@@ -89,7 +91,7 @@ supremacists_rebels = {
 	siege_won_trigger = {
 		OR = {
 			NOT = { local_autonomy = 80 }
-			NOT = { culture_group = REB }
+			NOT = { culture_group = orc_group }
 		}
 	}
 	siege_won_effect = {
@@ -97,7 +99,7 @@ supremacists_rebels = {
 		if = {
 		    limit = {
 		        NOT = {
-		            culture_group = REB
+		            culture_group = orc_group
 		        }
 		    }
             if = {
@@ -106,7 +108,32 @@ supremacists_rebels = {
                     NOT = {base_production = 2}
                     NOT = {base_manpower = 2}
                 }
-                change_culture = REB
+                if = { limit = { has_terrain = floodplain} change_culture = water_orc_culture}
+                if = { limit = { has_terrain = city      } change_culture = cave_orc_culture}
+                if = {
+                    limit = {
+                        OR = {
+                            has_terrain = forrest
+                            has_terrain = woods
+                            has_terrain = jungle
+                        }
+                    }
+                    change_culture = wood_orc_culture
+                }
+                if = {
+                    limit = {
+                        NOT = {
+                            OR = {
+                                has_terrain = floodplain
+                                has_terrain = city
+                                has_terrain = forrest
+                                has_terrain = woods
+                                has_terrain = jungle
+                            }
+                        }
+                    }
+                    change_culture = general_orc_culture
+                }
             }
             if = {
                 limit = {
@@ -143,7 +170,7 @@ supremacists_rebels = {
 	}
 
 	# Localisation for their demands TODO
-	demands_description = "supremacists_rebels_demand"
+	demands_description = "orc_supremacists_rebels_demand"
 	
 	# Country scope
 	demands_enforced_effect = {

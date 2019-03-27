@@ -1,3 +1,4 @@
+
 ######################################################################
 # Separatist rebels. Freedom!!!
 ######################################################################
@@ -12,13 +13,16 @@ nationalist_rebels = {
 	defect_delay = 60				# Can spontaneously declare independence after 60 months (earliest)
 	unit_transfer = yes				# Units switch allegiance after enforcing demands.
 	gfx_type = culture_province	
-	will_relocate = yes	
+	will_relocate = yes
+
+
 	
 	resilient = no
 	reinforcing = yes
 	general = yes				
 	smart = yes
-	
+
+
 	artillery = 0.1
 	infantry = 0.6
 	cavalry = 0.3
