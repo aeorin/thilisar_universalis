@@ -8,6 +8,9 @@ country_event = {
 
 	trigger = {
 		is_year = 1460
+		NOT = {
+		    is_year = 1470
+		}
 		any_owned_province = {
 			religion = catholic
             NOT = {

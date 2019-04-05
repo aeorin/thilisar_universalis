@@ -1,0 +1,77 @@
+country_decisions = {
+
+	designate_the_staple_port = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_naren_flag }
+			primary_culture = naren_human_culture
+			OR = {
+                owns = 2510
+                owns = 2611
+                owns = 2505
+                owns = 2022
+			}
+			religion_group = christian
+
+		}
+		provinces_to_highlight = {
+		    OR = {
+                province_id = 2510
+                province_id = 2611
+                province_id = 2505
+                province_id = 2022
+            }
+		}
+		allow = {
+			is_at_war = no
+			primary_culture = naren_human_culture
+			adm = 2
+            owns = 2510
+            owns = 2611
+            owns = 2505
+            owns = 2022
+            is_emperor = no
+		    religion_group = christian
+		}
+		effect = {
+			change_tag = NAR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+
+            if = {
+                limit = {
+                    NOT = {
+                        government = monarchy
+                    }
+                }
+                change_government = monarchy
+            }
+
+            naren_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NAR
+            }
+
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+
+
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_naren_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

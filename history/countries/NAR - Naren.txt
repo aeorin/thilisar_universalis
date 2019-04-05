@@ -1,7 +1,7 @@
 government = monarchy
-government_rank = 1
-mercantilism = 25
+government_rank = 3
+mercantilism = 30
 technology_group = western
-religion = shamanism
-primary_culture = general_orc_culture
+religion = catholic
+primary_culture = naren_human_culture
 capital = 2510

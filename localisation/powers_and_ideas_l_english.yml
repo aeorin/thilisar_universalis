@@ -1,5 +1,13 @@
 ﻿l_english:
- ################################################################################################
+################################################################################################
+ NAR_ideas:0 "Naren Ideas"
+ NAR_ideas_start:0 "Naren Traditions"
+ NAR_ideas_bonus:0 "Naren Ambitions"
+ feudal_legacy:0 "Feudal Legacy"
+ feudal_legacy_desc:0 "Naren citizens and officials consider Naren to be a legitimate succesor of the Ancient empire."
+ past_to_future:0 "Past to Future"
+ past_to_future_desc:0 "Naren restoration caused renaissance of the ancient ways and overlook the petiness of the present."
+################################################################################################
  elven_ideas:0 "Elven Ideas"
  elven_ideas_start:0 "Elven Traditions"
  elven_ideas_bonus:0 "Elven Ambitions"

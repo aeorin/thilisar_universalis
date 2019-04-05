@@ -40,7 +40,7 @@ country_event = {
 			set_province_flag = turned_orc
 			change_religion = shamanism
 			change_culture = general_orc_culture
-			add_core = NAR
+			add_core = ZHU
 			add_unrest = 30
 		}
 	}

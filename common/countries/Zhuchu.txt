@@ -2,9 +2,10 @@
 
 graphical_culture = westerngfx
 
-color = { 150 140 220}
+color = { 281 155 111}
 
 historical_idea_groups = {
+	expansion_ideas
 	defensive_ideas
 	offensive_ideas
 	diplomatic_ideas
@@ -29,30 +30,32 @@ historical_units = {
 }
 
 monarch_names = {
-	"Olot Ardon  #0" = 20
-	"Olot Erwin  #0" = 20
-	"Olot Lend   #0" = 20
-	"Olot Khor   #0" = 20
-	"Olot Flar   #0" = 20
-	"Olot Fregar #0" = 20
+	"Supreme Leader Odreon" = 100
 }
 
 leader_names = {
-    Ardon
-    Erwin
-    Lend
-    Khor
+    Truzh'ga
+    Tonqa
+    Runh'zh'muth
+    Zh'murnh
+    Aeorin
+    Zh'onh'sh'och
+    Sh'at'tash
+    Tush'ozh'at
+    Ch'aregr
+    Ech'nh'azh
+    Zh'ok
 }
 
 ship_names = {
-	Muna Namu
+	En'h
 }
 
 
 army_names = {
-	"$PROVINCE$ Batallion"
+	"$PROVINCE$ Horde"
 }
 
 fleet_names = {
-	"$PROVINCE$ Fleet"
+	"$PROVINCE$ Swimmers"
 }
