@@ -1,0 +1,270 @@
+#Below are mission series, within them are the actual missions.
+
+naren_missions = { #Series name is displayed over the slot?
+	slot = 1 #ie, first upper left column
+	ai = yes
+	potential = {
+		tag = NAR
+	}
+
+	conquer_naren = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		trigger = {
+			naren_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+
+			860 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+
+			891 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+
+			903 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+
+			907 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+
+		}
+	}
+
+	secure_naren_borders_mission = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { conquer_naren }
+		trigger = {
+			860 = {country_or_non_sovereign_subject_holds = ROOT}
+			891 = {country_or_non_sovereign_subject_holds = ROOT}
+			903 = {country_or_non_sovereign_subject_holds = ROOT}
+			907 = {country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		effect = {
+			eshlends_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	conquer_eshlends_mission = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { secure_naren_borders_mission } #None
+		trigger = {
+			naren_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_army_tradition = 50
+			add_stability = 2
+		}
+	}
+}
+
+imo_missions = { #Series name is displayed over the slot?
+	slot = 1 #ie, first upper left column
+	ai = yes
+	potential = {
+		tag = IMO
+	}
+
+	secure_legitimacy = {
+    		icon = mission_build_up_to_force_limit
+    		required_missions = { }
+    		trigger = {
+    			legitimacy = 99
+    		}
+
+    		effect = {
+                2504 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+                886 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+                2598 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+                2600 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+                978 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+                2601 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+                979 = {
+                    if = {
+                        limit = {
+                            NOT = {
+                                is_permanent_claim = ROOT
+                                is_core = ROOT
+                            }
+                        }
+                        add_permanent_claim = ROOT
+                    }
+                }
+    		}
+    	}
+
+	conquer_waterways = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { secure_legitimacy }
+		trigger = {
+			2504 = {country_or_non_sovereign_subject_holds = ROOT}
+			886 = {country_or_non_sovereign_subject_holds = ROOT}
+			2598 = {country_or_non_sovereign_subject_holds = ROOT}
+			2600 = {country_or_non_sovereign_subject_holds = ROOT}
+			978 = {country_or_non_sovereign_subject_holds = ROOT}
+			2601 = {country_or_non_sovereign_subject_holds = ROOT}
+			979 = {country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		effect = {
+            2022 = {
+                if = {
+                    limit = {
+                        NOT = {
+                            is_permanent_claim = ROOT
+                            is_core = ROOT
+                        }
+                    }
+                    add_permanent_claim = ROOT
+                }
+            }
+            2611 = {
+                if = {
+                    limit = {
+                        NOT = {
+                            is_permanent_claim = ROOT
+                            is_core = ROOT
+                        }
+                    }
+                    add_permanent_claim = ROOT
+                }
+            }
+            2505 = {
+                if = {
+                    limit = {
+                        NOT = {
+                            is_permanent_claim = ROOT
+                            is_core = ROOT
+                        }
+                    }
+                    add_permanent_claim = ROOT
+                }
+            }
+		}
+	}
+
+	conquer_heart_of_naren = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { conquer_waterways }
+		trigger = {
+			2510 = {country_or_non_sovereign_subject_holds = ROOT}
+			2611 = {country_or_non_sovereign_subject_holds = ROOT}
+			2505 = {country_or_non_sovereign_subject_holds = ROOT}
+			2022 = {country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		effect = {
+		    add_legitimacy = 10
+		    add_stability = 1
+		}
+    }
+}
