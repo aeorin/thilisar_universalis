@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 3
+mercantilism = 5
+technology_group = western
+religion = animism
+primary_culture = eshlends_culture
+capital = 870	# Nevrath

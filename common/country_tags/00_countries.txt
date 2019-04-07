@@ -38,8 +38,10 @@ AHA = "countries/Astha.txt"
 ARG = "countries/Arangar.txt"
 LMS = "countries/Lunarmesa.txt"
 
+#Formable/releasable special
 ZAM = "countries/Zamaria.txt"
 ZHU = "countries/Zhuchu.txt"
 NAR = "countries/Naren.txt"
+ESH = "countries/Eshlends.txt"
 
 ################################

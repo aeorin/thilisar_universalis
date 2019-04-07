@@ -43,7 +43,7 @@
  cultural_divergence_desc:0 "Population becomes so isolated from outside world, that as times progress, all outsiders are starting to look like savages."
  unnatural_prosperity:0 "Unnatural Prosperity"
  unnatural_prosperity_desc:0 "Collecting taxes with magic is so easy!"
-
+  ################################################################################################
  naren_human_ideas:0 "Naren Ideas - Human"
  naren_human_ideas_start:0 "Naren Human Traditions"
  naren_human_ideas_bonus:0 "Naren Human Ambition"
@@ -61,7 +61,7 @@
  thurn_und_taxis_desc:0 "The House of Thurn und Taxis pioneered the German postal service, a complex network of the communication which covers various Thilisar regions and all of Naren."
  residenzstadt:0 "Residenzstadt"
  residenzstadt_desc:0 "Naren Dukes make their residences in cities, and govern the land from there. In this way, the cities become not only administrative and economic centers, but also many cultural buildings are constructed by their monarchs."
-
+  ################################################################################################
  erg_ideas:0 "Erg Ideas"
  erg_ideas_start:0 "Erg Traditions"
  erg_ideas_bonus:0 "Erg Ambition"
@@ -76,6 +76,11 @@
  fast_breeders:0 "Fast Breeders"
  fast_breeders_desc:0 "If the drones die, just make more"
 
+ panergism:0 "Panergism"
+ panergism_desc:0 "When ruler is also a lifegiver and supreme leader of all erg, who would doubt her?"
+ erg_colonists:0 "Erg Colonist"
+ erg_colonists_desc:0 "It is time to aquire lebensraum for Erg young."
+  ################################################################################################
  mil_tech_cost_modifier:0 "Military Technology Cost"
  adm_tech_cost_modifier:0 "Administrative Technology Cost"
  dip_tech_cost_modifier:0 "Diplomatic Technology Cost"

@@ -1,37 +1,35 @@
 country_decisions = {
 
-	form_naren = {
+	form_eshlends = {
 		major = yes
 		potential = {
-			NOT = { has_country_flag = formed_naren_flag }
-			primary_culture = naren_human_culture
+			NOT = { has_country_flag = formed_eshlends_flag }
+			culture_group = erg_group
 			OR = {
-                owns = 2510
-                owns = 2611
-                owns = 2505
-                owns = 2022
+                owns = 870
+                owns = 869
+                owns = 2491
+                owns = 2478
 			}
-			religion_group = christian
+			religion_group = pagan
 
 		}
 		provinces_to_highlight = {
 		    OR = {
-                province_id = 2510
-                province_id = 2611
-                province_id = 2505
-                province_id = 2022
+                province_id = 870
+                province_id = 869
+                province_id = 2491
+                province_id = 2478
             }
 		}
 		allow = {
 			is_at_war = no
-			primary_culture = naren_human_culture
-			adm = 2
-            owns = 2510
-            owns = 2611
-            owns = 2505
-            owns = 2022
-            is_emperor = no
-		    religion_group = christian
+			culture_group = erg_group
+            owns = 870
+            owns = 869
+            owns = 2491
+            owns = 2478
+		    religion_group = pagan
 		}
 		effect = {
 			change_tag = NAR
@@ -51,7 +49,7 @@ country_decisions = {
                 limit = {
                     NOT = { owned_by = ROOT }
                 }
-                add_permanent_claim = NAR
+                add_permanent_claim = ESH
             }
 
             add_country_modifier = {
@@ -59,14 +57,13 @@ country_decisions = {
                 duration = 7300
             }
 
-
 			if = {
 				limit = {
 					has_custom_ideas = no
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			set_country_flag = formed_naren_flag
+			set_country_flag = formed_eshlends_flag
 			add_prestige = 25
 		}
 		ai_will_do = {

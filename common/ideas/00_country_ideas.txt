@@ -6,42 +6,47 @@
 
 ### Nation specific idea groups
 
-#ADL_ideas = {
-#	start = {
+ESH_ideas = {
+	start = {
+		global_manpower_modifier = 0.1
+	}
+	bonus = {
+		land_forcelimit_modifier  = 0.1
+	}
+	trigger = {
+		tag = ESH
+	}
+
+	panergism = {
+		legitimacy = 2
+	}
+#	broodmothers = {
+#		legitimacy = 1
 #	}
-#
-#	bonus = {
+#	erg_colonists = {
+#		colonists = 1
 #	}
-#
-#	trigger = {
-#		tag = ADL
-#	}
-#	free = yes		#will be added at load.
-#
-#	royal_navy = {
-#			navy_tradition = 0.25
-#			heavy_ship_power = 0.10
-#	}
-#	bonus_colonist = {
-#			colonists = 1
-#	}
-#	secretaries_of_state = {
-#		diplomatic_upkeep = 1
-#	}
-#	navigation_acts = {
-#		trade_efficiency = 0.1
-#	}
-#	eng_red_coats = {
-#		fire_damage = 0.1
-#	}
-#	sick_and_hurt_board = {
-#		sailors_recovery_speed = 0.10
-#		sailor_maintenance_modifer = -0.1
-#	}
-#	british_bill_of_rights = {
-#		years_of_nationalism = -5
-#	}
-#}
+	manifest_ergstiny = {
+		colonists = 2
+		can_colony_boost_development = yes
+	}
+	desert_warfare = {
+		hostile_attrition = 1
+	}
+	trans_saharan_trade = {
+		trade_efficiency = 0.1
+		caravan_power = 0.2
+	}
+	swarms = {
+		infantry_cost = -0.1
+	}
+	humanoid_eaters = {
+		culture_conversion_cost = -0.20
+	}
+	fast_breeders = {
+		manpower_recovery_speed = 0.1
+	}
+}
 
 
 NAR_ideas = {
