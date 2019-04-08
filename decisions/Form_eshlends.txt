@@ -32,7 +32,7 @@ country_decisions = {
 		    religion_group = pagan
 		}
 		effect = {
-			change_tag = NAR
+			change_tag = ESH
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 

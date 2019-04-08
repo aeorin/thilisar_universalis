@@ -26,10 +26,28 @@ country_decisions = {
 			is_at_war = no
 			primary_culture = naren_human_culture
 			adm = 2
-            owns = 2510
-            owns = 2611
-            owns = 2505
-            owns = 2022
+			OR = {
+			    AND = {
+                    owns = 2611
+                    owns = 2505
+                    owns = 2022
+			    }
+			    AND = {
+                    owns = 2510
+                    owns = 2505
+                    owns = 2022
+			    }
+			    AND = {
+                    owns = 2510
+                    owns = 2611
+                    owns = 2022
+			    }
+			    AND = {
+                    owns = 2510
+                    owns = 2611
+                    owns = 2505
+			    }
+			}
             is_emperor = no
 		    religion_group = christian
 		}
