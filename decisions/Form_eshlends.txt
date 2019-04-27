@@ -25,11 +25,29 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			culture_group = erg_group
-            owns = 870
-            owns = 869
-            owns = 2491
-            owns = 2478
 		    religion_group = pagan
+		    OR = {
+		        AND = {
+                    owns = 869
+                    owns = 2491
+                    owns = 2478
+		        }
+		        AND = {
+                    owns = 870
+                    owns = 2491
+                    owns = 2478
+		        }
+		        AND = {
+                    owns = 870
+                    owns = 869
+                    owns = 2478
+		        }
+		        AND = {
+                    owns = 870
+                    owns = 869
+                    owns = 2491
+		        }
+		    }
 		}
 		effect = {
 			change_tag = ESH

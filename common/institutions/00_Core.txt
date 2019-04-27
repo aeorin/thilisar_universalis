@@ -22,6 +22,8 @@ feudalism = {
 
 	trade_company_efficiency = 0.0
 
+	historical_start_date = 1066.1.1
+	historical_start_province = 2510
 
 	history = {
 		is_year = 1000
@@ -123,12 +125,15 @@ feudalism = {
 
 magic = {
 	penalty = 1.0
+
 	bonus = {
 		development_cost = -0.1
 	}
 
 	trade_company_efficiency = 0.0
 
+	historical_start_date = 1200.1.1
+	historical_start_province = 2022
 
 	history = {
 		is_year = 1200
@@ -253,17 +258,20 @@ gods = {
 	}
 	
 	can_start = {
+		is_year = 1450
         development = 9
         OR = {
             religion = protestant
             religion = reformed
         }
 	}
-	start_chance = 50		#in 100 for when a province can_start
+	start_chance = 100		#in 100 for when a province can_start
 
 	can_embrace = {
-		owner = { has_institution = magic }
-	}
+        always = yes
+    }
+
+	on_start = institution_events.2
 	
 	embracement_speed = {
 		modifier = {

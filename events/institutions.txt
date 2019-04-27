@@ -1,27 +1,27 @@
-##################################################
-# Institutions 
+###################################################
+## Institutions
+##
+## written by Johan Andersson & Henrik Lohmander
+###################################################
 #
-# written by Johan Andersson & Henrik Lohmander
-##################################################
-
-
-namespace = institution_events
-
-
-
+#
+#namespace = institution_events
+#
+#
+#
+#########################################
+## Feudalism
+#########################################
+## no event needed, available from the start
+#
 ########################################
-# Feudalism
+## Renaissance
 ########################################
-# no event needed, available from the start
-
-#######################################
-# Renaissance
-#######################################
 country_event = {
 	id = institution_events.2
 	title = institution_events.gods.t
 	desc = institution_events.gods.d
-	
+
 	picture = {
 		trigger = {
 			OR = {
@@ -38,9 +38,9 @@ country_event = {
 		}
 		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
 	}
-	
+
 	is_triggered_only = yes
-	
+
 
 	trigger = {
 		always = yes			#
@@ -67,84 +67,82 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = institution_events.200
+	title = institution_events.2.t
+	desc = institution_events.200.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
 
 
-#country_event = {
-#	id = institution_events.200
-#	title = institution_events.2.t
-#	desc = institution_events.200.d
-#	picture = {
-#		trigger = {
-#			OR = {
-#				NOT = { has_dlc = "Cradle of Civilization" }
-#				NOT = { religion_group = muslim }
-#			}
-#		}
-#		picture = PAINTER_ARTIST_eventPicture
-#	}
-#	picture = {
-#		trigger = {
-#			has_dlc = "Cradle of Civilization"
-#			religion_group = muslim
-#		}
-#		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
-#	}
-#
-#	is_triggered_only = yes
-#
-#
-#	trigger = {
-#		always = yes			#
-#	}
-#
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#
-#	option = {
-#		name = institution_events.2.a
-#		custom_tooltip = institution_events.2.a.tt
-#	}
-#}
-#
-##Far away travellers...
-#country_event = {
-#	id = institution_events.201
-#	title = institution_events.2.t
-#	desc = institution_events.201.d
-#	picture = {
-#		trigger = {
-#			OR = {
-#				NOT = { has_dlc = "Cradle of Civilization" }
-#				NOT = { religion_group = muslim }
-#			}
-#		}
-#		picture = PAINTER_ARTIST_eventPicture
-#	}
-#	picture = {
-#		trigger = {
-#			has_dlc = "Cradle of Civilization"
-#			religion_group = muslim
-#		}
-#		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
-#	}
-#
-#	is_triggered_only = yes
-#
-#
-#	trigger = {
-#		always = yes			#
-#	}
-#
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#
-#	option = {
-#		name = institution_events.2.a
-#		custom_tooltip = institution_events.2.a.tt
-#	}
-#}
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.2.a
+		custom_tooltip = institution_events.2.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.201
+	title = institution_events.2.t
+	desc = institution_events.201.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.2.a
+		custom_tooltip = institution_events.2.a.tt
+	}
+}
 #
 ########################################
 ## New World
