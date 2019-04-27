@@ -37,6 +37,17 @@ RON = "countries/Ronensand.txt"
 AHA = "countries/Astha.txt"
 ARG = "countries/Arangar.txt"
 LMS = "countries/Lunarmesa.txt"
+GES = "countries/Gesat.txt"
+ASE = "countries/Asenia.txt"
+NUA = "countries/Nuan.txt"
+
+#Naiamy
+ULE = "countries/Ulea.txt"
+USI = "countries/Usil.txt"
+ALS = "countries/Alsipia.txt"
+ALD = "countries/Aldea.txt"
+OLM = "countries/Olma.txt"
+DEE = "countries/Deep.txt"
 
 #Formable/releasable special
 ZAM = "countries/Zamaria.txt"

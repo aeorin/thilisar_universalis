@@ -1,0 +1,12 @@
+owner = DEE
+controller = DEE
+add_core = DEE
+culture = naiamy_dwarwen_culture
+religion = jewish
+base_tax = 3
+base_production = 6
+trade_goods = gold	#fustians
+base_manpower = 3
+is_city = no
+hre = no
+discovered_by = muslim

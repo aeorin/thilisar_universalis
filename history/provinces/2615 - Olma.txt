@@ -1,0 +1,12 @@
+owner = OLM
+controller = OLM
+add_core = OLM
+culture = high_elosven_culture
+religion = sunni
+base_tax = 3
+base_production = 3
+trade_goods = iron	#fustians
+base_manpower = 3
+is_city = no
+hre = no
+discovered_by = muslim

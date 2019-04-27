@@ -33,6 +33,8 @@ naren_region = {
 
 eshlends_region = {
 	areas = {
+	    gesat_area
+	    reia_area
         nad_area
         nad_steppes_area
         hish_area
@@ -43,6 +45,20 @@ eshlends_region = {
         shish_area
         erg_steppe_area
 	}
+}
+
+naiamy_region = {
+    areas = {
+        elenie_area
+        alsipa_area
+        alsipa_tunnel_area
+        naiamy_cross_area
+        naiamy_tunnel_south_area
+        naiamy_tunnel_east_area
+        deep_borderlands_area
+        deep_realm_area
+        naiamy_tunnel_north_area
+    }
 }
 
 ########################################

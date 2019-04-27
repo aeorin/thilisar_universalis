@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 1
+mercantilism = 5
+technology_group = western
+religion = jewish
+primary_culture = naiamy_dwarwen_culture
+capital = 2014	# Deep Realm

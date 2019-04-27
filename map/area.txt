@@ -5,10 +5,55 @@
 # Thilisar																		##
 ##################################################################################
 
-############### Eshlends ########################x
+############### Naiamy ########################
+elenie_area = {
+    2621 2617 861 854
+}
 
-nad_area = { #5
-    2672 866 865 890 2021
+alsipa_area = {
+    2614 857 2619 856 2615
+}
+
+alsipa_tunnel_area = {
+    2499 2643 2668
+}
+
+naiamy_cross_area = {
+    883 2657 2624
+}
+
+naiamy_tunnel_south_area = {
+    888 2665 858
+}
+
+naiamy_tunnel_east_area = {
+    2509 894 2669
+}
+
+deep_borderlands_area = {
+    902 2515 2516
+}
+
+deep_realm_area = {
+    895 2014 899
+}
+
+naiamy_tunnel_north_area = {
+    2529 921 893
+}
+
+############### Eshlends ########################
+
+reia_area = { #4
+    2514 920 919 918
+}
+
+gesat_area = { #4
+    2021 2528 2530 890
+}
+
+nad_area = { #4
+    866 865 2672 897
 }
 
 nad_steppes_area = { #4
@@ -2960,15 +3005,11 @@ south_appalachia_area = { #3
 }
 
 west_florida_area = { #5
-    921 922 923 2530 2533
-}
-
-mississippi_area = { #4
-    919 920 2528 2529
+     922 923  2533
 }
 
 choctaw_area = { #3
-    918 934 2527
+     934 2527
 
 }
 
@@ -2992,10 +3033,6 @@ illinois_country_area = { #4
     915 916 917 2519 2520
 }
 
-mississippi_plain_area = { #3
-	894 895 897
-}
-
 michigan_area = { #4
     944 945 2521 2522
 }
@@ -3008,16 +3045,8 @@ wisconsin_area = { #3
 	912 913 914
 }
 
-lower_louisiana_area = { # 3
-    893 2014 2516
-}
-
 upper_louisiana_area = { #4
-    900 902 2513 2514
-}
-
-ozarks_area = { #3
-    899 2509 2515 896
+    900  2513 896
 }
 
 south_dakota_area = { #3
@@ -3025,11 +3054,7 @@ south_dakota_area = { #3
 }
 
 texas_area = { #4
-    884 887 888 2665 2669
-}
-
-coastal_prarie_area = { #4
-	883 4627
+    884 887 4627
 }
 
 columbia_river_area = { #4
@@ -3096,12 +3121,8 @@ inner_ontario_area = { #5
 	1002 2588 2589 2590 2591
 }
 
-prairies_area = { #5
-    2004 2018 2602 2603
-}
-
-northeast_mexico_area = { #5
-    861 2619 4606
+prairies_area = { #6
+    2004 2018 2602 2603 4606
 }
 
 durango_area = { #3
@@ -3110,10 +3131,6 @@ durango_area = { #3
 
 chihuahua_area = { #4
     863 4644 4628 4629
-}
-
-rio_grande_area = { # 4
-    858 2499 2614 2668
 }
 
 sonora_area = { #5
@@ -3141,27 +3158,27 @@ northern_california_area = { #5
 }
 
 jalisco_area = { #5
-    2617 2621 2657 4576 854
+    4576
 }
 
 michoacan_area = { #5
-    2622 2623 2624 4573 4574
+    2622 2623 4573 4574
 }
 
 tierra_caliente_area = { #5
-    851 2643 4575 4579 4580
+    851 4575 4579 4580
 }
 
 gran_chichimeca_area = { #3 
-   857 2642 4642 855 4578
+   2642 4642 855 4578
 }
 
 guanajuato_area = { #3
-   853 2615 4641 4640
+   853 4641 4640
 }
 
 zacatecas_area = { #4
-    856 4643 4645
+    4643 4645
 }
 
 mexico_area = { #5

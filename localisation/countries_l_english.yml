@@ -5,6 +5,27 @@
  ESH_ADJ:0 "Eshlendsian"
  NAR:0 "Naren"
  NAR_ADJ:0 "Nareni"
+
+ GES:0 "Gesat"
+ ASE:0 "Asenia"
+ NUA:0 "Nûan"
+ ULE:0 "Ulea"
+ USI:0 "Usil"
+ ALS:0 "Alsipia"
+ ALD:0 "Aldea"
+ OLM:0 "Olma"
+ DEE:0 "Deep Realm"
+
+ GES_ADJ:0 "Gesato"
+ ASE_ADJ:0 "Asenian"
+ NUA_ADJ:0 "Nûaneese"
+ ULE_ADJ:0 "Ulean"
+ USI_ADJ:0 "Usilish"
+ ALS_ADJ:0 "Alsipian"
+ ALD_ADJ:0 "Aldean"
+ OLM_ADJ:0 "Olman"
+ DEE_ADJ:0 "Abyssal"
+
  ################################################
  TGP:0 "Tagop"
  TRC:0 "Tropes Confederacy"

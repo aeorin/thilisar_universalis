@@ -52,7 +52,18 @@ elosven_group = {
 			Snehurka
 		}
 		dynasty_names = {
-		    "El Osven"
+		    "El Osven" "Elvos Sen"
+		}
+	}
+	high_elosven_culture = {
+		male_names = {
+			Smudla
+		}
+		female_names = {
+			Snehurka
+		}
+		dynasty_names = {
+		    "Ovos En" "Sven Esnon"
 		}
 	}
 }
@@ -75,7 +86,6 @@ elf_group = {
 }
 
 human_group = {
-    #naren highlander
     naren_human_culture = {
         male_names = {
             Ardon Erwin Lend Khor Flar Fregar
@@ -87,7 +97,20 @@ human_group = {
             Eal Ardonian Erwinian Fregarian Bolf
         }
     }
-    #naren tribal
+}
+
+dwarven_group = {
+    naiamy_dwarwen_culture = {
+        male_names = {
+            Har Var Sar Gar Par
+        }
+        female_names = {
+            Vir Zir Mir Lir
+        }
+        dynasty_names = {
+            Goklar Madlar
+        }
+    }
 }
 
 orc_group = {

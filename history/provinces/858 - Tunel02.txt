@@ -1,0 +1,9 @@
+culture = naiamy_dwarwen_culture
+religion = jewish
+base_tax = 1
+base_production = 1
+trade_goods = iron	#fustians
+base_manpower = 1
+is_city = no
+hre = no
+discovered_by = muslim
