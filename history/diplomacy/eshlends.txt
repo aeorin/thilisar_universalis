@@ -1,6 +1,27 @@
 vassal = {
-	first = NAD
+	first = GES
 	second = BDO
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+vassal = {
+	first = GES
+	second = USK
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+union = {
+	first = GES
+	second = ASE
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+union = {
+	first = OLM
+	second = NUA
 	start_date = 1444.1.1
 	end_date = 1526.8.29
 }

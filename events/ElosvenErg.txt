@@ -1,0 +1,69 @@
+country_event = {
+	id = 33000
+	title = "EVTNAME33000"
+	desc = "EVTDESC33000"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    culture_group = erg_group
+	    is_vassal = yes
+	    overlord = {
+	        culture_group = elosven_group
+	    }
+	    NOT = {
+	        has_opinion_modifier = {
+            	who = overlord
+            	modifier = elosven_experiment
+            }
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA33000"
+		add_opinion = {
+		    who = overlord
+            modifier = elosven_experiment
+		}
+	}
+}
+
+country_event = {
+	id = 33001
+	title = "EVTNAME33001"
+	desc = "EVTDESC33001"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    culture_group = erg_group
+	    is_vassal = yes
+	    overlord = {
+	        culture_group = elosven_group
+	    }
+	    NOT = {
+	        has_opinion_modifier = {
+            	who = overlord
+            	modifier = elosven_experiment
+            }
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA33000"
+		add_opinion = {
+		    who = overlord
+            modifier = elosven_experiment
+		}
+	}
+}
