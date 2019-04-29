@@ -128,6 +128,7 @@ elosven_ideas = {
 	start = {
 		colonists = -2
 		production_efficiency = 0.20
+	    diplomatic_reputation = -10
 	}
 
 	bonus = {

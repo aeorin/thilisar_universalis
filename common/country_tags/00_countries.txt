@@ -20,6 +20,7 @@ USK = "countries/Usko.txt"
 IRD = "countries/Iradei.txt"
 ALT = "countries/Altamira.txt"
 NAD = "countries/Nad.txt"
+ORE = "countries/Orea.txt"
 
 #Naren
 PTS = "countries/Petsas.txt"
@@ -54,5 +55,6 @@ ZAM = "countries/Zamaria.txt"
 ZHU = "countries/Zhuchu.txt"
 NAR = "countries/Naren.txt"
 ESH = "countries/Eshlends.txt"
+#ERG = "countries/Erg.txt"
 
 ################################

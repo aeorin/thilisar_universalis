@@ -1,8 +1,8 @@
-owner = NAD
-controller = NAD
-add_core = NAD
-culture = low_elosven_culture
-religion = sunni
+owner = ORE
+controller = ORE
+add_core = ORE
+culture = nad_culture
+religion = animism
 base_tax = 1
 base_production = 1
 trade_goods = cloth	#fustians

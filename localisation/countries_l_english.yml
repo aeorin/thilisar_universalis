@@ -15,6 +15,7 @@
  ALD:0 "Aldea"
  OLM:0 "Olma"
  DEE:0 "Deep Realm"
+ ORE:0 "Orea"
 
  GES_ADJ:0 "Gesato"
  ASE_ADJ:0 "Asenian"
@@ -25,6 +26,7 @@
  ALD_ADJ:0 "Aldean"
  OLM_ADJ:0 "Olman"
  DEE_ADJ:0 "Abyssal"
+ ORE_ADJ:0 "Orean"
 
  ################################################
  TGP:0 "Tagop"

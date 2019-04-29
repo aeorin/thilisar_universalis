@@ -1,3 +1,26 @@
+#Thilisar
+
+# Eshlends
+colonial_eshlends = {
+	color = { 200 200 70}
+
+	provinces = {
+		2672 866 890 2021 2479 2480 905 2481 2478 2616 875 2476 901 2667 2477
+		860 2500 891 2482 903 869 2605 870 877 2491 1009 2501 876 907 2502 2666 892
+	}
+
+	# Generic
+	names = {
+		name = "Erg"
+	}
+	names = {
+		name = "Colonial_Eshlends"
+	}
+	names = {
+		name = "COLONIAL_REGION_Terra_Australis"
+	}
+}
+
 # Europe
 colonial_alaska = {
 	color = { 225 225 225 }
@@ -307,7 +330,7 @@ colonial_canada = {
 				alliance_with = SCO
 			}
 		}
-		name = "COLONIAL_CANADA_Nouvelle_Écosse"
+		name = "COLONIAL_CANADA_Nouvelle_ï¿½cosse"
 	}
 	names = {
 		trigger = {
@@ -385,7 +408,7 @@ colonial_canada = {
 		trigger = {
 			tag = SCO
 		}
-		name = "COLONIAL_CANADA_Nouvelle_Écosse"
+		name = "COLONIAL_CANADA_Nouvelle_ï¿½cosse"
 	}
 	names = {
 		trigger = {
@@ -639,6 +662,10 @@ colonial_australia = {
 		1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094
 		1246 1109 1107 1108 1106 2726 2727 2728 2729 2730 2731
 		2732 2733 2734 2735 2736 2737 2738 2739
+
+
+		#2672 866 890 2021 2479 2480 905 2481 2478 2616 875 2476 901 2667 2477
+		#860 2500 891 2482 903 869 2605 870 877 2491 1009 2501 876 907 2502 2666 892
 	}
 	
 	# Specific
