@@ -22,6 +22,19 @@ ALT = "countries/Altamira.txt"
 NAD = "countries/Nad.txt"
 ORE = "countries/Orea.txt"
 
+#Erg experiments
+ERG = "countries/Erg.txt"
+ER0 = "countries/Er0.txt"
+ER1 = "countries/Er1.txt"
+ER2 = "countries/Er2.txt"
+ER3 = "countries/Er3.txt"
+ER4 = "countries/Er4.txt"
+ER5 = "countries/Er5.txt"
+ER6 = "countries/Er6.txt"
+ER7 = "countries/Er7.txt"
+ER8 = "countries/Er8.txt"
+ER9 = "countries/Er9.txt"
+
 #Naren
 PTS = "countries/Petsas.txt"
 LOZ = "countries/Lozdot.txt"

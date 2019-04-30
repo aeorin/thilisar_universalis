@@ -4,20 +4,16 @@ country_event = {
 	desc = "EVTDESC33000"
 	picture = RELIGION_eventPicture
 
-	major = no
+	major = yes
 
 	trigger = {
-	    culture_group = erg_group
-	    is_vassal = yes
-	    overlord = {
-	        culture_group = elosven_group
-	    }
-#	    NOT = {
-#	        has_opinion_modifier = {
-#            	who = overlord
-#            	modifier = elosven_experiment
-#            }
-#	    }
+	    culture_group = elosven_group
+	    calc_true_if = {
+        	all_owned_province = {
+        		culture_group = erg_group
+        	}
+        	amount = 1
+        }
 	}
 
 	mean_time_to_happen = {
@@ -26,9 +22,166 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA33000"
-		add_opinion = {
-		    who = overlord
-            modifier = elosven_experiment
+
+		if = {
+		    limit = {
+		        ERG = {
+		            OR = {
+		                vassal_of = ROOT
+		                NOT = {
+		                    calc_true_if = {
+                                all_owned_province = {
+                                    always = yes
+                                }
+                                amount = 1
+                            }
+		                }
+		            }
+		        }
+		    }
+		    ##############################################
+
+            every_owned_province = {
+                limit = {culture_group = erg_group}
+                cede_province = ERG
+                add_core = ERG
+            }
+            vassalize = ERG
+		    #todo: remove country flag when erg looses all its provinces
+		    #todo: allow multiple elosvens to have ergs
+		    ##############################################
+		}
+		else{
+
+            if = {
+                limit = {
+                    ER1 = {
+                        OR = {
+                            vassal_of = ROOT
+                            NOT = {
+                                calc_true_if = {
+                                    all_owned_province = {
+                                        always = yes
+                                    }
+                                    amount = 1
+                                }
+                            }
+                        }
+                    }
+                }
+                ##############################################
+
+                every_owned_province = {
+                    limit = {culture_group = erg_group}
+                    cede_province = ER1
+                    add_core = ER1
+                }
+                vassalize = ER1
+                #todo: remove country flag when erg looses all its provinces
+                #todo: allow multiple elosvens to have ergs
+                ##############################################
+            }
+            else{
+
+                if = {
+                    limit = {
+                        ER0 = {
+                            OR = {
+                                vassal_of = ROOT
+                                NOT = {
+                                    calc_true_if = {
+                                        all_owned_province = {
+                                            always = yes
+                                        }
+                                        amount = 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    ##############################################
+
+                    every_owned_province = {
+                        limit = {culture_group = erg_group}
+                        cede_province = ER0
+                        add_core = ER0
+                    }
+                    vassalize = ER0
+                    #todo: remove country flag when erg looses all its provinces
+                    #todo: allow multiple elosvens to have ergs
+                    ##############################################
+                }
+                else{
+
+                    if = {
+                        limit = {
+                            ER3 = {
+                                OR = {
+                                    vassal_of = ROOT
+                                    NOT = {
+                                        calc_true_if = {
+                                            all_owned_province = {
+                                                always = yes
+                                            }
+                                            amount = 1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        ##############################################
+
+                        every_owned_province = {
+                            limit = {culture_group = erg_group}
+                            cede_province = ER3
+                            add_core = ER3
+                        }
+                        vassalize = ER3
+                        #todo: remove country flag when erg looses all its provinces
+                        #todo: allow multiple elosvens to have ergs
+                        ##############################################
+                    }
+                    else{
+
+                        if = {
+                            limit = {
+                                ER4 = {
+                                    OR = {
+                                        vassal_of = ROOT
+                                        NOT = {
+                                            calc_true_if = {
+                                                all_owned_province = {
+                                                    always = yes
+                                                }
+                                                amount = 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            ##############################################
+
+                            every_owned_province = {
+                                limit = {culture_group = erg_group}
+                                cede_province = ER4
+                                add_core = ER4
+                            }
+                            vassalize = ER4
+                            #todo: remove country flag when erg looses all its provinces
+                            #todo: allow multiple elosvens to have ergs
+                            ##############################################
+                        }
+                        else{
+                            #todo more
+                            every_owned_province = {
+                                limit = {culture_group = erg_group}
+                                cede_province = any_subject_country
+                                add_core = any_subject_country
+                            }
+                        }
+                    }
+                }
+            }
 		}
 	}
 }

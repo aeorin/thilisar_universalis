@@ -47,3 +47,34 @@ vassal = {
 	end_date = 1526.8.29
 }
 
+
+alliance = {
+	first = NAD
+	second = ULE
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+
+alliance = {
+	first = GES
+	second = USI
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+
+alliance = {
+	first = DEE
+	second = ALD
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+
+alliance = {
+	first = NVT
+	second = ORE
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}

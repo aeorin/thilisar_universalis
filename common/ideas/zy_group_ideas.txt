@@ -124,6 +124,44 @@ erg_ideas = {
 	}
 }
 
+dwarven_ideas = {
+	start = {
+		production_efficiency = 0.15
+	}
+
+	bonus = {
+		trade_efficiency = 0.15
+	}
+
+	trigger = {
+		culture_group = dwarven_group
+	}
+	free = yes
+
+	golden_hearts = {
+	    monarch_diplomatic_power = 2
+	}
+	golden_minds = {
+	    free_dip_policy = 1
+	}
+	deep_mining = {
+	    development_cost = -0.1
+	}
+	mineral_taxation = {
+	    global_tax_modifier = 0.10
+	}
+	prospectors = {
+	    colonists = 1
+	}
+	resourceful_empire = {
+	    liberty_desire_from_subject_development = -0.10
+	    merchants = 1
+	}
+	point_defense = {
+	    defensiveness = 0.25
+	}
+}
+
 elosven_ideas = {
 	start = {
 		colonists = -2
