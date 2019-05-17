@@ -852,14 +852,14 @@ province;red;green;blue;x;x
 851;130;66;79;Tarasco;x
 852;2;68;126;Mexico;x
 853;130;70;173;Huastec;x
-854;2;72;32;Sayultecas;x
-855;131;74;79;Huichol;x
-856;3;76;126;Zacatecas;x
-857;131;78;173;Guachichil;x
+854;2;72;32;Usil;x
+855;131;74;79;Elenie;x
+856;3;76;126;Silvasij;x
+857;131;78;173;Eptilistie;x
 858;3;80;32;Tamaulipas;x
 859;131;82;79;Šarta'nh'zhu'chu;x
 860;3;84;126;Freiki;x
-861;131;86;173;Coahuila;x
+861;131;86;173;Alsipion;x
 862;4;88;32;South Grep'zhu'chu;x
 863;132;90;79;Suma;x
 864;4;92;126;Graše'nhgra Šgarma;x
@@ -895,9 +895,9 @@ province;red;green;blue;x;x
 894;8;152;32;Caddo;x
 895;136;154;79;Arkansas;x
 896;8;156;126;Ozark;x
-897;137;158;173;Quapaw;x
+897;137;158;173;Nûan;x
 898;9;32;32;Tiegan Shore;x
-899;137;34;79;Osage;x
+899;137;34;79;Abyssal Gate;x
 900;9;36;126;Tamaroa;x
 901;137;38;173;Adlea;x
 902;9;40;32;Missouri;x
@@ -916,9 +916,9 @@ province;red;green;blue;x;x
 915;139;66;79;Illinois;x
 916;11;68;126;Kaskaskia;x
 917;139;70;173;Cahokia;x
-918;12;72;32;Tennessee;x
-919;140;74;79;Chickasaw;x
-920;12;76;126;Choctaw;x
+918;12;72;32;Neia;x
+919;140;74;79;Naia;x
+920;12;76;126;Cantil;x
 921;140;78;173;Bayougoula;x
 922;12;80;32;Mobile;x
 923;140;82;79;Pensacola;x
@@ -2012,7 +2012,7 @@ province;red;green;blue;x;x
 2011;155;2;120;Shenandoah;x
 2012;105;3;160;Arsigantegok;x
 2013;75;4;40;Kennebec;x
-2014;105;6;160;Natchitoches;x
+2014;105;6;160;Abyssal Keep;x
 2015;65;7;40;Nipigon;x
 2016;155;8;120;North Grep'zhu'chu;x
 2017;105;9;160;E'nhgra Orgnitš'zhu'chu;x
@@ -2512,7 +2512,7 @@ province;red;green;blue;x;x
 2511;238;244;95;Z'hop;x
 2512;10;121;46;Wahpekute;x
 2513;136;158;246;Moingwena;x
-2514;73;112;196;Michigamea;x
+2514;73;112;196;Reia;x
 2515;199;232;145;Satuskhdin;x
 2516;31;64;95;Adai;x
 2517;157;164;46;Mdewakanton;x
@@ -2526,9 +2526,9 @@ province;red;green;blue;x;x
 2525;139;11;145;Chillicothe;x
 2526;76;1;95;Shatteras;x
 2527;202;202;46;Chickamauga;x
-2528;34;122;246;Yazoo;x
+2528;34;122;246;Gesat;x
 2529;160;221;196;Natchez;x
-2530;97;12;145;Biloxi;x
+2530;97;12;145;Peostel;x
 2531;223;132;95;Napochi;x
 2532;55;131;46;Tohome;x
 2533;181;201;246;Chatot;x
@@ -2612,14 +2612,14 @@ province;red;green;blue;x;x
 2611;203;41;95;Nietša;x
 2612;35;221;46;Oš'chomg;x
 2613;161;131;246;E'nhgra'zhmarš;x
-2614;98;31;196;Cotoname;x
-2615;224;44;145;Guamares;x
+2614;98;31;196;Aldea;x
+2615;224;44;145;Olma;x
 2616;56;31;95;Rougzi;x
-2617;182;201;46;Huichol;x
+2617;182;201;46;Elenie;x
 2618;119;154;246;Gra Šgharma;x
-2619;245;31;196;Laguneros;x
+2619;245;31;196;The Scythe;x
 2620;17;131;145;Nakipa;x
-2621;143;19;95;Tizapan;x
+2621;143;19;95;Ulea;x
 2622;80;31;46;Cuitzeo;x
 2623;206;154;246;Cutzamala;x
 2624;38;44;196;Patzcuaro;x
