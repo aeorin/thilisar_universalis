@@ -78,7 +78,7 @@ country_decisions = {
             every_country = {
                 limit = {
                     NOT = {
-                        primary_culture = naren_human
+                        primary_culture = naren_human_culture
                     }
                 }
                 add_opinion = {
@@ -104,7 +104,7 @@ country_decisions = {
                 limit = {
                     is_part_of_hre = yes
                     NOT = {
-                        primary_culture = naren_human
+                        primary_culture = naren_human_culture
                     }
                 }
                 add_opinion = {
@@ -116,7 +116,7 @@ country_decisions = {
             every_country = {
                 limit = {
                     is_part_of_hre = yes
-                    primary_culture = naren_human
+                    primary_culture = naren_human_culture
                 }
                 add_opinion = {
                     who = ROOT

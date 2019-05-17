@@ -8,10 +8,13 @@ country_event = {
 
 	trigger = {
 	    has_country_flag = reich_reneissance_init
+	    NOT = {
+	        imperial_influence = 99
+	    }
 	}
 
 	mean_time_to_happen = {
-		months = 2
+		months = 3
 	}
 
 	option = {

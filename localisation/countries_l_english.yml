@@ -1,4 +1,6 @@
 ﻿l_english:
+ HLR:0 "Reich"
+ HLR_ADJ:0 "Reich"
  ZHU:0 "Zh'uch'u"
  ZHU_ADJ:0 "Zh'uch'u"
  ESH:0 "Eshlends"
@@ -54,7 +56,7 @@
  RON_ADJ:0 "Ronensandese"
  LMS_ADJ:0 "Mesan"
  IMO:0 "Imperial Order"
- IMO_ADJ:0 "Imperialist"
+ IMO_ADJ:0 "Imperial"
  LOZ:0 "Lozdot"
  LOZ_ADJ:0 "Lozdoti"
  PTS:0 "Petsas"

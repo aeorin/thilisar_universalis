@@ -11,6 +11,9 @@ country_event = {
 		NOT = {
 			has_global_flag = leages_enabled
 		}
+		NOT = {
+            hre_reform_level = 1
+        }
 	}
 
 	mean_time_to_happen = {

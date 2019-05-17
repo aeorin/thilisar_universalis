@@ -1,0 +1,25 @@
+country_event = {
+	id = 35000
+	title = "EVTNAME35000"
+	desc = "EVTDESC35000"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+        is_league_leader = yes
+        is_in_league_war = no
+        is_emperor = no
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	immediate = {
+        declare_war_with_cb = {
+            who = any_country = {limit={is_emperor = yes}}
+            casus_belli = cb_religious_league
+        }
+    }
+}
