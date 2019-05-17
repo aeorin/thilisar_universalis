@@ -1,6 +1,6 @@
 country_decisions = {
 
-	form_naren = {
+	reich_renessaince = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_naren_flag }
@@ -49,14 +49,11 @@ country_decisions = {
                     owns = 2505
 			    }
 			}
-            is_emperor = no
+            is_emperor = yes
 		    religion_group = christian
 		}
 		effect = {
-			change_tag = NAR
-			swap_non_generic_missions = yes
-			remove_non_electors_emperors_from_empire_effect = yes
-
+            add_imperial_influence = 100
             if = {
                 limit = {
                     NOT = {
@@ -70,7 +67,7 @@ country_decisions = {
                 limit = {
                     NOT = { owned_by = ROOT }
                 }
-                add_permanent_claim = NAR
+                add_permanent_claim = ROOT
             }
 
             add_country_modifier = {
@@ -78,14 +75,56 @@ country_decisions = {
                 duration = 7300
             }
 
+            every_country = {
+                limit = {
+                    NOT = {
+                        primary_culture = naren_human
+                    }
+                }
+                add_opinion = {
+                    who = ROOT
+                    modifier = imperial_ambitions
+                    modifier = imperial_emergence
+                }
+            }
 
-			if = {
-				limit = {
-					has_custom_ideas = no
-				}
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			set_country_flag = formed_naren_flag
+
+            every_country = {
+                limit = {
+                    is_part_of_hre = no
+                }
+                add_casus_belli = {
+                    target = ROOT
+                    type = cb_annex
+                    months = 12
+                }
+            }
+
+            every_country = {
+                limit = {
+                    is_part_of_hre = yes
+                    NOT = {
+                        primary_culture = naren_human
+                    }
+                }
+                add_opinion = {
+                    who = ROOT
+                    modifier = imperial_threat
+                }
+            }
+
+            every_country = {
+                limit = {
+                    is_part_of_hre = yes
+                    primary_culture = naren_human
+                }
+                add_opinion = {
+                    who = ROOT
+                    modifier = imperial_enthusiasm
+                }
+            }
+
+			set_country_flag = reich_reneissance_init
 			add_prestige = 25
 		}
 		ai_will_do = {

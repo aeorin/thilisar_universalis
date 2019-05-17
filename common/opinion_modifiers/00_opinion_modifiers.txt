@@ -243,6 +243,30 @@ opinion_fleet_access = {
 # TIMED
 ##############
 
+#
+custom
+
+
+imperial_ambitions = {
+	opinion = -30
+}
+
+imperial_emergence = {
+	opinion = -50
+	yearly_decay = 5
+}
+
+imperial_threat = {
+	opinion = -50
+}
+
+imperial_enthusiasm = {
+	opinion = 30
+}
+
+#/custom
+
+
 pirated_us = {
 	opinion = -5
 	min = -100

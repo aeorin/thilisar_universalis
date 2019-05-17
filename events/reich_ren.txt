@@ -1,0 +1,22 @@
+country_event = {
+	id = 34000
+	title = "EVTNAME34000"
+	desc = "EVTDESC34000"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    has_country_flag = reich_reneissance_init
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+		name = "EVTOPTA34000"
+
+        add_imperial_influence = 10
+	}
+}

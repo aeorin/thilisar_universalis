@@ -1,0 +1,45 @@
+country_event = {
+	id = 35000
+	title = "EVTNAME35000"
+	desc = "EVTDESC35000"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    primary_culture = naren_human_culture
+	    calc_true_if = {
+        	all_country = {
+        		has_country_flag = reich_reneissance_init
+        		has_opinion =
+                	who = ROOT
+                	value = 100
+                }
+        	}
+        	amount = 1
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    every_country = {
+        limit = {
+            has_country_flag = reich_reneissance_init
+        }
+        ROOT = {
+            add_opinion = {
+                who = PREV
+                modifier = imperial_enthusiasm
+            }
+        }
+    }
+
+
+	option = {
+		name = "EVTOPTA35000"
+
+        add_imperial_influence = 10
+	}
+}
