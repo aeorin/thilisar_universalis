@@ -61,6 +61,21 @@ naiamy_region = {
     }
 }
 
+gilda_region = {
+    areas = {
+        south_zamt
+        north_zamt
+        hehewig
+        samsa
+        steinheim
+        illim
+        humen
+        naiamitto
+        mannarliana
+        gildan_valad
+    }
+}
+
 ########################################
 # EUROPE                               #
 ########################################

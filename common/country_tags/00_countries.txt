@@ -63,6 +63,14 @@ ALD = "countries/Aldea.txt"
 OLM = "countries/Olma.txt"
 DEE = "countries/Deep.txt"
 
+#Gilda
+ILI = "countries/Illimistein.txt"
+HUM = "countries/Humen.txt"
+HEH = "countries/Hehewig.txt"
+RII = "countries/Riipuvi.txt"
+MNN = "countries/Mannarliana.txt"
+ZMT = "countries/Zamt.txt"
+
 #Formable/releasable special
 ZAM = "countries/Zamaria.txt"
 ZHU = "countries/Zhuchu.txt"

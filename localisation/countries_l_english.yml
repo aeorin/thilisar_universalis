@@ -1,4 +1,17 @@
 ﻿l_english:
+ RII:0 "Riipuvi"
+ RII_ADJ:0 "Riipuvan"
+ MNN:0 "Mannarliana"
+ MNN_ADJ:0 "Mannarlian"
+ ILI:0 "Illimistein"
+ ILI_ADJ:0 "Illimistein"
+ HEH:0 "Hehewig"
+ HEH_ADJ:0 "Hehewig"
+ HUM:0 "Humen"
+ HUM_ADJ:0 "Humen"
+ ZMT:0 "Zamt"
+ ZMT_ADJ:0 "Zamti"
+ ##################################################
  HLR:0 "Reich"
  HLR_ADJ:0 "Reich"
  ZHU:0 "Zh'uch'u"

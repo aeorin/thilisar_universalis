@@ -142,11 +142,11 @@ upper_zamaria = { #4
 astha = { #4
     color = { 50 250 50 }
 
-    2507 882 1008 975
+    2507 882 1008
 }
 
 lunar_mesa = { #3
-    909 2493 2007
+    909 2493 2007 2520
 }
 
 trandia = { #3
@@ -159,6 +159,51 @@ eail = { #5
 
 laren = { #4
     2505 906 881 2508
+}
+
+#################### Gilda #####################
+
+south_zamt = {
+    975 925 2542
+}
+
+north_zamt = {
+    939 922
+}
+
+hehewig = {
+	color = { 40 20 150 }
+    2532 2531 924
+}
+
+gildan_valad = {
+    908 2512 904
+}
+
+samsa = {
+    color = { 25 75 225 }
+
+    2627 2645
+}
+
+steinheim = {
+    923 2527 2533 2644
+}
+
+illim = {
+    930 2538 2626 2623
+}
+
+humen = {
+    2642 2537 851
+}
+
+naiamitto = {
+    928 2648 853
+}
+
+mannarliana = {
+    2641 852 934 850
 }
 
 ########################################
@@ -2977,7 +3022,7 @@ carolinas_area = { #3
 }
 
 south_carolina_area = { #5
-	932 933 2541 2542 2543
+	932 933 2541 2543
 }
 
 american_georgia_area = { #3
@@ -2985,7 +3030,7 @@ american_georgia_area = { #3
 }
 
 upper_american_georgia_area = { #3
-	930 931 2537 2538
+	 931
 }
 
 florida_area = { #3
@@ -2993,7 +3038,7 @@ florida_area = { #3
 }
 
 north_florida_area = { #5
-	927 928 2534
+	927 2534
 }
 
 appalachia_area = { #3
@@ -3004,21 +3049,8 @@ south_appalachia_area = { #3
 	935 936 2548
 }
 
-west_florida_area = { #5
-     922 923  2533
-}
-
-choctaw_area = { #3
-     934 2527
-
-}
-
-alabama_area = { #4
-    924 925 2531 2532
-}
-
 kentucky_area = { #3
-    939 940 941
+    940 941
 }
 
 ohio_country_area = { #4
@@ -3030,7 +3062,7 @@ miami_river_area = { #4
 }
 
 illinois_country_area = { #4
-    915 916 917 2519 2520
+    915 916 917 2519
 }
 
 michigan_area = { #4
@@ -3050,7 +3082,7 @@ upper_louisiana_area = { #4
 }
 
 south_dakota_area = { #3
-	904 908 2512 889 4630
+	889 4630
 }
 
 texas_area = { #4
@@ -3162,19 +3194,19 @@ jalisco_area = { #5
 }
 
 michoacan_area = { #5
-    2622 2623 4573 4574
+    2622  4573 4574
 }
 
 tierra_caliente_area = { #5
-    851 4575 4579 4580
+     4575 4579 4580
 }
 
 gran_chichimeca_area = { #3 
-   2642 4642 855 4578
+    4642 855 4578
 }
 
 guanajuato_area = { #3
-   853 4641 4640
+   4641 4640
 }
 
 zacatecas_area = { #4
@@ -3182,15 +3214,11 @@ zacatecas_area = { #4
 }
 
 mexico_area = { #5
-    852 2626 4570 4571 4572
+     4570 4571 4572
 }
 
 puebla_area = { # 5
-    850 2628 2644 4583 4582
-}
-
-guerrero_area = { #3
-    2627 2645 2648
+    2628 4583 4582
 }
 
 oaxaca_area = { #3
@@ -3206,7 +3234,7 @@ eastern_mexico_area = { #5
 }
 
 huasteca_area = {
-    848 2641 4598
+    848 4598
 }
 
 chiapas_area = { #4

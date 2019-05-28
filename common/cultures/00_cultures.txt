@@ -97,6 +97,29 @@ human_group = {
             Eal Ardonian Erwinian Fregarian Bolf
         }
     }
+    illim_human_culture = {
+        male_names = {
+            Hans Hermann
+        }
+        female_names = {
+            Kunguta Mariela
+        }
+        dynasty_names = {
+            Stein Illim Hohburg
+        }
+    }
+
+    malaian_human_culture = {
+        male_names = {
+            Delfador Conrad Efreim
+        }
+        female_names = {
+            Linaera Lethailia
+        }
+        dynasty_names = {
+            Ceise Monroe
+        }
+    }
 }
 
 dwarven_group = {
