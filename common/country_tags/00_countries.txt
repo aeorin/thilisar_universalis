@@ -76,6 +76,7 @@ ZAM = "countries/Zamaria.txt"
 ZHU = "countries/Zhuchu.txt"
 NAR = "countries/Naren.txt"
 ESH = "countries/Eshlends.txt"
+GIL = "countries/Gilda.txt"
 #ERG = "countries/Erg.txt"
 
 ################################

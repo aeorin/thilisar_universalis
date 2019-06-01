@@ -1,11 +1,11 @@
 country_event = {
-	id = 2002
-	title = "EVTNAME2002"
-	desc = "EVTDESC2002"
+	id = 2009
+	title = "EVTNAME2009"
+	desc = "EVTDESC2009"
 	picture = RELIGION_eventPicture
-
+	
 	major = yes
-
+	
 	trigger = {
 		is_year = 1460
 		NOT = {
@@ -13,23 +13,27 @@ country_event = {
 		}
 		any_owned_province = {
 			religion = catholic
-            NOT = {
-                has_province_flag = chose_god
-            }
+			NOT = {
+				has_province_flag = chose_god
+			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
-		months = 60
-		#20
+		months = 45
+		#months = 15
 	}
 
 	option = {
-		name = "EVTOPTA2002"
-		enable_religion = reformed
+		name = "EVTOPTA2009"
+		enable_religion = protestant
 		random_owned_province = {
 			limit = {
-				religion = catholic
+			    OR = {
+				    religion = catholic
+				    religion = reformed
+				    religion = protestant
+				}
 				NOT = {
 					has_province_flag = chose_god
 				}
@@ -40,14 +44,15 @@ country_event = {
 				name = "religious_zeal_at_conv"
 				duration = 9000
 			}
+			add_reform_center = reformed
 		}
 		capital_scope = {
-			change_religion = reformed
+			change_religion = protestant
 			add_permanent_province_modifier = {
 				name = "religious_zeal_at_conv"
 				duration = 9000
 			}
 		}
-		set_country_flag = "protestant_sreformation"
+		set_country_flag = "protestant_reformation"
 	}
 }

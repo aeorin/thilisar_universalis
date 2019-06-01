@@ -11,6 +11,9 @@
  HUM_ADJ:0 "Humen"
  ZMT:0 "Zamt"
  ZMT_ADJ:0 "Zamti"
+
+ GIL:0 "Gilda"
+ GIL_ADJ:0 "Gildan"
  ##################################################
  HLR:0 "Reich"
  HLR_ADJ:0 "Reich"

@@ -1,0 +1,24 @@
+province_event = {
+	id = 2025
+	title = "EVTNAME2025"
+	desc = "EVTDESC2025"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+		has_global_flag = kovar_fell
+		culture = necromantic_culture
+		religion = protestant
+		NOT = {owner = {culture = necromantic}}
+		NOT = {year = 1550}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+	}
+
+	immediate = {
+		add_unrest = 10
+	}
+}

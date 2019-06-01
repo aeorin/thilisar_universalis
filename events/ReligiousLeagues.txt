@@ -56,6 +56,7 @@ country_event = {
 	}
 
 	immediate = {
+		set_global_flag = kovar_fell
 		set_country_flag = hre_religion_changed
 		hidden_effect = {
 			set_hre_heretic_religion = catholic
@@ -129,6 +130,7 @@ country_event = {
 
 	immediate = {
 		set_global_flag = sharkesh_fell
+		set_global_flag = kovar_fell
 		hidden_effect = {
 			set_hre_religion_treaty = yes
 		}
@@ -296,6 +298,7 @@ country_event = {
 	option = {
 		name = "religious_leagues.7.a"
 		set_hre_religion_locked = yes
+		set_global_flag = kovar_fell
 	}
 }
 
@@ -317,6 +320,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_hre_religion_locked = yes
+			set_global_flag = kovar_fell
 		}
 	}
 

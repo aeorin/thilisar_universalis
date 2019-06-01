@@ -1,0 +1,55 @@
+country_decisions = {
+
+	form_gilda = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_gilda_flag }
+			NOT = { exists = GIL }
+			culture_group = human_group
+		}
+		provinces_to_highlight = {
+            province_id = 930
+		}
+		allow = {
+			is_at_war = no
+			culture_group = human_group
+		    religion_group = pagan
+            owns = 930
+            any_owned_province = {
+                culture = necromantic_culture
+            }
+		}
+		effect = {
+			change_tag = GIL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+
+            if = {
+                limit = {
+                    NOT = {
+                        government = theocracy
+                    }
+                }
+                change_government = theocracy
+            }
+
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_gilda_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
