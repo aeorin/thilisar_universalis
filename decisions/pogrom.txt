@@ -12,6 +12,9 @@ country_decisions = {
 				}
 				amount = 1
 			}
+			NOT = {
+			    culture_group = elosven_group
+			}
 		}
 
 		allow = {
@@ -28,6 +31,9 @@ country_decisions = {
                 amount = 1
             }
             stability = 0
+			NOT = {
+			    culture_group = elosven_group
+			}
 		}
 
 		effect = {
