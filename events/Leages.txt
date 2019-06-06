@@ -1,7 +1,7 @@
 country_event = {
 	id = 2004
-	title = "EVTNAME2004"
-	desc = "EVTDESC2004"
+	title = "EVTNAME2004.t"
+	desc = "EVTDESC2004.d"
 	picture = RELIGION_eventPicture
 
 	major = yes
@@ -25,7 +25,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA2004"
+		name = "EVTOPTA2004.o"
 		enable_hre_leagues = yes
 	}
 }

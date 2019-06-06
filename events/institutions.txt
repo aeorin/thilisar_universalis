@@ -1,7 +1,7 @@
 ###################################################
 ## Institutions
 ##
-## written by Johan Andersson & Henrik Lohmander
+## written by Johan Andersson & Henrik Lohmander, editted by Lubomir Grund
 ###################################################
 #
 #

@@ -1,10 +1,10 @@
 country_event = {
 	id = 2003
-	title = "EVTNAME2003"
-	desc = "EVTDESC2003"
+	title = "EVTNAME2003.t"
+	desc = "EVTDESC2003.d"
 	picture = RELIGION_eventPicture
 
-	major = yes
+	major = no
 
 	trigger = {
 		is_year = 1460
@@ -20,11 +20,12 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 30
+		months = 70
+		#months = 30
 	}
 
 	option = {
-		name = "EVTOPTA2003"
+		name = "EVTOPTA2003.o"
 		enable_religion = protestant
 		random_owned_province = {
 			limit = {

@@ -1,10 +1,10 @@
 country_event = {
 	id = 33000
 	title = "EVTNAME33000"
-	desc = "EVTDESC33000"
+	desc = "EVTDESC33000.d"
 	picture = RELIGION_eventPicture
 
-	major = yes
+	major = no
 
 	trigger = {
 	    culture_group = elosven_group
@@ -21,7 +21,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA33000"
+		name = "EVTOPTA33000.o"
 
 		if = {
 		    limit = {

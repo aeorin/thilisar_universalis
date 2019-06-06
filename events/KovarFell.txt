@@ -1,7 +1,7 @@
 province_event = {
 	id = 2025
-	title = "EVTNAME2025"
-	desc = "EVTDESC2025"
+	title = "EVTNAME2025.t"
+	desc = "EVTDESC2025.d"
 	picture = RELIGION_eventPicture
 
 	major = yes
