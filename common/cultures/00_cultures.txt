@@ -134,7 +134,29 @@ undead_group = {
             Lacedaemon Amyklas Oibalos
         }
     }
+    lich_culture = {
+         male_names = {
+             Mal-Lelex Mal-Myles Mal-Eurotas
+         }
+         female_names = {
+             Cleocharia Taygete
+         }
+         dynasty_names = {
+             Lacedaemon Amyklas Oibalos
+         }
+    }
     animated_culture = {
+        male_names = {
+            Uuaarh Hauargh Click-clack
+        }
+        female_names = {
+            Aaahuaa Clink-clank
+        }
+        dynasty_names = {
+            Urgrrrgh HuaAaargh Clink-clonk
+        }
+    }
+    ghoul_culture = {
         male_names = {
             Uuaarh Hauargh Click-clack
         }

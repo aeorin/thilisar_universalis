@@ -1,3 +1,4 @@
+#Naren
 874 = "Upper Western Line-Fort"
 978 = "Ruznavan delta"
 2484 = "Lower Central Line-Fort"
@@ -62,8 +63,9 @@
 2493 = "Lunar Mesa"
 2007 = "Elsen"
 2508 = "Laren Highlands"
-2504 = "Pr�ava"
+2504 = "Pršava"
 
+#Eshlends
 2501 = "Claw"
 2502 = "Tooth"
 2502 = "Green Hive"

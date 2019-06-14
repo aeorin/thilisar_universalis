@@ -11,9 +11,11 @@ country_decisions = {
             province_id = 930
 		}
 		allow = {
+			NOT = { has_country_flag = formed_gilda_flag }
+			NOT = { exists = GIL }
 			is_at_war = no
 			culture_group = human_group
-		    religion_group = pagan
+		    religion = protestant
             owns = 930
             any_owned_province = {
                 culture = necromantic_culture
@@ -23,7 +25,7 @@ country_decisions = {
 			change_tag = GIL
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
-
+			change_primary_culture = necromantic_culture
             if = {
                 limit = {
                     NOT = {

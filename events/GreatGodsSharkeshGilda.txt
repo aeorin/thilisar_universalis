@@ -1,5 +1,5 @@
 country_event = {
-	id = 2001g
+	id = 2101
 	title = "EVTNAME2001.t"
 	desc = "EVTDESC2001.d"
 	picture = RELIGION_eventPicture
@@ -16,13 +16,12 @@ country_event = {
 			NOT = {
 				has_province_flag = chose_god
 			}
-			region = gilda
+			region = gilda_region
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 45
-		#months = 15
+		months = 25
 	}
 
 	option = {
@@ -34,7 +33,7 @@ country_event = {
 				NOT = {
 					has_province_flag = chose_god
 				}
-				region = gilda
+				region = gilda_region
 			}
 			change_religion = protestant
 			set_province_flag = chose_god
