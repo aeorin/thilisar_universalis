@@ -408,7 +408,7 @@ new_world_i = {
 		culture = necromantic_culture
 		development = 10
 	}
-	start_chance = 20		#in 100 for when a province can_start
+	start_chance = 100		#in 100 for when a province can_start
 
 
 	on_start = institution_events.3

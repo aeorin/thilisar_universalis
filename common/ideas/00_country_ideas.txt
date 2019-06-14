@@ -105,53 +105,32 @@ GIL_ideas = {
 		tag = GIL
 	}
 
-	undead_hordes = {
-		manpower_recovery_speed = 0.05
-		global_manpower_modifier = 0.05
-		land_maintenance_modifier = -0.05
-		land_morale = 0.05
-		land_forcelimit_modifier= 0.05
+	undead_hordes_a = {
+		manpower_recovery_speed = 0.1
+		global_manpower_modifier = 0.1
 	}
-	undead_hordes = {
-		manpower_recovery_speed = 0.05
-		global_manpower_modifier = 0.05
-		land_maintenance_modifier = -0.05
-		land_morale = 0.05
-		land_forcelimit_modifier= 0.05
+	inhuman_morale_a = {
+		land_maintenance_modifier = -0.1
+		land_morale = 0.1
 	}
-	undead_hordes = {
- 		manpower_recovery_speed = 0.05
- 		global_manpower_modifier = 0.05
- 		land_maintenance_modifier = -0.05
- 		land_morale = 0.05
- 		land_forcelimit_modifier= 0.05
+	undead_hordes_b = {
+		manpower_recovery_speed = 0.1
+		global_manpower_modifier = 0.1
  	}
- 	undead_hordes = {
- 		manpower_recovery_speed = 0.05
- 		global_manpower_modifier = 0.05
- 		land_maintenance_modifier = -0.05
- 		land_morale = 0.05
- 		land_forcelimit_modifier= 0.05
+ 	animated_army = {
+ 		land_forcelimit_modifier= 0.15
  	}
- 	undead_hordes = {
- 		manpower_recovery_speed = 0.05
- 		global_manpower_modifier = 0.05
- 		land_maintenance_modifier = -0.05
- 		land_morale = 0.05
- 		land_forcelimit_modifier= 0.05
+ 	undead_hordes_c = {
+		manpower_recovery_speed = 0.1
+		global_manpower_modifier = 0.1
  	}
- 	undead_hordes = {
- 		manpower_recovery_speed = 0.05
- 		global_manpower_modifier = 0.05
- 		land_maintenance_modifier = -0.05
- 		land_morale = 0.05
- 		land_forcelimit_modifier= 0.05
- 	}
- 	undead_hordes = {
- 		manpower_recovery_speed = 0.05
- 		global_manpower_modifier = 0.05
- 		land_maintenance_modifier = -0.05
- 		land_morale = 0.05
- 		land_forcelimit_modifier= 0.05
+
+	inhuman_morale_b = {
+		land_maintenance_modifier = -0.1
+		land_morale = 0.1
+	}
+ 	undead_hordes_d = {
+		manpower_recovery_speed = 0.1
+		global_manpower_modifier = 0.1
  	}
 }

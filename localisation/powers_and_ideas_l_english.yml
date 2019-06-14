@@ -2,7 +2,13 @@
  GIL_ideas:0 "Gildan Ideas"
  GIL_ideas_start:0 "Gildan Traditions"
  GIL_ideas_bonus:0 "Gildan Ambitions"
- undead_hordes:0 "Undead horse"
+ undead_hordes_a:0 "Undead hordes"
+ undead_hordes_b:0 "Undead hordes"
+ undead_hordes_c:0 "Undead hordes"
+ undead_hordes_d:0 "Undead hordes"
+ inhuman_morale_a:0 "Inhuman morale"
+ inhuman_morale_b:0 "Inhuman morale"
+ animated_army:0 "Animated army"
 ################################################################################################
  NAR_ideas:0 "Naren Ideas"
  NAR_ideas_start:0 "Naren Traditions"
@@ -47,6 +53,10 @@
  cultural_divergence_desc:0 "Population becomes so isolated from outside world, that as times progress, all outsiders are starting to look like savages."
  unnatural_prosperity:0 "Unnatural Prosperity"
  unnatural_prosperity_desc:0 "Collecting taxes with magic is so easy!"
+  ################################################################################################
+ gildan_human_ideas:0 "Illimi Ideas - Human"
+ gildan_human_ideas_start:0 "Illimi Traditions"
+ gildan_human_ideas_bonus:0 "Illimi Ambition"
   ################################################################################################
  naren_human_ideas:0 "Naren Ideas - Human"
  naren_human_ideas_start:0 "Naren Human Traditions"
