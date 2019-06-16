@@ -268,3 +268,80 @@ imo_missions = { #Series name is displayed over the slot?
 		}
     }
 }
+
+malai_missions = { #Series name is displayed over the slot?
+	slot = 1 #ie, first upper left column
+	ai = yes
+	potential = {
+		tag = MLA
+	}
+
+	stabilize = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		trigger = {
+		    stability = 0
+			#country_or_non_sovereign_subject_holds = ROOT
+		}
+		effect = {
+			2564 = {add_permanent_claim = ROOT}
+			969 = {add_permanent_claim = ROOT}
+			2559 = {add_permanent_claim = ROOT}
+		}
+	}
+
+	secure_academy = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { stabilize }
+		trigger = {
+			2559 = {country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		effect = {
+			malai_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	consolidate_malai = {
+        icon = mission_build_up_to_force_limit
+        required_missions = { secure_academy }
+        trigger = {
+            malai_region = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+
+        effect = {
+            daren_region = {
+                limit = {
+                    NOT = { is_core = ROOT }
+                    NOT = { is_permanent_claim = ROOT }
+                }
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+	conquer_daren_mission = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { secure_naren_borders_mission } #None
+		trigger = {
+			daren_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_army_tradition = 50
+			add_stability = 2
+		}
+	}
+}

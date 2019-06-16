@@ -106,3 +106,13 @@ malai_region = {
         little_plateau
     }
 }
+
+iela_region = {areas = {iela_area}}
+daren_region = {areas = {daren_area}}
+halethin_region = {areas = {halethin_area}}
+gultamal_region = {areas = {gultamal_area}}
+sinkal_region = {areas = {sinkal_area}}
+carnivore_region = {areas = {carnivore_area}}
+new_carnivore_region = {areas = {new_carnivore_area}}
+dager_region = {areas = {dager_area}}
+dargaren_region = {areas = {dargaren_area}}

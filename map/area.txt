@@ -208,107 +208,126 @@ mannarliana = {
 
 #################### Malai #####################
 
-padov = {
+padov_area = {
     2015 2590 2593
 }
 
-olea = {
+olea_area = {
     998 2574 1004
 }
 
-direv = {
+direv_area = {
     1000 999 2589
 }
 
-erens = {
+erens_area = {
     2570 2567 984 985
 }
 
-pantur = {
+pantur_area = {
     2568 2571 2572
 }
 
-shinren = {
+shinren_area = {
     2010 2569 970 2013
 }
 
-anupas = {
+anupas_area = {
     2565 2566 971
 }
 
-parne = {
+parne_area = {
     2586 2534 2584
 }
 
-malward = {
+malward_area = {
     color = {50 150 50}
     987 2670 2559
 }
 
-brownhill = {
+brownhill_area = {
     963 2563 2564 969
 }
 
-parmin_plateau = {
+parmin_plateau_area = {
     2562 968 967 966 2561
 }
 
-zen = {
+zen_area = {
     926 2535 2536 950
 }
 
-renaku = {
+renaku_area = {
     952 2011 2552
 }
 
-centula = {
+centula_area = {
     2550 958 953
 }
 
-komu = {
+komu_area = {
      965 2558 2639 2560
 }
 
-komunia = {
+komunia_area = {
     986 993 2580
 }
 
-little_plateau = {
+little_plateau_area = {
     2576 2577 2012 990
 }
 
-irdolgard = {
+irdolgard_area = {
     2583 2582 994 995 2579
 }
 
-selsk = {
+selsk_area = {
     1003 1002 2591
 }
 
-great_river = {
+great_river_area = {
     956 1007 2575 957 2023
 }
 
-apus = {
+apus_area = {
     2547 2557 955
 }
 
-anoranu = {
+anoranu_area = {
     938 2549 949 937
 }
 
-laville = {
+laville_area = {
     2554 960 959 961
 }
 
-ervu = {
+ervu_area = {
     964 2553 2555
 }
 
-zenuta = {
+zenuta_area = {
     947 2551 2556
 }
 
-enders = {
+enders_area = {
     948 954 2545 2544
 }
+
+#################### Iela #####################
+iela_area = {863}
+#################### Daren #####################
+daren_area = {2003 2019 2487 2607}
+#################### Halethin #####################
+halethin_area = {2603 2486}
+#################### Gultamal #####################
+gultamal_area = {2020}
+#################### Sinkal #####################
+sinkal_area = {2004 973}
+#################### Carnivore #####################
+carnivore_area = {2604}
+#################### New Carnivore #####################
+new_carnivore_area = {2606 2592}
+#################### Dager #####################
+dager_area = {872}
+#################### Dargaren #####################
+dargaren_area = {2018 2602}
