@@ -10,23 +10,23 @@ random_new_world_region = {
 
 naren_region = {
 	areas = {
-		eastern_line
-		ronzhan_delta
-		tiega
-		tropland
-		orgnitsh
-		shartanh
-		naren_rivers
-		western_line
-		soanos
-		zhunhpa
-		low_zamaria
-		upper_zamaria
-		astha
-		lunar_mesa
-		trandia
-		eail
-		laren
+		eastern_line_area
+		ronzhan_delta_area
+		tiega_area
+		tropland_area
+		orgnitsh_area
+		shartanh_area
+		naren_rivers_area
+		western_line_area
+		soanos_area
+		zhunhpa_area
+		low_zamaria_area
+		upper_zamaria_area
+		astha_area
+		lunar_mesa_area
+		trandia_area
+		eail_area
+		laren_area
 	}
 }
 
@@ -63,47 +63,47 @@ naiamy_region = {
 
 gilda_region = {
     areas = {
-        south_zamt
-        north_zamt
-        hehewig
-        samsa
-        steinheim
-        illim
-        humen
-        naiamitto
-        mannarliana
-        gildan_valad
+        south_zamt_area
+        north_zamt_area
+        hehewig_area
+        samsa_area
+        steinheim_area
+        illim_area
+        humen_area
+        naiamitto_area
+        mannarliana_area
+        gildan_valad_area
     }
 }
 
 malai_region = {
     areas = {
-        padov
-        olea
-        direv
-        erens
-        pantur
-        shinren
-        anupas
-        parne
-        malward
-        zen
-        renaku
-        centula
-        komu
-        komunia
-        selsk
-        great_river
-        apus
-        anoranu
-        laville
-        ervu
-        zenuta
-        enders
-        irdolgard
-        brownhill
-        parmin_plateau
-        little_plateau
+        padov_area
+        olea_area
+        direv_area
+        erens_area
+        pantur_area
+        shinren_area
+        anupas_area
+        parne_area
+        malward_area
+        zen_area
+        renaku_area
+        centula_area
+        komu_area
+        komunia_area
+        selsk_area
+        great_river_area
+        apus_area
+        anoranu_area
+        laville_area
+        ervu_area
+        zenuta_area
+        enders_area
+        irdolgard_area
+        brownhill_area
+        parmin_plateau_area
+        little_plateau_area
     }
 }
 

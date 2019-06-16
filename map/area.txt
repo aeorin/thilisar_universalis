@@ -90,119 +90,119 @@ erg_steppe_area = { #3
 
 #################### Naren #####################
 
-eastern_line = { #4
+eastern_line_area = { #4
     2612 2485 874 2484
 }
 
-ronzhan_delta = { #3
+ronzhan_delta_area = { #3
     978 2611 2600
 }
 
-tiega = { #4
+tiega_area = { #4
      2597 898 2490 2006
 }
 
-tropland = { #5
+tropland_area = { #5
     1010 1011 2596 2016 862
 }
 
-orgnitsh = { #3
-    color = { 250 200 150 }
+orgnitsh_area = { #3
+    color_area = { 250 200 150 }
     2601 979 2022
 }
 
-shartanh = { #3
+shartanh_area = { #3
     2510 2005 859
 }
 
-naren_rivers = { #6
+naren_rivers_area = { #6
     886 1813 2503 2504 2506 2598
 }
 
-western_line = { #3
+western_line_area = { #3
     972 2610 873
 }
 
-soanos = { #5
+soanos_area = { #5
     974 2613 976 977 2609
 }
 
-zhunhpa = { #3
+zhunhpa_area = { #3
     2017 2599 2595
 }
 
-low_zamaria = { #3
+low_zamaria_area = { #3
     864 2497 2498
 }
 
-upper_zamaria = { #4
+upper_zamaria_area = { #4
     885 2618 1809 2008
 }
 
-astha = { #4
-    color = { 50 250 50 }
+astha_area = { #4
+    color_area = { 50 250 50 }
 
     2507 882 1008
 }
 
-lunar_mesa = { #3
+lunar_mesa_area = { #3
     909 2493 2007 2520 2546
 }
 
-trandia = { #3
+trandia_area = { #3
     2496 880 2009
 }
 
-eail = { #5
+eail_area = { #5
     1006 2511 1005 2594 2625
 }
 
-laren = { #4
+laren_area = { #4
     2505 906 881 2508
 }
 
 #################### Gilda #####################
 
-south_zamt = {
+south_zamt_area = {
     975 925 2542
 }
 
-north_zamt = {
+north_zamt_area = {
     939 922
 }
 
-hehewig = {
-	color = { 40 20 150 }
+hehewig_area = {
+	color_area = { 40 20 150 }
     2532 2531 924
 }
 
-gildan_valad = {
+gildan_valad_area = {
     908 2512 904
 }
 
-samsa = {
-    color = { 25 75 225 }
+samsa_area = {
+    color_area = { 25 75 225 }
 
     2627 2645
 }
 
-steinheim = {
+steinheim_area = {
     923 2527 2533 2644
 }
 
-illim = {
+illim_area = {
     930 2538 2626 2623
 }
 
-humen = {
+humen_area = {
     2642 2537 851
 }
 
-naiamitto = {
+naiamitto_area = {
     928 2648 853
 }
 
-mannarliana = {
+mannarliana_area = {
     2641 852 934 850
 }
 
