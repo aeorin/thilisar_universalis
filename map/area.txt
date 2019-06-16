@@ -107,7 +107,7 @@ tropland_area = { #5
 }
 
 orgnitsh_area = { #3
-    color_area = { 250 200 150 }
+    color = { 250 200 150 }
     2601 979 2022
 }
 
@@ -140,7 +140,7 @@ upper_zamaria_area = { #4
 }
 
 astha_area = { #4
-    color_area = { 50 250 50 }
+    color = { 50 250 50 }
 
     2507 882 1008
 }
@@ -172,7 +172,7 @@ north_zamt_area = {
 }
 
 hehewig_area = {
-	color_area = { 40 20 150 }
+	color = { 40 20 150 }
     2532 2531 924
 }
 
@@ -181,7 +181,7 @@ gildan_valad_area = {
 }
 
 samsa_area = {
-    color_area = { 25 75 225 }
+    color = { 25 75 225 }
 
     2627 2645
 }
