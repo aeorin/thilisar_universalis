@@ -181,6 +181,8 @@ country_event = {
 
 	option = {
 		name = institution_events.3.a
+		if = { limit = {NOT = {has_global_flag = institution_3_flag}}
+		set_global_flag = institution_3_flag
 		add_adm_power = 100
 		add_dip_power = 100
 		add_mil_power = 100
@@ -216,6 +218,7 @@ country_event = {
 				country_event = { id = institution_events.301 }
 			}
 		}
+	}
 	}
 }
 #
