@@ -1,0 +1,22 @@
+owner = ACA
+controller = ACA
+add_core = ACA
+culture = malaian_human_culture
+religion = orthodox
+base_tax = 1
+base_production = 1
+trade_goods = wool	#fustians
+base_manpower = 1
+is_city = no
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american
+
+1662.9.17 = {
+	owner = MLA
+	add_core = MLA
+	remove_core = ACA
+}

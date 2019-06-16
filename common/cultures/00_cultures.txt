@@ -80,7 +80,17 @@ elf_group = {
              "of Astha" "of Ortrea" Lunea
          }
      }
-    #wood elves
+    wood_elf_culture = {
+             male_names = {
+                 Haldir Nuviael Celeborn
+             }
+             female_names = {
+                 Toruviel Galadriel Melian
+             }
+             dynasty_names = {
+                 Noldor Telleri Vanyar
+             }
+         }
     #dark elves
     #fallen elves
 }
@@ -118,6 +128,17 @@ human_group = {
         }
         dynasty_names = {
             Ceise Monroe
+        }
+    }
+    pygmy_human_culture = {
+        male_names = {
+            Ndongo Mbaku
+        }
+        female_names = {
+            Nzinga Nupe
+        }
+        dynasty_names = {
+            Kuba Luba
         }
     }
 }
@@ -179,6 +200,20 @@ dwarven_group = {
         }
         dynasty_names = {
             Goklar Madlar
+        }
+    }
+}
+
+satyr_group = {
+    satyr_culture = {
+        male_names = {
+            Sheztist Mh'al'ri Vhevherh D'agesz
+         }
+        female_names = {
+           C'thoggdor Aiuvylkas Okthoklast
+        }
+        dynasty_names = {
+           Aneg'kush Iavh'odrer Evraadr'endalb
         }
     }
 }

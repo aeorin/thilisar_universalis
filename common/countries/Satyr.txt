@@ -1,0 +1,49 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 175 225 120}
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ycxogra #0" = 100
+	"Ymh'aal'zhaxr #0" = 100
+	"Ygotl'zhu #0" = 100
+}
+
+leader_names = {
+    Z'aocn'ithitl Voudrrerh Ngumbrol Z'aogre
+}
+
+ship_names = {
+    Thul'gna Uvh'orror Ivh'ylpilb Ixignas Ubhimbr'dhrih Exaoggd'gnetl
+}
+
+
+army_names = {
+	"$PROVINCE$ Batallion"
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

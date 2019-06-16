@@ -1,0 +1,22 @@
+owner = SHI
+controller = SHI
+add_core = SHI
+culture = malaian_human_culture
+religion = orthodox
+base_tax = 5
+base_production = 5
+trade_goods = grain	#fustians
+base_manpower = 2
+is_city = no
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american
+
+1582.9.17 = {
+	owner = MLA
+	add_core = MLA
+	remove_core = SHI
+}

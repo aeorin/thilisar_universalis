@@ -77,6 +77,20 @@ ZHU = "countries/Zhuchu.txt"
 NAR = "countries/Naren.txt"
 ESH = "countries/Eshlends.txt"
 GIL = "countries/Gilda.txt"
-#ERG = "countries/Erg.txt"
+
+#Malai
+ACA = "countries/Academy.txt"
+PRE = "countries/Parne.txt"
+IRG = "countries/Irdolgard.txt"
+END = "countries/Enders.txt"
+ANO = "countries/Anor.txt"
+DES = "countries/Deserthill.txt"
+REN = "countries/Renaku.txt"
+MLA = "countries/Malai.txt"
+SHI = "countries/Shirnen.txt"
+PAD = "countries/Padov.txt"
+OLA = "countries/Olao.txt"
+ILM = "countries/Ilmeria.txt"
+SAT = "countries/Satyr.txt"
 
 ################################

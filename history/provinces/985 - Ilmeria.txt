@@ -1,0 +1,22 @@
+owner = ILM
+controller = ILM
+add_core = ILM
+culture = pygmy_human_culture
+religion = orthodox
+base_tax = 3
+base_production = 3
+trade_goods = tropical_wood	#fustians
+base_manpower = 2
+is_city = no
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american
+
+1712.9.17 = {
+	owner = MLA
+	add_core = MLA
+	remove_core = ILM
+}

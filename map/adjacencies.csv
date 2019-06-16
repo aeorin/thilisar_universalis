@@ -62,8 +62,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2348;318;sea;1319;3219;1294;3213;1294;Chios-Sugla
 2348;2296;sea;1319;3215;1314;3215;1312;Chios-Biga
 285;2447;sea;1323;3374;1423;3381;1423;Kaffa-Mapa
-2587;2521;sea;1661;1530;1620;1515;1618;Odawa-Okouara
-2587;1001;sea;1661;1511;1656;1510;1660;Odawa-Soto
 2576;2578;sea;1490;-1;-1;-1;-1;Mingan-Anticosti
 249;4121;sea;1284;-1;-1;-1;-1;Ayrshire-Ulster
 536;2100;sea;1340;4044;796;4050;793;Madurai-Vanni
@@ -88,7 +86,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2686;597;sea;1361;4434;664;4430;666;Bintan-Johor
 2929;2890;sea;1529;2021;838;2022;841;Para-Marajo
 748;2890;sea;1529;2050;847;2046;850;Belem-Marajo
-911;2587;sea;1661;-1;-1;-1;-1;Belem-Marajo
 2954;353;sea;1305;2973;1210;2972;1208;Djerba-Tataouine
 624;623;sea;1352;-1;-1;-1;-1;Banten-Tulungbewang
 431;2999;sea;1334;3693;1091;3689;1089;Mogostan-Hormuz

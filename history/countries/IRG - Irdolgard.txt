@@ -1,0 +1,6 @@
+government = republic
+mercantilism = 30
+technology_group = western
+religion = orthodox
+primary_culture = malaian_human_culture
+capital = 2582

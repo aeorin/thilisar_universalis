@@ -1,0 +1,29 @@
+owner = ACA
+controller = ACA
+add_core = ACA
+add_core = SAT
+culture = satyr_culture
+religion = buddhism
+base_tax = 1
+base_production = 1
+trade_goods = dyes	#fustians
+base_manpower = 1
+is_city = no
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american
+
+1532.9.17 = {
+	owner = SAT
+	add_core = SAT
+	remove_core = ACA
+}
+
+1662.9.17 = {
+	owner = MLA
+	add_core = MLA
+	remove_core = SAT
+}
