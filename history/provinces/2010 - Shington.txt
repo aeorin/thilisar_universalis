@@ -7,7 +7,7 @@ base_tax = 5
 base_production = 5
 trade_goods = grain	#fustians
 base_manpower = 2
-is_city = no
+
 hre = no
 discovered_by = eastern
 discovered_by = western

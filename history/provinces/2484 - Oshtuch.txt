@@ -8,7 +8,7 @@ base_production = 1
 trade_goods = cloth	#fustians
 base_manpower = 1
 capital = "Lozdot"
-is_city = no
+
 hre = yes
 discovered_by = eastern
 discovered_by = western

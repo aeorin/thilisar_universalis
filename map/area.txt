@@ -107,7 +107,7 @@ tropland_area = { #5
 }
 
 orgnitsh_area = { #3
-    color = { 250 200 150 }
+color = { 250 200 150 }
     2601 979 2022
 }
 

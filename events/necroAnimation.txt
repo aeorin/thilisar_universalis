@@ -18,11 +18,13 @@ province_event = {
 		days = 1
 	}
 
-	hidden = yes
-
 	immediate = {
 		hidden_effect = {
 			change_culture = animated_culture
 		}
+	}
+
+	option = {
+		change_culture = animated_culture
 	}
 }
