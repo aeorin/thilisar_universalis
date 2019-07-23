@@ -5,7 +5,7 @@ culture = malaian_human_culture
 religion = orthodox
 base_tax = 1
 base_production = 3
-trade_goods = cloth	#fustians
+#trade_#goods = cloth	#fustians
 base_manpower = 1
 
 hre = no

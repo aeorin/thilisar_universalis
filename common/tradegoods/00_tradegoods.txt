@@ -1,0 +1,345 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new resources, make sure they are uniquely named.
+# Please add price definitions to prices.txt as well.
+
+#Base resources
+grain = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 10.0
+			OR = {
+				has_terrain = farmlands
+			}
+		}
+		modifier = {
+            factor = 0.0
+            NOT = {
+                OR = {
+                    has_terrain = farmlands
+                }
+            }
+        }
+	}
+}
+
+wine             = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+wool = {
+	color = { 0.83 0.83 0.83  }
+	modifier = {
+		global_ship_cost = -0.05
+	}
+	province = {
+		local_friendly_movement_speed = 0.10
+	}
+    chance = {
+        factor = 10
+        modifier = {
+            factor = 10.0
+            OR = {
+                has_terrain = forest
+                has_terrain = mountain
+                has_terrain = marsh
+                has_terrain = drylands
+                has_terrain = highlands
+                has_terrain = steppe
+                has_terrain = natural_fort
+            }
+        }
+        modifier = {
+            factor = 0.05
+            NOT = {
+                OR = {
+                    has_terrain = forest
+                    has_terrain = mountain
+                    has_terrain = marsh
+                    has_terrain = drylands
+                    has_terrain = highlands
+                    has_terrain = steppe
+                    has_terrain = natural_fort
+                }
+            }
+        }
+    }
+}
+
+cloth = {
+	color = { 0.86 0.19 0.19 }
+	modifier = {
+		merc_maintenance_modifier = -0.15
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 10.0
+			OR = {
+				has_terrain = city
+			}
+		}
+		modifier = {
+            factor = 0.0
+            NOT = {
+                OR = {
+                    has_terrain = city
+                }
+            }
+        }
+	}
+}
+
+fish = {
+    color = { 0.55 0.82 0.97 }
+    modifier = {
+        global_sailors_modifier = 0.25
+    }
+    province = {
+        local_sailors_modifier = 0.25
+    }
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 10.0
+            OR = {
+                has_terrain = floodplain
+            }
+        }
+        modifier = {
+            factor = 0.0
+            NOT = {
+                OR = {
+                    has_terrain = floodplain
+                }
+            }
+        }
+    }
+}
+
+fur = {
+	color = { 0.54 0.40 0.31 }
+	modifier = {
+		prestige = 0.5
+	}
+	province = {
+		province_trade_power_modifier = 0.10
+	}
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 10.0
+            OR = {
+                has_terrain = colony
+            }
+        }
+        modifier = {
+            factor = 0.0
+            NOT = {
+                OR = {
+                    has_terrain = colony
+                }
+            }
+        }
+    }
+}
+
+salt = {
+	color = { 0.999 0.999 0.999 }
+	modifier = {
+		land_maintenance_modifier = -0.05
+	}
+	province = {
+		local_defensiveness = 0.15
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 10.0
+			OR = {
+				has_terrain = tunnel
+				has_terrain = tunnel_network
+			}
+		}
+		modifier = {
+            factor = 0.0
+            NOT = {
+                OR = {
+                    has_terrain = tunnel
+                    has_terrain = tunnel_network
+                }
+            }
+        }
+	}
+}
+
+naval_supplies   = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+copper           = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+gold = {
+	color = { 1.0 0.84 0.19 }
+	#no modifiers
+
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 0.0
+            always = yes
+        }
+    }
+}
+
+iron = {
+	color = { 0.2 0.2 0.2 }
+	modifier = {
+		global_regiment_cost = -0.05
+	}
+	province = {
+		local_build_time = -0.2
+	}
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 0.0
+            always = yes
+        }
+    }
+}
+
+slaves           = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+ivory            = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+tea              = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+chinaware        = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+spices = {
+	color = { 0.4 0.65 0.38 }
+	modifier = {
+		spy_offence = 0.25
+	}
+	province = {
+		local_monthly_devastation = -0.1
+	}
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 0.0
+            always = yes
+        }
+    }
+}
+
+coffee           = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+cotton           = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+sugar            = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+tobacco          = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+cocoa = {
+	color = { 0.45 0.21 0.09 }
+	modifier = {
+		manpower_recovery_speed = 0.05
+	}
+	province = {
+		local_manpower_modifier = 0.10
+	}
+
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 0.0
+            always = yes
+        }
+    }
+}
+
+silk             = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+dyes = {
+	color = { 0.63 0.17 0.50 }
+	modifier = {
+		heir_chance = 0.33
+	}
+	province = {
+		 province_trade_power_modifier = 0.10
+	}
+
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 0.0
+            always = yes
+        }
+    }
+}
+
+tropical_wood = {
+	color = { 0.45 0.47 0.09 }
+	modifier = {
+		development_cost = -0.05
+	}
+	province = {
+		local_build_cost = -0.2
+	}
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 0.0
+            always = yes
+        }
+    }
+}
+
+livestock        = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+incense          = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+glass = {
+	color = { 0.0 0.60 0.45 }
+	modifier = {
+		dip_tech_cost_modifier = -0.05
+	}
+	province = {
+		local_production_efficiency = 0.1
+	}
+	chance = {
+        factor = 10
+        modifier = {
+            factor = 10.0
+            OR = {
+                has_terrain = desert
+            }
+        }
+        modifier = {
+            factor = 0.2
+            NOT = {
+                OR = {
+                    has_terrain = desert
+                }
+            }
+        }
+    }
+}
+
+paper            = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+gems             = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+coal             = { color = { 0.75 0.75 0.75 } chance = { factor = 0 } }
+
+unknown = {
+	color = { 0.5 0.5 0.5 }
+}
+
+#original
+# base_price = X			base price in $. (default is 1.0 if not specified
+# goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
+
+
+unknown = {
+	base_price = 0
+}
+

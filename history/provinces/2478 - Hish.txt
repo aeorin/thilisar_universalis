@@ -2,7 +2,7 @@ culture = hish_culture
 religion = animism
 base_tax = 1
 base_production = 1
-trade_goods = cloth	#fustians
+#trade_#goods = cloth	#fustians
 base_manpower = 1
 
 hre = no

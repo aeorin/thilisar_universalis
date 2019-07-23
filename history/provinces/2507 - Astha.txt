@@ -5,7 +5,7 @@ culture = high_elf_culture
 religion = catholic
 base_tax = 6
 base_production = 3
-trade_goods = cloth	#fustians
+#trade_#goods = cloth	#fustians
 base_manpower = 3
 
 hre = yes

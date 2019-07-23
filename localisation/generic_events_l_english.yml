@@ -747,8 +747,7 @@
  muslim_piety.5.b:1 "Support the unity of being."
  muslim_piety.6.t:1 "Dhimmi Building Restrictions"
  institution_events:
-  gods:
-   t: muslim_piety.6.d:1 "Under Islamic Law, non-Muslims faced a number of restrictions on the construction of new buildings in urban centers: their houses were not to be taller than those of the Muslims, and they were not permitted to construct new centers of worship, only to maintain those which already existed. In practice, these rules often went unenforced, but as our realm shifts further toward a legalistic interpretation of Islam, key members of the Ulema are beginning to call for their stricter implementation."
+ muslim_piety.6.d:1 "Under Islamic Law, non-Muslims faced a number of restrictions on the construction of new buildings in urban centers their houses were not to be taller than those of the Muslims, and they were not permitted to construct new centers of worship, only to maintain those which already existed. In practice, these rules often went unenforced, but as our realm shifts further toward a legalistic interpretation of Islam, key members of the Ulema are beginning to call for their stricter implementation."
  muslim_piety.6.a:1 "Enforce the letter of the law."
  muslim_piety.6.b:1 "Leave them to do as they please."
  muslim_piety.7.t:1 "Dhimmis Flout Building Restrictions"

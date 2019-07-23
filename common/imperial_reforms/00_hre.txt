@@ -56,7 +56,10 @@ renovatio = {
 	empire = hre
 	on_effect = {
 		emperor = {
-			country_event = { id = 9075 tooltip = renovatio_effect }
+			country_event = {
+			    id = 9075
+			    tooltip = renovatio_effect
+            }
 		}
 	}
 }
