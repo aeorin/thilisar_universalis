@@ -17,6 +17,8 @@ ESH_ideas = {
 		tag = ESH
 	}
 
+    free = yes
+
 	panergism = {
 		legitimacy = 2
 	}
@@ -63,6 +65,8 @@ NAR_ideas = {
 		tag = NAR
 	}
 
+    free = yes
+
 	zunft = {
 		production_efficiency = 0.10
 	}
@@ -104,6 +108,8 @@ GIL_ideas = {
 	trigger = {
 		tag = GIL
 	}
+
+	free = yes
 
 	undead_hordes_a = {
 		manpower_recovery_speed = 0.1

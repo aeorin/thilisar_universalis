@@ -4,7 +4,7 @@ province_event = {
 	desc = "EVTDESC2025.d"
 	picture = RELIGION_eventPicture
 
-	major = yes
+	major = no
 
 	trigger = {
 		has_global_flag = kovar_fell

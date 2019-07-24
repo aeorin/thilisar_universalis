@@ -172,7 +172,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		always = yes			#
+		NOT = {
+		    has_global_flag = magic_study_founded
+		}
 	}
 
 	mean_time_to_happen = {
@@ -187,6 +189,7 @@ country_event = {
 		add_dip_power = 100
 		add_mil_power = 100
 		add_prestige = 20
+		set_global_flag = magic_study_founded
 		if = {
 			limit = {
 				NOT = { has_completed_all_reforms_trigger = yes }

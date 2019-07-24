@@ -4,7 +4,7 @@ country_event = {
 	desc = "EVTDESC2005"
 	picture = RELIGION_eventPicture
 
-	major = yes
+	major = no
 
 	trigger = {
 		has_global_flag = sharkesh_fell
