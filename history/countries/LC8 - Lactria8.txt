@@ -4,4 +4,4 @@ mercantilism = 20
 technology_group = western
 religion = catholic
 primary_culture = lactrian_human_culture
-capital = 844
+capital = 2824
