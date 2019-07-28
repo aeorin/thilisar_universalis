@@ -18,3 +18,5 @@ alliance = {
 	start_date = 1440.1.1
 	end_date = 1526.8.29
 }
+
+#todo AHR - GUL guarantee

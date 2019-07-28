@@ -1,10 +1,10 @@
-owner = ZME
-controller = ZME
-add_core = ZME
-culture = lactrian_human_culture
+owner = HAY
+controller = HAY
+add_core = HAY
+culture = naren_human_culture
 religion = catholic
 base_tax = 1
-base_production = 2
+base_production = 1
 base_manpower = 1
 
 hre = yes
