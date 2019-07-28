@@ -3,7 +3,7 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
-##Thilisar
+#####Thilisar
 #Eshlends
 NVT = "countries/Nevrath.txt"
 KRU = "countries/Krustia.txt"
@@ -35,7 +35,7 @@ ER7 = "countries/Er7.txt"
 ER8 = "countries/Er8.txt"
 ER9 = "countries/Er9.txt"
 
-#Naren
+####Naren
 PTS = "countries/Petsas.txt"
 LOZ = "countries/Lozdot.txt"
 IMO = "countries/Imporder.txt"
@@ -55,7 +55,7 @@ GES = "countries/Gesat.txt"
 ASE = "countries/Asenia.txt"
 NUA = "countries/Nuan.txt"
 
-#Naiamy
+####Naiamy
 ULE = "countries/Ulea.txt"
 USI = "countries/Usil.txt"
 ALS = "countries/Alsipia.txt"
@@ -63,7 +63,7 @@ ALD = "countries/Aldea.txt"
 OLM = "countries/Olma.txt"
 DEE = "countries/Deep.txt"
 
-#Gilda
+####Gilda
 ILI = "countries/Illimistein.txt"
 HUM = "countries/Humen.txt"
 HEH = "countries/Hehewig.txt"
@@ -71,14 +71,14 @@ RII = "countries/Riipuvi.txt"
 MNN = "countries/Mannarliana.txt"
 ZMT = "countries/Zamt.txt"
 
-#Formable/releasable special
+####Formable/releasable special
 ZAM = "countries/Zamaria.txt"
 ZHU = "countries/Zhuchu.txt"
 NAR = "countries/Naren.txt"
 ESH = "countries/Eshlends.txt"
 GIL = "countries/Gilda.txt"
 
-#Malai
+####Malai
 ACA = "countries/Academy.txt"
 PRE = "countries/Parne.txt"
 IRG = "countries/Irdolgard.txt"
@@ -92,5 +92,31 @@ PAD = "countries/Padov.txt"
 OLA = "countries/Olao.txt"
 ILM = "countries/Ilmeria.txt"
 SAT = "countries/Satyr.txt"
+
+###Daren
+#invaders
+SAN = "countries/Salon.txt"
+URN = "countries/Urnon.txt"
+UTO = "countries/Uton.txt"
+#squables
+LC1 = "countries/Lactria1.txt"
+LC2 = "countries/Lactria2.txt"
+LC3 = "countries/Lactria3.txt"
+LC4 = "countries/Lactria4.txt"
+LC5 = "countries/Lactria5.txt"
+LC6 = "countries/Lactria6.txt"
+LC7 = "countries/Lactria7.txt"
+LC8 = "countries/Lactria8.txt"
+LC9 = "countries/Lactria9.txt"
+#satyrs
+IXA = "countries/Ixagnia.txt"
+#imperials
+ZME = "countries/Zmetna.txt"
+DIN = "countries/Dink.txt"
+HAY = "countries/Haydaril.txt"
+#citystates
+AHR = "countries/Aharko.txt"
+NRP = "countries/Narplin.txt"
+
 
 ################################

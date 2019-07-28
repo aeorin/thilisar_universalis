@@ -1,0 +1,15 @@
+owner = URN
+controller = URN
+add_core = URN
+culture = daren_human_culture
+religion = coptic
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american

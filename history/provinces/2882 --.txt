@@ -1,0 +1,15 @@
+owner = LC6
+controller = LC6
+add_core = LC6
+culture = lactrian_human_culture
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+hre = no
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = north_american

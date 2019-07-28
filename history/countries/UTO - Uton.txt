@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 1
+mercantilism = 15
+technology_group = western
+religion = coptic
+primary_culture = daren_human_culture
+capital = 2521	# Uto
