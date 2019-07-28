@@ -107,8 +107,52 @@ malai_region = {
     }
 }
 
+
+daren_region = {
+    areas = {
+        daren_area_1
+        daren_area_2
+        daren_area_3
+        daren_area_4
+        daren_area_5
+        daren_area_6
+        daren_area_7
+        daren_area_8
+        daren_area_9
+        daren_area_10
+        daren_area_11
+        daren_area_12
+        daren_area_13
+        daren_area_14
+        daren_area_15
+        daren_area_16
+        daren_area_17
+        daren_area_18
+        daren_area_19
+        daren_area_20
+        daren_area_21
+        daren_area_22
+        daren_area_23
+        daren_area_24
+        daren_area_25
+        daren_area_26
+        daren_area_27
+        daren_area_28
+        daren_area_29
+        daren_area_30
+        daren_area_31
+        daren_area_32
+        daren_area_33
+        daren_area_34
+        daren_area_35
+        daren_area_36
+        daren_area_37
+        daren_area_38
+        daren_area_39
+    }
+}
+
 iela_region = {areas = {iela_area}}
-daren_region = {areas = {daren_area}}
 halethin_region = {areas = {halethin_area}}
 gultamal_region = {areas = {gultamal_area}}
 sinkal_region = {areas = {sinkal_area}}
