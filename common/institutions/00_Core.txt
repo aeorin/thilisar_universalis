@@ -31,11 +31,13 @@ feudalism = {
 			region = naren_region
 			region = naiamy_region
 			region = gilda_region
+			region = daren_region
 			culture_group = elosven_group
 			AND = {
 			    region = malai_region
 			    culture = malaian_human_culture
 			}
+			province_id = 870
 		}
 	}
 	
@@ -147,6 +149,7 @@ magic = {
 			region = naren_region
 			region = naiamy_region
 			region = gilda_region
+			region = daren_region
 			region = malai_region
 			region = eshlends_region
 		}

@@ -117,6 +117,9 @@ HAY = "countries/Haydaril.txt"
 #citystates
 AHR = "countries/Aharko.txt"
 NRP = "countries/Narplin.txt"
+#formable
+DRN = "countries/Daren.txt"
+LAC = "countries/Lactria.txt"
 
 
 ################################

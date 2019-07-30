@@ -1,0 +1,78 @@
+country_decisions = {
+
+	form_daren = {
+		major = yes
+		potential = {
+			NOT = { has_global_flag = formed_lactria_flag }
+			primary_culture = lactrian_human_culture
+			OR = {
+                owns = 840
+                owns = 842
+                owns = 844
+                owns = 2635
+                owns = 2649
+                owns = 2650
+			}
+
+		}
+		provinces_to_highlight = {
+		    OR = {
+                province_id = 840
+                province_id = 842
+                province_id = 844
+                province_id = 2635
+                province_id = 2649
+                province_id = 2650
+            }
+		}
+		allow = {
+			is_at_war = no
+			primary_culture = lactrian_human_culture
+            owns = 840
+            owns = 842
+            owns = 844
+            owns = 2635
+            owns = 2649
+            owns = 2650
+		}
+		effect = {
+			change_tag = LAC
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+
+            if = {
+                limit = {
+                    NOT = {
+                        government = monarchy
+                    }
+                }
+                change_government = monarchy
+            }
+
+            daren_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = LAC
+            }
+
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_global_flag = formed_lactria_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

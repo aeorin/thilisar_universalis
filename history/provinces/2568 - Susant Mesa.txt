@@ -1,8 +1,8 @@
 owner = ILM
 controller = ILM
 add_core = ILM
-culture = malaian_human_culture
-religion = orthodox
+culture = pygmy_human_culture
+religion = anglican
 base_tax = 1
 base_production = 1
 trade_goods = grain	#fustians

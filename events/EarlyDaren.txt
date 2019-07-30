@@ -1,0 +1,156 @@
+#wedding
+country_event = {
+	id = daren.3716
+	title = "daren.EVTNAME3716"
+	desc = "daren.EVTDESC3716"
+	picture = DIPLOMACY_eventPicture
+
+	major = yes
+
+	fire_only_once = yes
+
+
+	trigger = {
+		NOT = {
+		    has_global_flag = formed_daren
+		}
+		OR = {
+			AND = {
+				tag = SAN
+				NOT = { war_with = URN }
+				URN = {
+					exists = yes
+					ai = yes
+					was_player = no
+					is_subject = no
+					is_neighbor_of = ROOT
+					NOT = { is_in_war = { attacker_leader = URN } }
+					NOT = { is_in_war = { defender_leader = URN } }
+				}
+				num_of_cities = 10
+			}
+			AND = {
+				tag = URN
+				NOT = { war_with = SAN }
+				ai = no
+				SAN = {
+					exists = yes
+					ai = yes
+					was_player = no
+					is_subject = no
+					is_neighbor_of = ROOT
+					NOT = { is_in_war = { attacker_leader = SAN } }
+					NOT = { is_in_war = { defender_leader = SAN } }
+				}
+				num_of_cities = 10
+			}
+		}
+		is_year = 1450
+		NOT = { is_year = 1530 }
+		is_subject = no
+		num_of_cities = 10
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			OR = {
+				AND = {
+					tag = CAS
+					ARA = {
+						has_regency = no
+					}
+				}
+				AND = {
+					tag = ARA
+					CAS = {
+						has_regency = no
+					}
+				}
+			}
+		}
+	}
+
+
+	option = {		# Let us bind their Dynasty to ours
+		name = "daren.EVTOPTA3716"
+		ai_chance = { factor = 90 }
+		if = {
+			limit = { tag = SAN }
+			create_union = URN
+			add_opinion = {
+				who = URN
+				modifier = spa_iberian_wedding
+			}
+			URN = {
+				add_opinion = {
+					who = ROOT
+					modifier = spa_iberian_wedding
+				}
+				add_liberty_desire = -50
+			}
+		}
+		if = {
+			limit = { tag = URN }
+			create_union = SAN
+			add_opinion = {
+				who = SAN
+				modifier = spa_iberian_wedding
+			}
+			SAN = {
+				add_opinion = {
+					who = ROOT
+					modifier = spa_iberian_wedding
+				}
+				add_liberty_desire = -50
+			}
+		}
+	}
+}
+
+#conversion
+country_event = {
+	id = daren.3717
+	title = "daren.EVTNAME3717"
+	desc = "daren.EVTDESC3717"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	fire_only_once = no
+
+
+	trigger = {
+		primary_culture = daren_human_culture
+		any_owned_province = {
+		    culture = lactrian_human_culture
+        }
+	}
+
+	mean_time_to_happen = {
+		months = 15
+	}
+
+
+	option = {
+		name = "daren.EVTOPTA3717.a"
+		ai_chance = { factor = 90 }
+		random_owned_province = {
+		    limit = {
+		        culture = lactrian_human_culture
+		    }
+		    change_culture = daren_human_culture
+		}
+        add_adm_power = -10
+        add_mil_power = -10
+        add_dip_power = -10
+        add_treasury = -50
+	}
+
+    option = {
+        name = "daren.EVTOPTA3717.b"
+        ai_chance = { factor = 10 }
+        add_prestige = -5
+    }
+}
