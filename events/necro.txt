@@ -1,0 +1,305 @@
+#necro capital
+country_event = {
+	id = 2201
+	title = "EVTNAME2201.t"
+	desc = "EVTDESC2201.d"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    primary_culture = necromantic_culture
+	    NOT = {capital_scope = {culture = necromantic_culture}}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA2201.o"
+		add_stability = -1
+		capital_scope = {
+			change_culture = necromantic_culture
+			add_unrest = 10
+			add_local_autonomy = 10
+		}
+	}
+}
+
+#cull_living
+province_event = {
+	id = necro.1001
+	title = "necro.1001.t"
+	desc = "necro.1001.d"
+
+	major = no
+
+	trigger = {
+        owner = {
+            primary_culture = necromantic_culture
+		}
+        NOT = {
+            culture_group = undead_group
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 40
+	}
+
+	option = {
+        name = "necro.1001.a"
+        ai_chance = { factor = 10 }
+        add_prestige = -5
+        add_legitimacy = -5
+        add_devotion = -5
+    }
+	option = {
+        name = "necro.1001.b"
+        ai_chance = { factor = 90 }
+        add_province_modifier = {
+            name = "culled_living_province"
+            duration = 400
+        }
+        if = {
+            limit = {
+                NOT = {base_manpower = 3}
+                NOT = {base_production = 3}
+                NOT = {base_tax = 3}
+            }
+            if = {
+                limit = {base_manpower = 2}
+                add_base_manpower = -1
+            }
+            if = {
+                limit = {base_production = 2}
+                add_base_production = -1
+            }
+            if = {
+                limit = {base_manpower = 2}
+                add_base_tax = -1
+            }
+            change_religion = protestant
+            if = {
+                limit = {
+                    NOT = {
+                        any_neighbor_province = {
+                            culture = necromantic_culture
+                            owner = {primary_culture = necromantic_culture}
+                        }
+                    }
+                }
+                change_culture = animated_culture
+            }
+            if = {
+                 limit = {
+                     any_neighbor_province = {
+                         culture = necromantic_culture
+                         owner = {primary_culture = necromantic_culture}
+                     }
+                 }
+                 change_culture = ghoul_culture
+                 add_province_modifier = {
+                     name = "culled_living_province"
+                     duration = -1
+                 }
+             }
+
+        }
+        if = {
+            limit = {
+                NOT = {
+                    AND = {
+                        NOT = {base_manpower = 3}
+                        NOT = {base_production = 3}
+                        NOT = {base_tax = 3}
+                    }
+                }
+            }
+            if = {
+                limit = {base_manpower = 3}
+                add_base_manpower = -2
+                owner = {
+                    add_mil_power = 20
+                    random_owned_province = {
+                        limit = {culture = animated_culture}
+                        add_base_manpower = 1
+                    }
+                }
+            }
+            if = {
+                limit = {base_production = 3}
+                add_base_production = -2
+                owner = {
+                    add_adm_power = 20
+                    random_owned_province = {
+                        limit = {culture = animated_culture}
+                        add_base_production = 1
+                    }
+                }
+            }
+            if = {
+                limit = {base_tax = 3}
+                add_base_tax = -2
+                owner = {
+                    add_dip_power = 20
+                    capital_scope = {
+                        add_base_tax = 1
+                    }
+                }
+            }
+        }
+        owner = {
+            add_prestige = 5
+            add_legitimacy = 5
+            add_devotion = 10
+        }
+	}
+}
+
+
+#cull_the dead
+province_event = {
+	id = necro.1002
+	title = "necro.1002.t"
+	desc = "necro.1002.d"
+
+	major = no
+
+	trigger = {
+	    culture = animated_culture
+		owner = {primary_culture = necromantic_culture}
+		any_neighbor_province = {
+            culture = necromantic_culture
+		}
+		OR = {
+            base_manpower = 4
+            base_production = 4
+            base_tax = 4
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 40
+	}
+
+	option = {
+        name = "necro.1002.a"
+        ai_chance = { factor = 10 }
+        change_culture = necromantic_culture
+    }
+	option = {
+        name = "necro.1002.b"
+        ai_chance = { factor = 90 }
+        add_province_modifier = {
+            name = "culled_dead_province"
+            duration = 400
+        }
+        if = {
+            limit = { base_manpower = 4 }
+            add_base_manpower = -3
+            owner = {
+                capital_scope = {
+                    add_base_tax = 1
+                }
+                random_owned_province = {
+                    limit = {culture = animated_culture}
+                    add_base_production = 1
+                }
+                add_adm_power = 10
+                add_dip_power = 10
+                add_mil_power = 10
+            }
+        }
+        if = {
+            limit = { base_production = 4 }
+            add_base_production = -3
+            owner = {
+                capital_scope = {
+                    add_base_tax = 1
+                }
+                random_owned_province = {
+                    limit = {culture = animated_culture}
+                    add_base_production = 1
+                }
+                add_adm_power = 10
+                add_dip_power = 10
+                add_mil_power = 10
+            }
+        }
+        if = {
+            limit = { base_tax = 4 }
+            add_base_tax = -3
+            owner = {
+                capital_scope = {
+                    add_base_tax = 1
+                }
+                random_owned_province = {
+                    limit = {culture = animated_culture}
+                    add_base_production = 1
+                }
+                add_adm_power = 10
+                add_dip_power = 10
+                add_mil_power = 10
+            }
+        }
+        owner = {
+            add_prestige = 5
+            add_legitimacy = 5
+            add_devotion = 10
+        }
+	}
+}
+
+#remove ghouls modifier on culture change
+province_event = {
+    id = necro.1003
+	title = "necro.1003.t"
+	desc = "necro.1003.d"
+
+	major = no
+
+	trigger = {
+	    NOT = {
+	        culture = ghoul_culture
+	    }
+	    has_province_modifier = ghouls_province
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+        name = "necro.1003.a"
+        remove_province_modifier = ghouls_province
+    }
+}
+
+
+#integrate ghouls modifier on culture change
+province_event = {
+    id = necro.1004
+	title = "necro.1004.t"
+	desc = "necro.1004.d"
+
+	major = no
+
+	trigger = {
+	    culture = ghoul_culture
+        any_neighbor_province = {
+            culture = necromantic_culture
+	        owner = {primary_culture = necromantic_culture}
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+        name = "necro.1004.a"
+        change_culture = animated_culture
+    }
+}

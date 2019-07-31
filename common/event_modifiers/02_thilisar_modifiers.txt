@@ -1,0 +1,10 @@
+culled_living_province = {
+	local_development_cost = 4.95
+	local_unrest = 20
+}
+culled_dead_province = {
+	local_development_cost = 4.95
+}
+ghouls_province = {
+    local_manpower_modifier = 1.25
+}
