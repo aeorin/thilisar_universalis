@@ -21,6 +21,7 @@ IRD = "countries/Iradei.txt"
 ALT = "countries/Altamira.txt"
 NAD = "countries/Nad.txt"
 ORE = "countries/Orea.txt"
+GES = "countries/Gesat.txt"
 
 #Erg experiments
 ERG = "countries/Erg.txt"
@@ -51,7 +52,6 @@ RON = "countries/Ronensand.txt"
 AHA = "countries/Astha.txt"
 ARG = "countries/Arangar.txt"
 LMS = "countries/Lunarmesa.txt"
-GES = "countries/Gesat.txt"
 ASE = "countries/Asenia.txt"
 NUA = "countries/Nuan.txt"
 

@@ -2,7 +2,7 @@ bookmark =
 {
 	name = "DEFAULT_BOOKMARK"
 	desc = "DEFAULT_BOOKMARK"
-	date = 1444.11.11
+	date = 20.11.11
 	
 	center = 2007
 	default = yes

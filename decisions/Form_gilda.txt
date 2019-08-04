@@ -5,16 +5,16 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_flag = formed_gilda_flag }
 			NOT = { exists = GIL }
-			#NOT = { is_year =  = 1700 }
+			has_institution = new_world_i
 			culture_group = human_group
 		}
 		provinces_to_highlight = {
             province_id = 930
 		}
 		allow = {
+			has_institution = new_world_i
 			NOT = { has_country_flag = formed_gilda_flag }
 			NOT = { exists = GIL }
-			#NOT = { is_year = 1700 }
 			is_at_war = no
 			culture_group = human_group
 		    religion = protestant

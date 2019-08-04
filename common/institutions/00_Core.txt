@@ -22,11 +22,11 @@ feudalism = {
 
 	trade_company_efficiency = 0.0
 
-	historical_start_date = 1066.1.1
+	historical_start_date = -434.1.1
 	historical_start_province = 2510
 
 	history = {
-		is_year = 1000
+		is_year = -400
 		OR = {
 			region = naren_region
 			region = naiamy_region
@@ -124,6 +124,146 @@ feudalism = {
 	}
 }
 
+#######################################
+# Gods
+#
+# Flows from Naren
+#######################################
+
+gods = {
+	penalty = 0.5
+
+	bonus = {
+		land_morale = 0.1
+	}
+
+	trade_company_efficiency = 0.0
+
+
+	historical_start_date = 45.1.1
+	historical_start_province = 2022
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 45
+				region = naren_region
+				region = golda_region
+			}
+			AND = {
+				is_year = 45
+				region = daren_region
+				region = malai_region
+			}
+			AND = {
+				is_year = 20
+				region = eshlends_region
+			}
+			#todo: more regions
+			is_year = 1780
+		}
+	}
+
+	can_start = {
+		is_year = 45
+        development = 9
+        OR = {
+            religion = protestant
+            religion = reformed
+        }
+	}
+	start_chance = 100		#in 100 for when a province can_start
+
+	can_embrace = {
+        always = yes
+    }
+
+	on_start = institution_events.2
+
+	embracement_speed = {
+		modifier = {
+			scale = yes
+			factor = 0.6
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
+				any_friendly_coast_border_province = {
+					gods = 100
+				}
+			}
+		}
+		modifier = {
+			scale = yes
+			factor = 3.0
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_gods
+                OR = {
+                    religion = protestant
+                    religion = reformed
+                }
+			}
+		}
+		modifier = {
+			factor = 0.3
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						gods = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_renaissance
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					gods = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = gods
+				}
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = tooltip_renaissance_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = gods
+				}
+			}
+		}
+	}
+
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
 
 #######################################
 # Magic
@@ -140,11 +280,11 @@ magic = {
 
 	trade_company_efficiency = 0.0
 
-	historical_start_date = 1200.1.1
+	historical_start_date = 97.1.1
 	historical_start_province = 2022
 
 	history = {
-		is_year = 1200
+		is_year = 97
 		OR = {
 			region = naren_region
 			region = naiamy_region
@@ -155,13 +295,25 @@ magic = {
 		}
 	}
 
-
+    can_start = {
+		is_year = 97
+        province_id = 914
+	}
+	start_chance = 100		#in 100 for when a province can_start
 
 	can_embrace = {
-		always = yes
-	}
+        always = yes
+    }
+
+	on_start = institution_events.10001
 
 	embracement_speed = {
+	    modifier = {
+	        factor = 2.0
+			potential = {
+                magic_study = 100
+            }
+	    }
 		modifier = {
 			factor = 0.6
 			scale = yes
@@ -203,7 +355,7 @@ magic = {
 				tooltip = tooltip_feudalism_embraced
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = feudalism
+					has_institution = magic
 				}
 			}
 		}
@@ -242,19 +394,19 @@ magic = {
 #######################################
 
 magic_study = {
-	penalty = 0.5
+	penalty = 0.2
 
 	bonus = {
-		all_power_cost = -0.05
+		all_power_cost = -0.15
 	}
 
 	trade_company_efficiency = 0.0
 
-	historical_start_date = 1420.1.1
+	historical_start_date = 120.1.1
 	historical_start_province = 2559
 
 	history = {
-		is_year = 1420
+		is_year = 120
 		trade_goods = spices
 	}
 
@@ -314,7 +466,7 @@ magic_study = {
 				tooltip = PLACEHOLDER_0001
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = feudalism
+					has_institution = magic_study
 				}
 			}
 		}
@@ -323,141 +475,6 @@ magic_study = {
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
 
-		modifier = {
-			factor = 0.25
-			is_at_war = yes
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.3
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.4
-		}
-	}
-}
-
-#######################################
-# Gods
-# 
-# Flows from Naren
-#######################################
-
-gods = {
-	penalty = 0.5
-
-	bonus = {
-		land_morale = 0.1
-	}
-
-	trade_company_efficiency = 0.0
-
-
-	historical_start_date = 1460.1.1
-	historical_start_province = 2022
-
-	history = {
-		OR = {
-			AND = {
-				is_year = 1480
-				region = naren_region
-			}
-			AND = {
-				is_year = 1520
-				region = eshlends_region
-			}
-			#todo: more regions
-			is_year = 1780
-		}
-	}
-	
-	can_start = {
-		is_year = 1450
-        development = 9
-        OR = {
-            religion = protestant
-            religion = reformed
-        }
-	}
-	start_chance = 100		#in 100 for when a province can_start
-
-	can_embrace = {
-        always = yes
-    }
-
-	on_start = institution_events.2
-	
-	embracement_speed = {
-		modifier = {
-			scale = yes
-			factor = 0.6
-			custom_trigger_tooltip = {
-				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
-				any_friendly_coast_border_province = {
-					gods = 100
-				}
-			}
-		}
-		modifier = {
-			scale = yes
-			factor = 3.0
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_gods
-                OR = {
-                    religion = protestant
-                    religion = reformed
-                }
-			}
-		}
-		modifier = {
-			factor = 0.3
-			scale = yes
-			potential = {
-				NOT = {
-					any_friendly_coast_border_province = {
-						gods = 100
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_any_neighbor_has_embraced_renaissance
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-					gods = 100
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = gods
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = tooltip_renaissance_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = gods
-				}
-			}
-		}
-	}
-	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
-		factor = 24
-		
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -495,34 +512,36 @@ new_world_i = {
 	trade_company_efficiency = 0.0
 
 
-	historical_start_date = 1470.1.1
+	historical_start_date = 150.1.1
 	historical_start_province = 930 #Illim
 
 	history = {
 	    OR = {
     			AND = {
-    				is_year = 1490
+    				is_year = 150
     				region = gilda_region
     			}
     			AND = {
-    				is_year = 1530
+    				is_year = 160
     				region = naren_region
+    				region = malai_region
     			}
     			AND = {
-    				is_year = 1590
+    				is_year = 180
     				region = eshlends_region
+    				region = daren_region
+    				region = iela_region
     			}
     			AND = {
-    				is_year = 1620
+    				is_year = 200
     				region = naiamy_region
     			}
-    			#todo: more regions
-    			is_year = 1780
+    			is_year = 250
     		}
 	}
 
 	can_start = {
-		is_year = 1460
+		is_year = 150
 		is_state = yes
 		culture = necromantic_culture
 		development = 10

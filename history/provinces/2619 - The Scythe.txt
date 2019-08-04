@@ -10,3 +10,22 @@ base_manpower = 2
 
 hre = no
 discovered_by = muslim
+
+20.7.1 = {
+    discovered_by = ULE
+    discovered_by = USI
+    discovered_by = ALS
+    discovered_by = ALD
+    discovered_by = OLM
+    discovered_by = DEE
+    discovered_by = ROI
+    discovered_by = ROO
+    discovered_by = BDO
+    discovered_by = BDI
+    discovered_by = USK
+    discovered_by = IRD
+    discovered_by = ALT
+    discovered_by = NAD
+    discovered_by = ORE
+    discovered_by = GES
+}

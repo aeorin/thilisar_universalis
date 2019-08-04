@@ -3,16 +3,55 @@
 ##
 ## written by Johan Andersson & Henrik Lohmander, editted by Lubomir Grund
 ###################################################
-#
-#
-#namespace = institution_events
-#
-#
-#
+
+namespace = institution_events
+
 #########################################
 ## Feudalism
 #########################################
 ## no event needed, available from the start
+#
+#
+########################################
+## Magic
+########################################
+#
+
+country_event = {
+	id = institution_events.10001
+	title = institution_events.magic.t
+	desc = institution_events.magic.d
+
+	picture = {
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		NOT = {
+		    has_global_flag = magic_spawned
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.magic.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		custom_tooltip = institution_events.magic.a.tt
+		hidden_effect = {
+		    set_global_flag = magic_spawned
+		}
+	}
+}
+
 #
 #######################################
 # Renaissance

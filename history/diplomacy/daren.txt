@@ -1,21 +1,21 @@
 alliance = {
 	first = SAN
 	second = URN
-	start_date = 1442.1.1
+	start_date = 10.1.1
 	end_date = 1526.8.29
 }
 
 alliance = {
 	first = SAN
 	second = UTO
-	start_date = 1441.1.1
+	start_date = 11.1.1
 	end_date = 1526.8.29
 }
 
 alliance = {
 	first = UTO
 	second = URN
-	start_date = 1440.1.1
+	start_date = 12.1.1
 	end_date = 1526.8.29
 }
 

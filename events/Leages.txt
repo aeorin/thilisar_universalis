@@ -7,7 +7,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		is_year = 1470
+		is_year = 70
 		NOT = {
 			has_global_flag = leages_enabled
 		}

@@ -1,17 +1,1 @@
-bookmark =
-{
-	name = "DEFAULT_BOOKMARK"
-	desc = "DEFAULT_BOOKMARK"
-	date = 1444.11.11
 
-	center = 2007
-	default = no
-
-	country = MLA
-	country = IMO
-	country = ILI
-	country = GES
-	country = NVT
-
-	easy_country = MLA
-}

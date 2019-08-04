@@ -11,7 +11,7 @@
  INSTITUTION_CAN_APPEAR:1 "Among your provinces it is most likely to appear in $PROVINCE|Y$ due to:\n"
  feudalism:0 "Feudalism"
  renaissance:0 "Gods"
- new_world_i:0 "Necromancy"
+ new_world_i:0 "Controlled necromancy"
  printing_press:0 "Printing Press"
  global_trade:0 "Global Trade"
  manufactories:0 "Manufactories"

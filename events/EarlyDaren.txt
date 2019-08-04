@@ -45,8 +45,8 @@ country_event = {
 				num_of_cities = 10
 			}
 		}
-		is_year = 1450
-		NOT = { is_year = 1530 }
+		is_year = 50
+		NOT = { is_year = 130 }
 		is_subject = no
 		num_of_cities = 10
 	}
