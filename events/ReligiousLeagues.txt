@@ -184,7 +184,17 @@ country_event = {
 			}
 			AND = {
 				NOT = { has_global_flag = evangelical_union_happened }
-				is_year = 125
+				OR = {
+				    AND = {
+				        NOT = {
+				            has_global_flag = second_religious_war
+				        }
+				        is_year = 95
+				    }
+				    AND = {
+				        is_year = 125
+				    }
+				}
 			}
 		}
 	}

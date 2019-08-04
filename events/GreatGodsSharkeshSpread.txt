@@ -1,0 +1,55 @@
+namespace = greatgods
+province_event = {
+	id = greatgods.2004
+	title = "EVTNAME2001.t"
+	desc = "EVTDESC2001.d"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    OR = {
+	        AND = {
+	            region = gilda_region
+		        is_year = 45
+	        }
+	        AND = {
+		        is_year = 50
+		        region = naren_region
+		        region = malai_region
+	        }
+            is_year = 54
+	    }
+		NOT = {
+		    is_year = 62
+		}
+		OR = {
+            religion = catholic
+            religion = orthodox
+        }
+        NOT = {
+            has_province_flag = chose_god
+        }
+        any_neighbor_province = {
+            religion = protestant
+        }
+	}
+
+	mean_time_to_happen = {
+		months = 70
+	}
+
+	option = {
+		name = "EVTOPTA2001.o"
+		owner = {
+		    enable_religion = protestant
+        }
+
+        change_religion = protestant
+        set_province_flag = chose_god
+        add_permanent_province_modifier = {
+            name = "religious_zeal_at_conv"
+            duration = 900
+        }
+	}
+}

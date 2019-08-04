@@ -1,0 +1,31 @@
+country_decisions = {
+
+	kovar_ambitions = {
+		major = yes
+		potential = {
+		    NOT = {
+		        is_year = 100
+		    }
+		    religion = reformed
+		    is_year = 76
+		    hre_leagues_enabled = no
+		}
+		allow = {
+		    NOT = {
+		        is_year = 100
+		    }
+		    religion = reformed
+		    is_year = 76
+		    hre_leagues_enabled = no
+		}
+		effect = {
+		    set_hre_heretic_religion = kovar
+		    enable_hre_leagues = yes
+		    set_global_flag = second_religious_war
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
