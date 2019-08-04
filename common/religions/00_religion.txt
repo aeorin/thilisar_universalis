@@ -526,7 +526,10 @@ christian = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		
+		allowed_conversion = {
+            reformed
+            protestant
+        }
 		
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		

@@ -8,18 +8,17 @@ country_decisions = {
 		    }
 		    religion = reformed
 		    is_year = 76
-		    hre_leagues_enabled = no
 		}
 		allow = {
 		    NOT = {
-		        is_year = 100
+		        is_year = 110
 		    }
 		    religion = reformed
 		    is_year = 76
 		    hre_leagues_enabled = no
 		}
 		effect = {
-		    set_hre_heretic_religion = kovar
+		    set_hre_heretic_religion = reformed
 		    enable_hre_leagues = yes
 		    set_global_flag = second_religious_war
 		}

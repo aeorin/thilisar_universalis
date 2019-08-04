@@ -1,0 +1,202 @@
+namespace = reverb
+
+#kovar_fall
+country_event = {
+	id = reverb.1
+	title = "reverb.1.t"
+	desc = "reverb.1.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = no
+
+	trigger = {
+	    has_global_flag = kovar_fell
+	    NOT = {
+	        has_country_flag = kovar_fell_reverb
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+	    name = "reverb.1.o"
+	    drz_country_flag = kovar_fell_reverb
+	    if = {
+	        limit = {
+	            religion = reformed
+	        }
+            add_mil_power = -100
+            add_dip_power = -100
+            add_adm_power = -100
+            add_stability = -1
+	    }
+	}
+}
+
+#sharkesh_fall
+country_event = {
+	id = reverb.2
+	title = "reverb.2.t"
+	desc = "reverb.2.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = no
+
+	trigger = {
+	    has_global_flag = sharkesh_fell
+	    NOT = {
+	        has_country_flag = sharkesh_fell_reverb
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+	    name = "reverb.2.o"
+	    set_country_flag = sharkesh_fell_reverb
+	    if = {
+	        limit = {
+	            religion = protestant
+	        }
+            add_mil_power = -100
+            add_dip_power = -100
+            add_adm_power = -100
+            add_stability = -1
+	    }
+	}
+}
+
+#sharkesh advancement
+country_event = {
+	id = reverb.3
+	title = "reverb.3.t"
+	desc = "reverb.3.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = no
+
+	trigger = {
+	    has_global_flag = sharkesh_advances
+	    NOT = {
+	        has_country_flag = sharkesh_advances_reverb
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+	    name = "reverb.3.o"
+	    set_country_flag = sharkesh_advances_reverb
+	    if = {
+	        limit = {
+	            religion = protestant
+	        }
+            add_mil_power = 200
+            add_dip_power = 200
+            add_adm_power = 200
+            add_stability = 1
+            capital_scope = {
+                add_base_tax = 1
+                add_base_production = 1
+                add_base_manpower  = 1
+            }
+	    }
+	}
+}
+
+#sharkesh triumph
+country_event = {
+	id = reverb.4
+	title = "reverb.4.t"
+	desc = "reverb.4.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = no
+
+	trigger = {
+	    has_global_flag = sharkesh_advances
+	    NOT = {
+	        has_country_flag = sharkesh_advances_reverb
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+	    name = "reverb.4.o"
+	    set_country_flag = sharkesh_advances_reverb
+	    if = {
+	        limit = {
+	            religion = protestant
+	        }
+            add_mil_power = 300
+            add_dip_power = 300
+            add_adm_power = 300
+            add_stability = 2
+            capital_scope = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower  = 2
+            }
+            every_owned_province = {
+                limit = {
+                    region = gilda_region
+                    culture = necromantic_culture
+                }
+                add_base_production = 5
+            }
+	    }
+	}
+}
+
+
+#kovar triumph
+country_event = {
+	id = reverb.5
+	title = "reverb.5.t"
+	desc = "reverb.5.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = no
+
+	trigger = {
+	    has_global_flag = kovar_triumphant
+	    NOT = {
+	        has_country_flag = kovar_triumphant_reverb
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+	    name = "reverb.5.o"
+	    set_country_flag = kovar_triumphant_reverb
+	    if = {
+	        limit = {
+	            religion = protestant
+	        }
+            add_mil_power = 300
+            add_dip_power = 300
+            add_adm_power = 300
+            add_stability = 2
+            capital_scope = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower  = 2
+            }
+	    }
+	}
+}

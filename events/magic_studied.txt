@@ -1,0 +1,31 @@
+namespace = inst
+province_event = {
+	id = inst.1
+	title = "inst.1.t"
+	desc = "inst.1.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = no
+
+
+	trigger = {
+	    magic_study = 100
+	    NOT = {
+	        magic_presence = 100
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {		# Let us bind their Dynasty to ours
+		name = inst.1.o
+		ai_chance = { factor = 100 }
+        add_institution_embracement = {
+            which = magic_presence
+            value = 100
+        }
+	}
+}
