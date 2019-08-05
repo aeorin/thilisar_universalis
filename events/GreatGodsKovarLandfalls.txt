@@ -21,7 +21,7 @@ province_event = {
 		        is_year = 50
 		        region = gilda_region
 	        }
-            is_year = 54
+            is_year = 55
 	    }
 		NOT = {
 		    is_year = 60

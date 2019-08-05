@@ -1,6 +1,6 @@
 country_decisions = {
 
-	form_daren = {
+	form_lactria = {
 		major = yes
 		potential = {
 			NOT = { has_global_flag = formed_lactria_flag }

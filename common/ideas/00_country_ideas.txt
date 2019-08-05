@@ -155,7 +155,7 @@ daren_ideas = {
 	}
 
 	trigger = {
-		primary_culture = daren_human_culture
+		tag = DRN
 	}
 	free = yes        #will be added at load.
 
@@ -177,8 +177,9 @@ daren_ideas = {
         adm_tech_cost_modifier = -0.2
         dip_tech_cost_modifier = 0.2
     }
-	autonomous_oblasts = {
+	autonomous_prefecture = {
         years_of_nationalism = -5
+        core_creation = -0.1
     }
 	unionised_entrepreneur = {
         merchants = 1

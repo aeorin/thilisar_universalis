@@ -21,7 +21,7 @@ province_event = {
 		        is_year = 52
 		        region = malai_region
 	        }
-            is_year = 55
+            is_year = 56
 	    }
 		NOT = {
 		    is_year = 60

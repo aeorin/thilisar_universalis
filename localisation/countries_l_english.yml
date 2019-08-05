@@ -17,6 +17,8 @@
  HAY:0 "Haydaril"
  AHR:0 "Aharko"
  NRP:0 "Narplin"
+ DRN:0 "Daren"
+ LAC:0 "Lactria"
 
  SAN_ADJ:0 "Saloni"
  URN_ADJ:0 "Urnoni"
@@ -36,6 +38,8 @@
  HAY_ADJ:0 "Haydarili"
  AHR_ADJ:0 "Aharkolese"
  NRP_ADJ:0 "Narplini"
+ DRN_ADJ:0 "Daren"
+ LAC_ADJ:0 "Lactrian"
  #################################################
  ACA:0 "Academy"
  PRE:0 "Parne"

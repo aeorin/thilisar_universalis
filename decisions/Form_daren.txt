@@ -36,7 +36,7 @@ country_decisions = {
             owns = 2650
 		}
 		effect = {
-			change_tag = DAR
+			change_tag = DRN
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 
@@ -53,7 +53,7 @@ country_decisions = {
                 limit = {
                     NOT = { owned_by = ROOT }
                 }
-                add_permanent_claim = DAR
+                add_permanent_claim = DRN
             }
 
             add_country_modifier = {
