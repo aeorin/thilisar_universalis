@@ -186,12 +186,12 @@ province_event = {
 
 	option = {
         name = "necro.1002.a"
-        ai_chance = { factor = 10 }
+        ai_chance = { factor = 5 }
         change_culture = necromantic_culture
     }
 	option = {
         name = "necro.1002.b"
-        ai_chance = { factor = 90 }
+        ai_chance = { factor = 95 }
         add_province_modifier = {
             name = "culled_dead_province"
             duration = 400
