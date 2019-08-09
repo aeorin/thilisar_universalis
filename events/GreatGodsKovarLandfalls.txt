@@ -14,8 +14,8 @@ province_event = {
 		        is_year = 47
 	        }
 	        AND = {
-		        region = naren_region
 		        is_year = 48
+		        region = naren_region
 	        }
 	        AND = {
 		        is_year = 50
