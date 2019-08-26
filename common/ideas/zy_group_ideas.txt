@@ -266,7 +266,7 @@ gildan_human_ideas = {
 	}
 
 	trigger = {
-		primary_culture = naren_human_culture
+		primary_culture = illim_human_culture
 	}
 	free = yes        #will be added at load.
 
