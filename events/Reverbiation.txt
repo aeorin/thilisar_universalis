@@ -23,7 +23,7 @@ country_event = {
 
 	option = {
 	    name = "reverb.1.o"
-	    drz_country_flag = kovar_fell_reverb
+	    set_country_flag = kovar_fell_reverb
 	    if = {
 	        limit = {
 	            religion = reformed
@@ -123,9 +123,9 @@ country_event = {
 	major = no
 
 	trigger = {
-	    has_global_flag = sharkesh_advances
+	    has_global_flag = sharkesh_triumphant
 	    NOT = {
-	        has_country_flag = sharkesh_advances_reverb
+	        has_country_flag = sharkesh_triumphant_reverb
 	    }
 	}
 
@@ -135,7 +135,7 @@ country_event = {
 
 	option = {
 	    name = "reverb.4.o"
-	    set_country_flag = sharkesh_advances_reverb
+	    set_country_flag = sharkesh_triumphant_reverb
 	    if = {
 	        limit = {
 	            religion = protestant

@@ -1,51 +1,52 @@
-namespace = forceleague
-
-#join kovar league
-country_event = {
-    id = forceleague.1
-    title = forceleague.1.t
-    description = forceleague.1.d
-
-    trigger = {
-        religion = reformed
-        any_country = {
-            limit = {
-                in_league = reformed
-            }
-            in_league = reformed
-        }
-        NOT = {
-            in_league = reformed
-        }
-    }
-
-    option = {
-        name = forceleague.1.o
-        join_league = kovar
-    }
-}
-
-#join sharkesh league
-country_event = {
-    id = forceleague.2
-    title = forceleague.2.t
-    description = forceleague.2.d
-
-    trigger = {
-        religion = protestant
-        any_country = {
-            limit = {
-                in_league = protestant
-            }
-            in_league = protestant
-        }
-        NOT = {
-            in_league = protestant
-        }
-    }
-
-    option = {
-        name = forceleague.2.o
-        join_league = kovar
-    }
-}
+#namespace = forceleague
+#
+##join kovar league
+#country_event = {
+#    id = forceleague.1
+#    title = forceleague.1.t
+#    description = forceleague.1.d
+#
+#    trigger = {
+#        religion = reformed
+#        any_country = {
+#            limit = {
+#                in_league = reformed
+#            }
+#            in_league = reformed
+#        }
+#        NOT = {
+#            in_league = reformed
+#        }
+#    }
+#
+#    option = {
+#        name = forceleague.1.o
+#        join_league = kovar
+#    }
+#}
+#
+##join sharkesh league
+#country_event = {
+#    id = forceleague.2
+#    title = forceleague.2.t
+#    description = forceleague.2.d
+#
+#    trigger = {
+#        religion = protestant
+#        any_country = {
+#            limit = {
+#                in_league = protestant
+#            }
+#            in_league = protestant
+#        }
+#        NOT = {
+#            in_league = protestant
+#        }
+#    }
+#
+#    option = {
+#        name = forceleague.2.o
+#        join_league = kovar
+#    }
+#}
+#

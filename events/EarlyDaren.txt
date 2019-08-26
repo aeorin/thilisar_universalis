@@ -154,3 +154,122 @@ country_event = {
         add_prestige = -5
     }
 }
+
+#opinion_add
+country_event = {
+	id = daren.3718
+	title = "daren.EVTNAME3718"
+	desc = "daren.EVTDESC3718"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	fire_only_once = no
+
+
+	trigger = {
+		primary_culture = daren_human_culture
+		any_country = {
+		    primary_culture = daren_human_culture
+		    NOT = {
+                has_opinion_modifier = {
+                    who = ROOT
+                    modifier = daren_compatriot
+                }
+            }
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "daren.EVTOPTA3718.a"
+		ai_chance = { factor = 100 }
+		every_country = {
+		    limit = {
+                primary_culture = daren_human_culture
+                NOT = {
+                    has_opinion_modifier = {
+                        who = ROOT
+                        modifier = daren_compatriot
+                    }
+                }
+            }
+            add_opinion = {
+                who = ROOT
+                modifier = daren_compatriot
+            }
+            reverse_add_opinion = {
+                who = FRA
+                modifier = renounced_as_heretics
+            }
+        }
+	}
+}
+
+
+#opinion_remove
+country_event = {
+	id = daren.3719
+	title = "daren.EVTNAME3719"
+	desc = "daren.EVTDESC3719"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	fire_only_once = no
+
+
+	trigger = {
+        NOT = {
+            primary_culture = daren_human_culture
+        }
+        any_country = {
+            OR = {
+                has_opinion_modifier = {
+                    who = ROOT
+                    modifier = daren_compatriot
+                }
+                reverse_has_opinion_modifier = {
+                    who = ROOT
+                    modifier = daren_compatriot
+                }
+            }
+        }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "daren.EVTOPTA3719.a"
+		ai_chance = { factor = 100 }
+		every_country = {
+		    limit = {
+                OR = {
+                    has_opinion_modifier = {
+                        who = ROOT
+                        modifier = daren_compatriot
+                    }
+                    reverse_has_opinion_modifier = {
+                        who = ROOT
+                        modifier = daren_compatriot
+                    }
+                }
+            }
+            remove_opinion = {
+                who = ROOT
+                modifier = daren_compatriot
+            }
+            reverse_remove_opinion = {
+                who = FRA
+                modifier = renounced_as_heretics
+            }
+        }
+	}
+}
