@@ -5,3 +5,4 @@ technology_group = western
 religion = catholic
 primary_culture = naren_human_culture
 capital = 2611	# Nietsha
+elector = yes

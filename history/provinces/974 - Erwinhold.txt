@@ -1,12 +1,12 @@
-owner = SNO
-controller = SNO
-add_core = SNO
 culture = naren_human_culture
 religion = catholic
 base_tax = 1
 base_production = 1
-#trade_#goods = cloth	#fustians
 base_manpower = 2
+
+owner = ERW
+controller = ERW
+add_core = ERW
 
 hre = yes
 discovered_by = eastern

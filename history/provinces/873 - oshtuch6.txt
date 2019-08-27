@@ -1,12 +1,12 @@
-owner = WER
-controller = WER
-add_core = WER
 culture = naren_human_culture
 religion = catholic
 base_tax = 1
 base_production = 1
-#trade_#goods = cloth	#fustians
 base_manpower = 1
+
+owner = ARO
+controller = ARO
+add_core = ARO
 
 hre = yes
 discovered_by = eastern

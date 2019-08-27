@@ -1,6 +1,3 @@
-owner = LOZ
-controller = LOZ
-add_core = LOZ
 culture = naren_human_culture
 religion = catholic
 base_tax = 1
@@ -8,6 +5,10 @@ base_production = 1
 #trade_#goods = cloth	#fustians
 base_manpower = 1
 capital = "Lozdot"
+
+owner = EWI
+controller = EWI
+add_core = EWI
 
 hre = yes
 discovered_by = eastern

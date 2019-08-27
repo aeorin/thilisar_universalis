@@ -1,12 +1,13 @@
-owner = AHA
-controller = AHA
-add_core = AHA
 culture = naren_human_culture
 religion = catholic
 base_tax = 4
 base_production = 3
-#trade_#goods = cloth	#fustians
 base_manpower = 3
+
+owner = LAR
+controller = LAR
+add_core = LAR
+
 is_city = yes
 hre = yes
 discovered_by = eastern

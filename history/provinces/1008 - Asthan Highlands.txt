@@ -1,12 +1,13 @@
-owner = LMS
-controller = LMS
-add_core = LMS
 culture = high_elf_culture
 religion = confucianism
 base_tax = 1
 base_production = 1
 #trade_#goods = cloth	#fustians
 base_manpower = 1
+
+owner = SNO
+controller = SNO
+add_core = SNO
 
 hre = yes
 discovered_by = eastern

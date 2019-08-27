@@ -91,74 +91,115 @@ erg_steppe_area = { #3
 #################### Naren #####################
 
 eastern_line_area = { #4
-    2612 2485 874 2484
+    779 778 2484 972
 }
 
-ronzhan_delta_area = { #3
-    978 2611 2600
+western_line_area = { #4
+    2848 2610 777 873
+}
+
+lozdot_area = { #4
+    2612 2485 874 2815
+}
+
+ronzhan_delta_area = { #5
+    978 2611 2600 2595 2851
 }
 
 tiega_area = { #4
      2597 898 2490 2006
 }
 
-tropland_area = { #5
+tropland_area = { #4
     1010 1011 2596 2016 862
 }
 
-orgnitsh_area = { #3
-color = { 250 200 150 }
-    2601 979 2022
+lower_tropland_area = { #5
+    color = { 111 222 111 }
+
+    2596 2811 2804
 }
 
-shartanh_area = { #3
-    2510 2005 859
+orgnitsh_area = { #5
+    color = { 111 11 11 }
+
+    2601 979 2022 743 2858
 }
 
-naren_rivers_area = { #6
-    886 1813 2503 2504 2506 2598
+shartanh_area = { #6
+    2510 2005 859 2803 2598 1813
 }
 
-western_line_area = { #3
-    972 2610 873
+ronensand_area = {
+    886 2816 2008 2937
+}
+
+prshava_area = { #5
+    2904 2504 775 795 2946
 }
 
 soanos_area = { #5
-    974 2613 976 977 2609
+    2613 976 977 2609 2881
+}
+
+erwinhold_area = { #3
+    974 786 2868
+}
+
+ortrea_highs_area = { #3
+    2853 780 1095
+}
+
+naason_area = { #5
+    744 2934 2505 2506 776
+}
+
+arangarava_area = { #5
+    781 1809 772 2503 2850
 }
 
 zhunhpa_area = { #3
-    2017 2599 2595
+    2017 2599 2933 2883
 }
 
 low_zamaria_area = { #3
-    864 2497 2498
+    864 2498 2931 2838 2889
 }
 
 upper_zamaria_area = { #4
-    885 2618 1809 2008
+    885 2618 2497 2902
 }
 
-astha_area = { #4
+astha_laren_area = { #4
     color = { 50 250 50 }
 
-    2507 882 1008
+    2507 882 906 881 2854
 }
 
-lunar_mesa_area = { #3
-    909 2493 2007 2520 2546
+elsen_area = { #4
+    color = { 11 11 111 }
+
+    2007 2940 799 2508
+}
+
+ruznava_creek_area = { #4
+    2835 2941 2834 1008
+}
+
+lunar_mesa_area = { #4
+    909 2493 2520 2546
 }
 
 trandia_area = { #3
-    2496 880 2009
+    2496 880 2009 742
 }
 
 eail_area = { #5
-    1006 2511 1005 2594 2625
+    1005 2594 2625 2882
 }
 
-laren_area = { #4
-    2505 906 881 2508
+zolb_area = { #5
+    1006 2511 2930 822
 }
 
 #################### Gilda #####################

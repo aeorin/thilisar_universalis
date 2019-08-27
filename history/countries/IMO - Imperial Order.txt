@@ -5,3 +5,14 @@ technology_group = western
 religion = catholic
 primary_culture = naren_human_culture
 capital = 2510
+
+18.11.29 = {
+	monarch = {
+		name = "Erwin IV"
+		dynasty = "Bolf"
+		birth_date = 2.11.29
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}

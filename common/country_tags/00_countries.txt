@@ -55,6 +55,20 @@ LMS = "countries/Lunarmesa.txt"
 ASE = "countries/Asenia.txt"
 NUA = "countries/Nuan.txt"
 
+ELS = "countries/Elsen.txt"
+TRN = "countries/Trandor.txt"
+ERW = "countries/Erwinhold.txt"
+HMD = "countries/Hamdat.txt"
+HIR = "countries/Hirosh.txt"
+ARO = "countries/Ardonian.txt"
+EWI = "countries/Erwinian.txt"
+LAR = "countries/Laren.txt"
+
+PRS = "countries/Prshava.txt"
+OBE = "countries/Obebro.txt"
+GUS = "countries/Gusing.txt"
+HNN = "countries/Hanan.txt"
+
 ####Naiamy
 ULE = "countries/Ulea.txt"
 USI = "countries/Usil.txt"

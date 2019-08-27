@@ -10,23 +10,32 @@ random_new_world_region = {
 
 naren_region = {
 	areas = {
-		eastern_line_area
-		ronzhan_delta_area
-		tiega_area
-		tropland_area
-		orgnitsh_area
-		shartanh_area
-		naren_rivers_area
-		western_line_area
-		soanos_area
-		zhunhpa_area
-		low_zamaria_area
-		upper_zamaria_area
-		astha_area
-		lunar_mesa_area
-		trandia_area
-		eail_area
-		laren_area
+        eastern_line_area
+        western_line_area
+        lozdot_area
+        ronzhan_delta_area
+        tiega_area
+        tropland_area
+        lower_tropland_area
+        orgnitsh_area
+        shartanh_area
+        ronensand_area
+        prshava_area
+        soanos_area
+        erwinhold_area
+        ortrea_highs_area
+        naason_area
+        arangarava_area
+        zhunhpa_area
+        low_zamaria_area
+        upper_zamaria_area
+        astha_laren_area
+        elsen_area
+        ruznava_creek_area
+        lunar_mesa_area
+        trandia_area
+        eail_area
+        zolb_area
 	}
 }
 

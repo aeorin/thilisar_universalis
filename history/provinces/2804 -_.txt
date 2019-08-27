@@ -1,13 +1,14 @@
-owner = LC6
-controller = LC6
-add_core = LC6
-culture = lactrian_human_culture
+culture = naren_human_culture
 religion = catholic
-base_tax = 1
-base_production = 1
+base_tax = 3
+base_production = 2
 base_manpower = 2
 
-hre = no
+owner = HIR
+controller = HIR
+add_core = HIR
+
+hre = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

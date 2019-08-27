@@ -1,12 +1,13 @@
-owner = LMS
-controller = LMS
-add_core = LMS
 culture = naren_human_culture
 religion = catholic
 base_tax = 1
 base_production = 1
 #trade_#goods = cloth	#fustians
 base_manpower = 1
+
+owner = ELS
+controller = ELS
+add_core = ELS
 
 hre = yes
 discovered_by = eastern
