@@ -52,8 +52,6 @@ RON = "countries/Ronensand.txt"
 AHA = "countries/Astha.txt"
 ARG = "countries/Arangar.txt"
 LMS = "countries/Lunarmesa.txt"
-ASE = "countries/Asenia.txt"
-NUA = "countries/Nuan.txt"
 
 ELS = "countries/Elsen.txt"
 TRN = "countries/Trandor.txt"
@@ -76,6 +74,8 @@ ALS = "countries/Alsipia.txt"
 ALD = "countries/Aldea.txt"
 OLM = "countries/Olma.txt"
 DEE = "countries/Deep.txt"
+ASE = "countries/Asenia.txt"
+NUA = "countries/Nuan.txt"
 
 ####Gilda
 ILI = "countries/Illimistein.txt"
@@ -134,6 +134,9 @@ NRP = "countries/Narplin.txt"
 #formable
 DRN = "countries/Daren.txt"
 LAC = "countries/Lactria.txt"
+
+###Halethin
+HAL = "countries/Halethin.txt"
 
 
 ################################

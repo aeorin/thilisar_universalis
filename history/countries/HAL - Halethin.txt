@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 1
+mercantilism = 25
+technology_group = western
+religion = confucianism
+primary_culture = wood_elf_culture
+capital = 2862	# Ithialen

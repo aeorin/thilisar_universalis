@@ -12,7 +12,6 @@ erbkaisertum = {
 				hre_religion_locked = no
 				hre_religion_treaty = no
 			}
-			set_hre_religion_treaty = yes
 		}	
 		hre_inheritable = yes
 		internal_hre_cb = no

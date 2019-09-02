@@ -88,6 +88,9 @@ categories =  {
 
 			    #daren
 			    2521 915 945 2637 2662 2635 2638 2827 840 2944 2640 844 2649 2650 842 2660 838 2661
+
+			    #halethin
+			    2871 792 2862 787
 			}
 		}
 
@@ -152,28 +155,46 @@ categories =  {
 		}
 
     floodplain = {
-            color = { 20 40 240 }
+        color = { 20 40 240 }
 
-            type = plains
-            sound_type = plains
+        type = plains
+        sound_type = plains
 
-            movement_cost = 0.60
-            local_development_cost = -0.05
-            supply_limit = 10
-            allowed_num_of_buildings = -1
-            nation_designer_cost_multiplier = 1.05
+        movement_cost = 0.60
+        local_development_cost = -0.05
+        supply_limit = 10
+        allowed_num_of_buildings = -1
+        nation_designer_cost_multiplier = 1.05
 
-            terrain_override = {
-                2645 2626 2623 #gilda
+        terrain_override = {
+            2645 2626 2623 #gilda
 
-                #naren
-                978 2600 2601 2598 1813 886 2504 2503 2858 2853 2941
-                2506 2530 920 2514 2883 2937 742 2934 2854 2834
+            #naren
+            978 2600 2601 2598 1813 886 2504 2503 2858 2853 2941
+            2506 2530 920 2514 2883 2937 742 2934 2854 2834
 
-                961 2023 2639 965 #malai
-                940 843 2686 2636 2653 841 #daren
-            }
+            961 2023 2639 965 #malai
+            940 843 2686 2636 2653 841 #daren
+            791 2836 #halethin
         }
+    }
+
+    mangrove = {
+        color = { 20 140 35 }
+
+		type = forest
+		sound_type = forest
+
+        movement_cost = 2.30
+        local_development_cost = 0.25
+        supply_limit = 10
+        allowed_num_of_buildings = -1
+        nation_designer_cost_multiplier = 1.05
+
+        terrain_override = {
+            2846 2844 790 #halethin
+        }
+    }
 
 	farmlands = {
 		color = { 179 255 64 }
@@ -236,6 +257,10 @@ categories =  {
 		    #daren
 		    2513 808 2629 2630 2900 2832 917 2517 2945 911 2647 2826 814
 		    811 849 913 810
+
+		    #halethin
+		    2870 2869 2863 782 2874 2841 2847 2845 2876 2875 2845
+		    485 785 265 2486 783 2861 2872 484 2865
 		}
 	}
 	
@@ -296,6 +321,7 @@ categories =  {
 		    2520 2532 908 939 925 2542 928 #gilda
 		    2546 2556 994 995 2579 2586 2566 #malai
             2823 2631 847 807 800 809 806 914 912 #daren
+            2860 2877 2866 #halethin
 		}
 	}
 
@@ -325,6 +351,7 @@ categories =  {
 		    2552 952 955 2557 #malai
 		    898 #naren
 		    2824 816 #daren
+		    2843 2849 2873 2842 784 #halethin
 		}
 	}
 

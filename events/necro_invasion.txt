@@ -1,0 +1,135 @@
+#necro invasion
+country_event = {
+	id = necro.1011
+	title = "EVTNAME1011.t"
+	desc = "EVTDESC1011.d"
+	picture = RELIGION_eventPicture
+
+	major = yes
+
+	trigger = {
+	    primary_culture = necromantic_culture
+	    OR = {
+	        capital_scope = {
+	            base_tax = 50
+	        }
+	        is_year = 500
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTNAME1011.ob"
+		trigger = {
+		    790 = {
+		        is_empty = yes
+		    }
+		}
+		790 = {
+		    add_core = ROOT
+		    cede_province = ROOT
+		    add_base_tax = 3
+		    add_base_production  = 3
+		    add_base_manpower = 3
+		    add_building = fort_16th
+		}
+		capital_scope = {
+            add_base_tax = -10
+        }
+	}
+
+    option = {
+        name = "EVTNAME1011.oc"
+        trigger = {
+            790 = {
+                owned_by = ROOT
+            }
+		    2843 = {
+		        is_empty = yes
+		    }
+        }
+        2843 = {
+            add_core = ROOT
+            cede_province = ROOT
+            add_base_tax = 3
+            add_base_production  = 3
+            add_base_manpower = 3
+        }
+        capital_scope = {
+            add_base_tax = -10
+        }
+    }
+
+    option = {
+        name = "EVTNAME1011.od"
+        trigger = {
+            790 = {
+                owned_by = ROOT
+            }
+		    2836 = {
+		        is_empty = yes
+		    }
+        }
+        2836 = {
+            add_core = ROOT
+            cede_province = ROOT
+            add_base_tax = 3
+            add_base_production  = 3
+            add_base_manpower = 3
+        }
+        capital_scope = {
+            add_base_tax = -10
+        }
+    }
+
+    option = {
+        name = "EVTNAME1011.oe"
+        trigger = {
+            790 = {
+                owned_by = ROOT
+            }
+		    2846 = {
+		        is_empty = yes
+		    }
+        }
+        2846 = {
+            add_core = ROOT
+            cede_province = ROOT
+            add_base_tax = 3
+            add_base_production  = 3
+            add_base_manpower = 3
+        }
+        capital_scope = {
+            add_base_tax = -10
+        }
+    }
+
+    option = {
+        name = "EVTNAME1011.of"
+        trigger = {
+            790 = {
+                owned_by = ROOT
+            }
+		    2844 = {
+		        is_empty = yes
+		    }
+        }
+        2844 = {
+            add_core = ROOT
+            cede_province = ROOT
+            add_base_tax = 3
+            add_base_production  = 3
+            add_base_manpower = 3
+        }
+        capital_scope = {
+            add_base_tax = -10
+        }
+    }
+
+	option = {
+		name = "EVTNAME1011.oa"
+	}
+}

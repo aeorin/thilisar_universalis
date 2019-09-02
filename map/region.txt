@@ -161,8 +161,23 @@ daren_region = {
     }
 }
 
+halethin_region = {
+    areas = {
+        halethin_area_01
+        halethin_area_02
+        halethin_area_03
+        halethin_area_04
+        halethin_area_05
+        halethin_area_06
+        halethin_area_07
+        halethin_area_08
+        halethin_area_09
+        halethin_area_10
+        halethin_area_11
+    }
+}
+
 iela_region = {areas = {iela_area}}
-halethin_region = {areas = {halethin_area}}
 gultamal_region = {areas = {gultamal_area}}
 sinkal_region = {areas = {sinkal_area}}
 carnivore_region = {areas = {carnivore_area}}
