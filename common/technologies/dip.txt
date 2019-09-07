@@ -365,3 +365,43 @@ technology = { #The Gold Standard
 	trade_range				=	20
 	global_colonial_growth  = 	50
 }
+
+technology = {
+	# Tech 33
+	year = 450
+
+	trade_efficiency 		= 	0.005
+	trade_range				=	10
+	culture_conversion_cost = -0.05
+	naval_morale			=	0.1
+}
+
+technology = {
+	# Tech 34
+	year = 465
+
+	trade_efficiency 		= 	0.005
+	trade_range				=	10
+	culture_conversion_cost = -0.05
+	naval_morale			=	0.1
+}
+
+technology = {
+	# Tech 35
+	year = 480
+
+	trade_efficiency 		= 	0.005
+	trade_range				=	10
+	culture_conversion_cost = -0.05
+	naval_morale			=	0.1
+}
+
+technology = {
+	# Tech 36
+	year = 500
+
+	trade_efficiency 		= 	0.005
+	trade_range				=	10
+	culture_conversion_cost = -0.05
+	naval_morale			=	0.1
+}

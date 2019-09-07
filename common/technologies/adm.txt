@@ -302,3 +302,40 @@ technology = { #Four Field Rotation
 	#Four field rotation
 	production_efficiency 	=	0.02
 }
+
+technology = {
+	# Tech 33
+	year = 450
+
+	production_efficiency 	=	0.025
+	administrative_efficiency = 0.025
+	development_efficiency = 0.025
+	max_states = 1
+}
+
+technology = {
+	# Tech 34
+	year = 465
+
+	production_efficiency 	=	0.025
+	administrative_efficiency = 0.025
+	development_efficiency = 0.025
+	max_states = 1
+}
+
+technology = {
+	# Tech 35
+	year = 465
+
+	production_efficiency 	=	0.025
+	administrative_efficiency = 0.025
+	development_efficiency = 0.025
+	max_states = 1
+}
+
+technology = {
+ 	# Tech 36
+ 	year = 500
+
+	allowed_idea_groups = 9
+ }

@@ -656,3 +656,40 @@ technology = {
 	artillery_shock		=	0.1
 	artillery_fire		=	2.0	
 }
+
+technology = {
+	# Tech 33
+	year = 450
+
+	military_tactics	=	0.1
+	land_morale			=	0.2
+	supply_limit		=	0.1
+	artillery_power = 0.1
+}
+
+technology = {
+	# Tech 34
+	year = 465
+
+	military_tactics	=	0.1
+	land_morale			=	0.2
+	supply_limit		=	0.1
+	artillery_power = 0.1
+}
+
+technology = {
+	# Tech 35
+	year = 480
+
+	military_tactics	=	0.1
+	land_morale			=	0.2
+	supply_limit		=	0.1
+	artillery_power = 0.1
+}
+
+technology = {
+	# Tech 33
+	year = 450
+
+	discipline = 0.5
+}
