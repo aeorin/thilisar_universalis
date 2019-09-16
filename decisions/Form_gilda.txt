@@ -5,14 +5,14 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_flag = formed_gilda_flag }
 			NOT = { exists = GIL }
-			has_institution = new_world_i
+			has_institution = controlled_necomancy
 			culture_group = human_group
 		}
 		provinces_to_highlight = {
             province_id = 930
 		}
 		allow = {
-			has_institution = new_world_i
+			has_institution = controlled_necomancy
 			NOT = { has_country_flag = formed_gilda_flag }
 			NOT = { exists = GIL }
 			is_at_war = no
