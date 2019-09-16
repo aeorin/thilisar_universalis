@@ -153,16 +153,27 @@ human_group = {
         }
     }
     daren_human_culture = {
-         male_names = {
-             Khamire Xuomire Langire Fengire
-         }
-         female_names = {
-             Sunti Wunti Xinti
-         }
-         dynasty_names = {
-             Ura Hiktura Flitura
-         }
-     }
+        male_names = {
+            Khamire Xuomire Langire Fengire
+        }
+        female_names = {
+            Sunti Wunti Xinti
+        }
+        dynasty_names = {
+            Ura Hiktura Flitura
+        }
+    }
+    ielan_human_culture = {
+        male_names = {
+            Yaren Umrus Or-Imur
+        }
+        female_names = {
+            Intra Ata-Ala
+        }
+        dynasty_names = {
+            Tinli Horlus Amudzati
+        }
+    }
 }
 
 undead_group = {

@@ -138,5 +138,14 @@ LAC = "countries/Lactria.txt"
 ###Halethin
 HAL = "countries/Halethin.txt"
 
+###Iela
+IEL = "countries/Iela.txt"
+ORO = "countries/Oros.txt"
+PRI = "countries/Paria.txt"
+ALA = "countries/Alamein.txt"
+UMB = "countries/Umbos.txt"
+NOB = "countries/Nobos.txt"
+ILN = "countries/Ilimina.txt"
+TAL = "countries/Talamein.txt"
 
 ################################

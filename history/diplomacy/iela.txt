@@ -1,0 +1,14 @@
+alliance = {
+	first = PRI
+	second = PTS
+	start_date = 10.1.1
+	end_date = 1526.8.29
+}
+
+
+vassal = {
+	first = IEL
+	second = ORO
+	start_date = 10.1.1
+	end_date = 1526.8.29
+}

@@ -177,7 +177,21 @@ halethin_region = {
     }
 }
 
-iela_region = {areas = {iela_area}}
+iela_region = {
+    areas = {
+        iela_area_01
+        iela_area_02
+        iela_area_03
+        iela_area_04
+        iela_area_05
+        iela_area_06
+        iela_area_07
+        iela_area_08
+        iela_area_09
+        iela_area_10
+    }
+}
+
 gultamal_region = {areas = {gultamal_area}}
 sinkal_region = {areas = {sinkal_area}}
 carnivore_region = {areas = {carnivore_area}}

@@ -89,13 +89,15 @@ discovered_by = north_american
     discovered_by = LC6
     discovered_by = LC7
     discovered_by = LC8
-    discovered_by = LC9
+discovered_by = LC9
     discovered_by = IXA
     discovered_by = ZME
     discovered_by = DIN
     discovered_by = HAY
     discovered_by = AHR
     discovered_by = NRP
+    discovered_by = IEL
+    discovered_by = PRI
 }
 
 extra_cost = 8
