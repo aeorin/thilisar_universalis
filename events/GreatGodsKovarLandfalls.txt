@@ -21,7 +21,14 @@ province_event = {
 		        is_year = 50
 		        region = gilda_region
 	        }
-            is_year = 55
+	        AND = {
+                is_year = 58
+                region = iela_region
+            }
+            AND = {
+                is_year = 55
+                NOT = { region = iela_region }
+            }
 	    }
 		NOT = {
 		    is_year = 60
