@@ -708,7 +708,7 @@ controlled_necomancy = {
 #######################################
 # New World = Shamanism
 #######################################
-shamanism = {
+shamans = {
 	penalty = 0.5
 
 	bonus = {
@@ -768,14 +768,14 @@ shamanism = {
 			factor = 1.2
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_shamanism
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_shamans
 				any_friendly_coast_border_province = {
-					shamanism = 100
+					shamans = 100
 				}
 			}
             potential = {
                 any_friendly_coast_border_province = {
-                    shamanism = 100
+                    shamans = 100
                 }
             }
 		}
@@ -787,15 +787,15 @@ shamanism = {
 				has_port = yes
 				NOT = {
 					any_friendly_coast_border_province = {
-						shamanism = 100
+						shamans = 100
 					}
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_neighbor_port_province_shamanism
+				tooltip = tooltip_neighbor_port_province_shamans
 				has_port = yes
 				any_neighbor_province = {
-					shamanism = 100
+					shamans = 100
 				}
 			}
 		}
@@ -805,15 +805,15 @@ shamanism = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = shamanism
+					has_institution = shamans
 				}
 			}
 
 			custom_trigger_tooltip = {
-				tooltip = tooltip_shamanism_embraced
+				tooltip = tooltip_shamans_embraced
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = shamanism
+					has_institution = shamans
 				}
 			}
 		}
