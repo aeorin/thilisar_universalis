@@ -328,3 +328,276 @@ country_event = {
 		}
 	}
 }
+
+#######################################
+# Shamansim
+#######################################
+country_event = {
+	id = institution_events.5
+	title = institution_events.shamanism.t
+	desc = institution_events.shamanism.d
+
+	picture = {
+	    trigger = {
+
+	    }
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		NOT = {
+		    has_global_flag = shamanism_spawned
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.shamanism.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		custom_tooltip = institution_events.shamanism.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_shamanism"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+		    set_global_flag = shamanism_spawned
+			every_country = {
+				country_event = { id = institution_events.500 }
+			}
+			2486 = {
+                add_institution_embracement = {
+                    which = druidism
+                    value = 100
+                }
+                owner = {
+                    country_event = { id = institution_events.501 }
+                }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.500
+	title = institution_events.500.t
+	desc = institution_events.500.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.500.a
+		custom_tooltip = institution_events.500.a.tt
+	}
+}
+
+
+country_event = {
+	id = institution_events.501
+	title = institution_events.501.t
+	desc = institution_events.501.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.501.a
+		custom_tooltip = institution_events.501.a.tt
+	}
+}
+
+#######################################
+# Druidism
+#######################################
+country_event = {
+	id = institution_events.6
+	title = institution_events.druidism.t
+	desc = institution_events.druidism.d
+
+	picture = {
+	    trigger = {
+
+	    }
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		NOT = {
+		    has_global_flag = druidism_spawned
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.druidism.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		custom_tooltip = institution_events.druidism.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_druidism"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+		    set_global_flag = druidism_spawned
+			every_country = {
+				country_event = { id = institution_events.600 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.600
+	title = institution_events.600.t
+	desc = institution_events.600.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.600.a
+		custom_tooltip = institution_events.600.a.tt
+	}
+}
+
+#######################################
+# Crystaline magic
+#######################################
+country_event = {
+	id = institution_events.7
+	title = institution_events.crystaline_magic.t
+	desc = institution_events.crystaline_magic.d
+
+	picture = {
+	    trigger = {
+
+	    }
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		NOT = {
+		    has_global_flag = crystaline_magic_spawned
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.crystaline_magic.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		custom_tooltip = institution_events.crystaline_magic.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_crystaline_magic"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+		    set_global_flag = crystaline_magic_spawned
+			every_country = {
+				country_event = { id = institution_events.700 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.700
+	title = institution_events.700.t
+	desc = institution_events.700.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.700.a
+		custom_tooltip = institution_events.700.a.tt
+	}
+}

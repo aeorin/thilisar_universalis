@@ -704,3 +704,417 @@ controlled_necomancy = {
 		}
 	}
 }
+
+#######################################
+# New World = Shamanism
+#######################################
+shamanism = {
+	penalty = 0.5
+
+	bonus = {
+		shock_damage_received = -0.2
+	}
+
+	trade_company_efficiency = 0.0
+
+	historical_start_date = 200.1.1
+	historical_start_province = 847 #blizko gultamalu
+
+	history = {
+	    OR = {
+    			AND = {
+    				is_year = 200
+    				region = gultamal_region
+    			}
+    			AND = {
+    				is_year = 230
+    				region = daren_region
+    				region = halethin_region
+    			}
+    			AND = {
+    				is_year = 260
+    				region = malai_region
+    				region = iela_region
+    			}
+    			AND = {
+    				is_year = 290
+    				region = naren_region
+    				region = gilda_region
+    				region = eshlends_region
+    				region = naiamy_region
+    			}
+    			is_year = 330
+    		}
+	}
+
+	can_start = {
+	    #fix
+		is_year = 200
+		province_id = 847
+	}
+	start_chance = 100		#in 100 for when a province can_start
+
+
+	on_start = institution_events.5
+
+	can_embrace = {
+		always = yes
+	}
+
+
+	embracement_speed = {
+
+		modifier = {
+			factor = 1.2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_shamanism
+				any_friendly_coast_border_province = {
+					shamanism = 100
+				}
+			}
+            potential = {
+                any_friendly_coast_border_province = {
+                    shamanism = 100
+                }
+            }
+		}
+
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				has_port = yes
+				NOT = {
+					any_friendly_coast_border_province = {
+						shamanism = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_shamanism
+				has_port = yes
+				any_neighbor_province = {
+					shamanism = 100
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = shamanism
+				}
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = tooltip_shamanism_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = shamanism
+				}
+			}
+		}
+	}
+
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#######################################
+# Druidism
+#######################################
+druidism = {
+	penalty = 0.5
+
+	bonus = {
+		defensiveness = 0.25
+	}
+
+	trade_company_efficiency = 0.0
+
+	historical_start_date = 250.1.1
+	historical_start_province = 2656 #Irmina
+
+	history = {
+	    OR = {
+    			AND = {
+    				is_year = 250
+    				region = iela_region
+    			}
+    			AND = {
+    				is_year = 280
+    				region = naren_region
+    			}
+    			AND = {
+    				is_year = 300
+    				region = daren_region
+    				region = gilda_region
+    			}
+    			AND = {
+    				is_year = 330
+    				region = malai_region
+    				region = eshlends_region
+    			}
+    			is_year = 360
+    		}
+	}
+
+	can_start = {
+	    #fix
+		is_year = 250
+		province_id = 2656
+	}
+	start_chance = 100		#in 100 for when a province can_start
+
+
+	on_start = institution_events.6
+
+	can_embrace = {
+		always = yes
+	}
+
+
+embracement_speed = {
+
+		modifier = {
+			factor = 1.2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_druidism
+				any_friendly_coast_border_province = {
+					druidism = 100
+				}
+			}
+            potential = {
+                any_friendly_coast_border_province = {
+                    druidism = 100
+                }
+            }
+		}
+
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				has_port = yes
+				NOT = {
+					any_friendly_coast_border_province = {
+						druidism = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_druidism
+				has_port = yes
+				any_neighbor_province = {
+					druidism = 100
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = druidism
+				}
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = tooltip_druidism_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = druidism
+				}
+			}
+		}
+	}
+
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#######################################
+# Crystaline magic
+#######################################
+crystaline_magic = {
+	penalty = 0.5
+
+	bonus = {
+		defensiveness = 0.25
+	}
+
+	trade_company_efficiency = 0.0
+
+	historical_start_date = 280.1.1
+	historical_start_province = 2656 #Irmina
+
+	history = {
+	    OR = {
+    			AND = {
+    				is_year = 250
+    				region = iela_region
+    			}
+    			AND = {
+    				is_year = 280
+    				region = naren_region
+    			}
+    			AND = {
+    				is_year = 300
+    				region = daren_region
+    				region = gilda_region
+    			}
+    			AND = {
+    				is_year = 330
+    				region = malai_region
+    				region = eshlends_region
+    			}
+    			is_year = 360
+    		}
+	}
+
+	can_start = {
+	    #fix
+		is_year = 280
+		province_id = 2656
+	}
+	start_chance = 100		#in 100 for when a province can_start
+
+
+	on_start = institution_events.7
+
+	can_embrace = {
+		always = yes
+	}
+
+
+embracement_speed = {
+
+		modifier = {
+			factor = 1.2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_crystaline_magic
+				any_friendly_coast_border_province = {
+					crystaline_magic = 100
+				}
+			}
+            potential = {
+                any_friendly_coast_border_province = {
+                    crystaline_magic = 100
+                }
+            }
+		}
+
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				has_port = yes
+				NOT = {
+					any_friendly_coast_border_province = {
+						crystaline_magic = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_crystaline_magic
+				has_port = yes
+				any_neighbor_province = {
+					crystaline_magic = 100
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = crystaline_magic
+				}
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = tooltip_crystaline_magic_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = crystaline_magic
+				}
+			}
+		}
+	}
+
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}

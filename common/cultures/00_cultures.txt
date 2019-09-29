@@ -176,6 +176,20 @@ human_group = {
     }
 }
 
+druidic_group = {
+    crystal_druidic_culture = {
+        male_names = {
+            Yar Umr Imr
+        }
+        female_names = {
+            Int Atl
+        }
+        dynasty_names = {
+            Til Hor Amu
+        }
+    }
+}
+
 undead_group = {
     necromantic_culture = {
         male_names = {
