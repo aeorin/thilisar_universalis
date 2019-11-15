@@ -1,0 +1,48 @@
+country_decisions = {
+
+	druidise_iela = {
+		major = yes
+		potential = {
+			has_institution = druidism
+			culture = ielan_human_culture
+		}
+		allow = {
+			has_institution = druidism
+			culture = ielan_human_culture
+			is_at_war = no
+			any_owned_province = {
+			    crystaline_magic = 100
+			}
+		}
+		effect = {
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			change_primary_culture = crystal_druidic_culture
+            if = {
+                limit = {
+                    NOT = {
+                        government = theocracy
+                    }
+                }
+                change_government = theocracy
+            }
+
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

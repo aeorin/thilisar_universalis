@@ -335,7 +335,44 @@ daren_human_ideas = {
 	independent_entrepreneur = {
         merchants = 1
     }
+}
 
+druidic_ideas = {
+	start = {
+		fort_maintenance_modifier = -0.5
+	}
+
+	bonus = {
+		development_cost = -0.15
+	}
+
+	trigger = {
+		culture_group = crystal_druidic_culture
+	}
+	free = yes		#will be added at load.
+
+	nine_garrisons_of_the_great_crystall = {
+		defensiveness = 0.15
+		garrison_size = 0.50
+	}
+	revived_three_grand_divisions = {
+		discipline = 0.05
+	}
+	inward_perfection = {
+		stability_cost_modifier = -0.10
+	}
+	iela_river_dykes = {
+		production_efficiency = 0.1
+	}
+	lattice_primacy = {
+		garrison_size = 0.50
+	}
+	single_whip_law = {
+		global_tax_modifier = 0.10
+	}
+	the_red_cannon = {
+		leader_land_fire = 1
+	}
 }
 
 #malaian_ideas = {
