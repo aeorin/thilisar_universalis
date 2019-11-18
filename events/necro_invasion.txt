@@ -131,5 +131,60 @@ country_event = {
 
 	option = {
 		name = "EVTNAME1011.oa"
+		trigger = {
+            OR = {
+                790 = {
+                    is_empty = yes
+                }
+                2843 = {
+                    is_empty = yes
+                }
+                2836 = {
+                    is_empty = yes
+                }
+                2846 = {
+                    is_empty = yes
+                }
+                2844 = {
+                    is_empty = yes
+                }
+            }
+		}
+		capital_scope = {
+            add_base_tax = -10
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+            ROOT = {
+                infantry = PREV
+            }
+        }
+        add_adm_power = 20
+        add_mil_power = 20
+        add_dip_power = 20
 	}
 }

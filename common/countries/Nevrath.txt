@@ -8,7 +8,6 @@ historical_idea_groups = {
 	expansion_ideas
 	defensive_ideas
 	offensive_ideas
-	diplomatic_ideas
 }
 
 historical_units = {
