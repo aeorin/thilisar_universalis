@@ -28,6 +28,7 @@ province_event = {
             AND = {
                 is_year = 55
                 NOT = { region = iela_region }
+                NOT = { region = gultamal_region }
             }
 	    }
 		NOT = {

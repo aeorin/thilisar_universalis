@@ -192,7 +192,32 @@ iela_region = {
     }
 }
 
-gultamal_region = {areas = {gultamal_area}}
+gultamal_region = {
+    areas = {
+        gultamal_area_01
+        gultamal_area_02
+        gultamal_area_03
+        gultamal_area_04
+        gultamal_area_05
+        gultamal_area_06
+        gultamal_area_07
+        gultamal_area_08
+        gultamal_area_10
+        gultamal_area_11
+        gultamal_area_12
+        gultamal_area_13
+        gultamal_area_14
+        gultamal_area_15
+        gultamal_area_16
+        gultamal_area_17
+        gultamal_area_18
+        gultamal_area_19
+        gultamal_area_20
+        gultamal_area_21
+        gultamal_area_22
+        gultamal_area_23
+    }
+}
 sinkal_region = {areas = {sinkal_area}}
 carnivore_region = {areas = {carnivore_area}}
 new_carnivore_region = {areas = {new_carnivore_area}}

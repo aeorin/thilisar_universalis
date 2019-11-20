@@ -32,6 +32,7 @@ feudalism = {
 			region = naiamy_region
 			region = gilda_region
 			region = daren_region
+			region = gultamal_region
 			culture_group = elosven_group
 			AND = {
 			    region = malai_region

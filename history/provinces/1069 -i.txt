@@ -69,6 +69,7 @@ discovered_by = north_american
     discovered_by = SHI
     discovered_by = PAD
     discovered_by = OLA
+    discovered_by = ZAR
     discovered_by = ILM
     discovered_by = SAT
     discovered_by = SAN

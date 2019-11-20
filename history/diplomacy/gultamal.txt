@@ -1,0 +1,20 @@
+vassal = {
+	first = ANT
+	second = SLV
+	start_date = 10.1.1
+	end_date = 1526.8.29
+}
+
+alliance = {
+	first = JUD
+	second = PRO
+	start_date = 10.1.1
+	end_date = 1526.8.29
+}
+
+guarantee = {
+	first = ANT
+	second = RDM
+	start_date = 10.1.1
+	end_date = 1526.8.29
+}

@@ -1,0 +1,6 @@
+government = republic
+mercantilism = 70
+technology_group = western
+religion = atheism
+primary_culture = gultar_culture
+capital = 4694

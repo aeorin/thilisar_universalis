@@ -420,7 +420,28 @@ iela_area_08 = { 486 483 487 488 }
 iela_area_09 = { 500 2658 997 490 489 }
 iela_area_10 = { 2659 1069 }
 #################### Gultamal #####################
-gultamal_area = {2020}
+gultamal_area_01 = {4697 4694 4695 4698 4696}
+gultamal_area_02 = {4748 4756 4701 4702 }
+gultamal_area_03 = {4740 4726 4741}
+gultamal_area_04 = {4724 4757 4725}
+gultamal_area_05 = {4739 4759 4703}
+gultamal_area_06 = {4738 4760 4699}
+gultamal_area_07 = {4713 4781 4775 4728 4727}
+gultamal_area_08 = {4705 4779 4783 4780}
+gultamal_area_10 = {4704 4786 4785 4784 4782}
+gultamal_area_11 = {4761 4777 4776 4774}
+gultamal_area_12 = {4711 4730 4729 4712}
+gultamal_area_13 = {4710 4750 4749}
+gultamal_area_14 = {4714 4762 4735}
+gultamal_area_15 = {4773 4772 4734 4769 4766}
+gultamal_area_16 = {4742 4745}
+gultamal_area_17 = {4708 4751 4736 4737}
+gultamal_area_18 = {4755 4763 4754 4700}
+gultamal_area_19 = {4744 4731 4743}
+gultamal_area_20 = {4733 4732 4753 4764}
+gultamal_area_21 = {4747 4746}
+gultamal_area_22 = {4752 4706 4765}
+gultamal_area_23 = {4770 4771 4767}
 #################### Sinkal #####################
 sinkal_area = {2004 973}
 #################### Carnivore #####################

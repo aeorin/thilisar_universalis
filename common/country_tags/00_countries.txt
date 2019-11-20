@@ -148,4 +148,12 @@ NOB = "countries/Nobos.txt"
 ILN = "countries/Ilimina.txt"
 TAL = "countries/Talamein.txt"
 
+###Gultamal
+ANT = "countries/Antioch.txt"
+JUD = "countries/Judgement.txt"
+PRO = "countries/Providence.txt"
+RDM = "countries/Redemption.txt"
+SLV = "countries/Salvation.txt"
+ZAR = "countries/Zaren.txt"
+
 ################################

@@ -1,0 +1,27 @@
+country_decisions = {
+
+	gultar_impl = {
+		major = no
+		potential = {
+			culture_group = gultar_group
+		}
+		allow = {
+			culture_group = gultar_group
+			is_at_war = no
+		}
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			change_primary_culture = crystal_druidic_culture
+
+            add_country_modifier = {
+                name = "gultar_technology"
+                duration = -1
+            }
+			add_prestige = -200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

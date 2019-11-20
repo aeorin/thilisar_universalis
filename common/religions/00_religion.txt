@@ -1481,3 +1481,22 @@ zoroastrian_group = {
 	crusade_name = HOLY_WAR
 	
 }
+
+
+atheist_group = {
+	atheism = {
+		icon = 24
+		color = { 22 22 99 }
+		province = {
+		}
+		country = {
+			tolerance_heathen = 3
+			trade_efficiency = 0.1
+		}
+		country_as_secondary = {
+		}
+	}
+
+	crusade_name = ENLIGHTENMENT_CAMPAIGN
+
+}

@@ -163,6 +163,17 @@ human_group = {
             Ura Hiktura Flitura
         }
     }
+    zaren_human_culture = {
+        male_names = {
+            Robert Archibald Wilfred Henry
+        }
+        female_names = {
+            Arabella Esther Emma
+        }
+        dynasty_names = {
+            Cox Carr Newman
+        }
+    }
     ielan_human_culture = {
         male_names = {
             Yaren Umrus Or-Imur
@@ -186,6 +197,20 @@ druidic_group = {
         }
         dynasty_names = {
             Til Hor Amu
+        }
+    }
+}
+
+gultar_group = {
+    gultar_culture = {
+        male_names = {
+            Hegio Giddenis Aureolus
+        }
+        female_names = {
+            Axia Aurelia Atia
+        }
+        dynasty_names = {
+            Paetus Salonius Pulo
         }
     }
 }

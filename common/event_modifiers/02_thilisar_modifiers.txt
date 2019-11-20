@@ -8,3 +8,16 @@ culled_dead_province = {
 ghouls_province = {
     local_manpower_modifier = 1.25
 }
+gultar_technology = {
+    fire_damage = 10.0
+    fire_damage_received = -0.3
+    shock_damage_received = -0.3
+    global_tax_modifier = 2.0
+    production_efficiency = 2.0
+    development_cost = -0.6
+    core_creation = 99.0
+    local_friendly_movement_speed = 0.8
+    province_warscore_cost = 99.0
+    enemy_core_creation = 0.9
+    siege_ability = 5.0
+}
