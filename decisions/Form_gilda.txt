@@ -25,6 +25,16 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = GIL
+		    every_province = {
+                kill_units = {
+                    who = GIL
+                    type = cavalry
+                }
+                kill_units = {
+                    who = GIL
+                    type = artillery
+                }
+		    }
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			change_primary_culture = necromantic_culture

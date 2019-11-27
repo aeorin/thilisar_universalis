@@ -372,7 +372,6 @@ technology = {
 
 	trade_efficiency 		= 	0.005
 	trade_range				=	10
-	culture_conversion_cost = -0.05
 	naval_morale			=	0.1
 }
 
@@ -382,7 +381,6 @@ technology = {
 
 	trade_efficiency 		= 	0.005
 	trade_range				=	10
-	culture_conversion_cost = -0.05
 	naval_morale			=	0.1
 }
 
@@ -392,7 +390,6 @@ technology = {
 
 	trade_efficiency 		= 	0.005
 	trade_range				=	10
-	culture_conversion_cost = -0.05
 	naval_morale			=	0.1
 }
 
@@ -402,6 +399,5 @@ technology = {
 
 	trade_efficiency 		= 	0.005
 	trade_range				=	10
-	culture_conversion_cost = -0.05
 	naval_morale			=	0.1
 }

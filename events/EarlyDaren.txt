@@ -1,8 +1,10 @@
+namespace = daren
+
 #wedding
 country_event = {
-	id = daren.3716
-	title = "daren.EVTNAME3716"
-	desc = "daren.EVTDESC3716"
+	id = 3716
+	title = "EVTNAME3716"
+	desc = "EVTDESC3716"
 	picture = DIPLOMACY_eventPicture
 
 	major = yes
@@ -74,7 +76,7 @@ country_event = {
 
 
 	option = {		# Let us bind their Dynasty to ours
-		name = "daren.EVTOPTA3716"
+		name = "EVTOPTA3716"
 		ai_chance = { factor = 90 }
 		if = {
 			limit = { tag = SAN }
@@ -111,9 +113,9 @@ country_event = {
 
 #conversion
 country_event = {
-	id = daren.3717
-	title = "daren.EVTNAME3717"
-	desc = "daren.EVTDESC3717"
+	id = 3717
+	title = "EVTNAME3717"
+	desc = "EVTDESC3717"
 	picture = RELIGION_eventPicture
 
 	major = no
@@ -134,7 +136,7 @@ country_event = {
 
 
 	option = {
-		name = "daren.EVTOPTA3717.a"
+		name = "EVTOPTA3717.a"
 		ai_chance = { factor = 90 }
 		random_owned_province = {
 		    limit = {
@@ -149,7 +151,7 @@ country_event = {
 	}
 
     option = {
-        name = "daren.EVTOPTA3717.b"
+        name = "EVTOPTA3717.b"
         ai_chance = { factor = 10 }
         add_prestige = -5
     }
@@ -157,9 +159,9 @@ country_event = {
 
 #opinion_add
 country_event = {
-	id = daren.3718
-	title = "daren.EVTNAME3718"
-	desc = "daren.EVTDESC3718"
+	id = 3718
+	title = "EVTNAME3718"
+	desc = "EVTDESC3718"
 	picture = RELIGION_eventPicture
 
 	major = no
@@ -186,7 +188,7 @@ country_event = {
 
 
 	option = {
-		name = "daren.EVTOPTA3718.a"
+		name = "EVTOPTA3718.a"
 		ai_chance = { factor = 100 }
 		every_country = {
 		    limit = {
@@ -213,9 +215,9 @@ country_event = {
 
 #opinion_remove
 country_event = {
-	id = daren.3719
-	title = "daren.EVTNAME3719"
-	desc = "daren.EVTDESC3719"
+	id = 3719
+	title = "EVTNAME3719"
+	desc = "EVTDESC3719"
 	picture = RELIGION_eventPicture
 
 	major = no
@@ -247,7 +249,7 @@ country_event = {
 
 
 	option = {
-		name = "daren.EVTOPTA3719.a"
+		name = "EVTOPTA3719.a"
 		ai_chance = { factor = 100 }
 		every_country = {
 		    limit = {

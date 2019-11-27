@@ -664,7 +664,7 @@ technology = {
 	military_tactics	=	0.1
 	land_morale			=	0.2
 	supply_limit		=	0.1
-	artillery_power = 0.1
+	artillery_fire      =   0.1
 }
 
 technology = {
@@ -674,7 +674,7 @@ technology = {
 	military_tactics	=	0.1
 	land_morale			=	0.2
 	supply_limit		=	0.1
-	artillery_power = 0.1
+	artillery_fire      =   0.1
 }
 
 technology = {
@@ -684,12 +684,15 @@ technology = {
 	military_tactics	=	0.1
 	land_morale			=	0.2
 	supply_limit		=	0.1
-	artillery_power = 0.1
+	artillery_fire      =   0.1
 }
 
 technology = {
-	# Tech 33
-	year = 450
+	# Tech 36
+	year = 500
 
-	discipline = 0.5
+	military_tactics	=	0.1
+	land_morale			=	0.2
+	supply_limit		=	0.1
+	artillery_fire      =   0.1
 }
