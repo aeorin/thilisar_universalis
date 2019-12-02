@@ -1,2 +1,18 @@
 # A region can only belong to one super region.
 
+thilisar_superregion = {
+    sinkal_region
+    naren_region
+    new_carnivore_region
+    carnivore_region
+    gilda_region
+    eshlends_region
+    iela_region
+    dager_region
+    halethin_region
+    daren_region
+    naiamy_region
+    gultamal_region
+    malai_region
+    dargaren_region
+}

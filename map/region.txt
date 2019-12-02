@@ -1,225 +1,4910 @@
-# A province can only belong to one region!
-
-# random_new_world_region is used for RNW. Must be first in this list.
-random_new_world_region = {
-}
-
-########################################
-# THILISAR                             #
-########################################
-
-naren_region = {
+sinkal_region = {
 	areas = {
-        eastern_line_area
-        western_line_area
-        lozdot_area
-        ronzhan_delta_area
-        tiega_area
-        tropland_area
-        lower_tropland_area
-        orgnitsh_area
-        shartanh_area
-        ronensand_area
-        prshava_area
-        soanos_area
-        erwinhold_area
-        ortrea_highs_area
-        naason_area
-        arangarava_area
-        zhunhpa_area
-        low_zamaria_area
-        upper_zamaria_area
-        astha_laren_area
-        elsen_area
-        ruznava_creek_area
-        lunar_mesa_area
-        trandia_area
-        eail_area
-        zolb_area
+		sinkal_area
 	}
 }
 
+naren_region = {
+	areas = {
+		eastern_line_area
+		western_line_area
+		lozdot_area
+		ronzhan_delta_area
+		tiega_area
+		tropland_area
+		lower_tropland_area
+		orgnitsh_area
+		shartanh_area
+		ronensand_area
+		prshava_area
+		soanos_area
+		erwinhold_area
+		ortrea_highs_area
+		naason_area
+		arangarava_area
+		zhunhpa_area
+		low_zamaria_area
+		upper_zamaria_area
+		astha_laren_area
+		elsen_area
+		ruznava_creek_area
+		lunar_mesa_area
+		trandia_area
+		eail_area
+		zolb_area
+	}
+}
+
+new_carnivore_region = {
+	areas = {
+		new_carnivore_area
+	}
+}
+
+carnivore_region = {
+	areas = {
+		carnivore_area
+	}
+}
+
+gilda_region = {
+	areas = {
+		south_zamt_area
+		north_zamt_area
+		hehewig_area
+		samsa_area
+		steinheim_area
+		illim_area
+		humen_area
+		naiamitto_area
+		mannarliana_area
+		gildan_valad_area
+	}
+}
 
 eshlends_region = {
 	areas = {
-	    gesat_area
-	    reia_area
-        nad_area
-        nad_steppes_area
-        hish_area
-        eshlends_area
-        salem_area
-        north_eshlends_area
-        east_eshlends_area
-        shish_area
-        erg_steppe_area
+		gesat_area
+		reia_area
+		nad_area
+		nad_steppes_area
+		hish_area
+		eshlends_area
+		salem_area
+		north_eshlends_area
+		east_eshlends_area
+		shish_area
+		erg_steppe_area
+	}
+}
+
+iela_region = {
+	areas = {
+		iela_area_01
+		iela_area_02
+		iela_area_03
+		iela_area_04
+		iela_area_05
+		iela_area_06
+		iela_area_07
+		iela_area_08
+		iela_area_09
+		iela_area_10
+	}
+}
+
+dager_region = {
+	areas = {
+		dager_area
+	}
+}
+
+halethin_region = {
+	areas = {
+		halethin_area_01
+		halethin_area_02
+		halethin_area_03
+		halethin_area_04
+		halethin_area_05
+		halethin_area_06
+		halethin_area_07
+		halethin_area_08
+		halethin_area_09
+		halethin_area_10
+		halethin_area_11
+	}
+}
+
+daren_region = {
+	areas = {
+		daren_area_1
+		daren_area_2
+		daren_area_3
+		daren_area_4
+		daren_area_5
+		daren_area_6
+		daren_area_7
+		daren_area_8
+		daren_area_9
+		daren_area_10
+		daren_area_11
+		daren_area_12
+		daren_area_13
+		daren_area_14
+		daren_area_15
+		daren_area_16
+		daren_area_17
+		daren_area_18
+		daren_area_19
+		daren_area_20
+		daren_area_21
+		daren_area_22
+		daren_area_23
+		daren_area_24
+		daren_area_25
+		daren_area_26
+		daren_area_27
+		daren_area_28
+		daren_area_29
+		daren_area_30
+		daren_area_31
+		daren_area_32
+		daren_area_33
+		daren_area_34
+		daren_area_35
+		daren_area_36
+		daren_area_37
+		daren_area_38
+		daren_area_39
 	}
 }
 
 naiamy_region = {
-    areas = {
-        elenie_area
-        alsipa_area
-        alsipa_tunnel_area
-        naiamy_cross_area
-        naiamy_tunnel_south_area
-        naiamy_tunnel_east_area
-        deep_borderlands_area
-        deep_realm_area
-        naiamy_tunnel_north_area
-    }
-}
-
-gilda_region = {
-    areas = {
-        south_zamt_area
-        north_zamt_area
-        hehewig_area
-        samsa_area
-        steinheim_area
-        illim_area
-        humen_area
-        naiamitto_area
-        mannarliana_area
-        gildan_valad_area
-    }
-}
-
-malai_region = {
-    areas = {
-        padov_area
-        olea_area
-        direv_area
-        erens_area
-        pantur_area
-        shinren_area
-        anupas_area
-        parne_area
-        malward_area
-        zen_area
-        renaku_area
-        centula_area
-        komu_area
-        komunia_area
-        selsk_area
-        great_river_area
-        apus_area
-        anoranu_area
-        laville_area
-        ervu_area
-        zenuta_area
-        enders_area
-        irdolgard_area
-        brownhill_area
-        parmin_plateau_area
-        little_plateau_area
-    }
-}
-
-
-daren_region = {
-    areas = {
-        daren_area_1
-        daren_area_2
-        daren_area_3
-        daren_area_4
-        daren_area_5
-        daren_area_6
-        daren_area_7
-        daren_area_8
-        daren_area_9
-        daren_area_10
-        daren_area_11
-        daren_area_12
-        daren_area_13
-        daren_area_14
-        daren_area_15
-        daren_area_16
-        daren_area_17
-        daren_area_18
-        daren_area_19
-        daren_area_20
-        daren_area_21
-        daren_area_22
-        daren_area_23
-        daren_area_24
-        daren_area_25
-        daren_area_26
-        daren_area_27
-        daren_area_28
-        daren_area_29
-        daren_area_30
-        daren_area_31
-        daren_area_32
-        daren_area_33
-        daren_area_34
-        daren_area_35
-        daren_area_36
-        daren_area_37
-        daren_area_38
-        daren_area_39
-    }
-}
-
-halethin_region = {
-    areas = {
-        halethin_area_01
-        halethin_area_02
-        halethin_area_03
-        halethin_area_04
-        halethin_area_05
-        halethin_area_06
-        halethin_area_07
-        halethin_area_08
-        halethin_area_09
-        halethin_area_10
-        halethin_area_11
-    }
-}
-
-iela_region = {
-    areas = {
-        iela_area_01
-        iela_area_02
-        iela_area_03
-        iela_area_04
-        iela_area_05
-        iela_area_06
-        iela_area_07
-        iela_area_08
-        iela_area_09
-        iela_area_10
-    }
+	areas = {
+		elenie_area
+		alsipa_area
+		alsipa_tunnel_area
+		naiamy_cross_area
+		naiamy_tunnel_south_area
+		naiamy_tunnel_east_area
+		deep_borderlands_area
+		deep_realm_area
+		naiamy_tunnel_north_area
+	}
 }
 
 gultamal_region = {
-    areas = {
-        gultamal_area_01
-        gultamal_area_02
-        gultamal_area_03
-        gultamal_area_04
-        gultamal_area_05
-        gultamal_area_06
-        gultamal_area_07
-        gultamal_area_08
-        gultamal_area_10
-        gultamal_area_11
-        gultamal_area_12
-        gultamal_area_13
-        gultamal_area_14
-        gultamal_area_15
-        gultamal_area_16
-        gultamal_area_17
-        gultamal_area_18
-        gultamal_area_19
-        gultamal_area_20
-        gultamal_area_21
-        gultamal_area_22
-        gultamal_area_23
-    }
+	areas = {
+		gultamal_area_01
+		gultamal_area_02
+		gultamal_area_03
+		gultamal_area_04
+		gultamal_area_05
+		gultamal_area_06
+		gultamal_area_07
+		gultamal_area_08
+		gultamal_area_10
+		gultamal_area_11
+		gultamal_area_12
+		gultamal_area_13
+		gultamal_area_14
+		gultamal_area_15
+		gultamal_area_16
+		gultamal_area_17
+		gultamal_area_18
+		gultamal_area_19
+		gultamal_area_20
+		gultamal_area_21
+		gultamal_area_22
+		gultamal_area_23
+	}
 }
-sinkal_region = {areas = {sinkal_area}}
-carnivore_region = {areas = {carnivore_area}}
-new_carnivore_region = {areas = {new_carnivore_area}}
-dager_region = {areas = {dager_area}}
-dargaren_region = {areas = {dargaren_area}}
+
+malai_region = {
+	areas = {
+		padov_area
+		olea_area
+		direv_area
+		erens_area
+		pantur_area
+		shinren_area
+		anupas_area
+		parne_area
+		malward_area
+		zen_area
+		renaku_area
+		centula_area
+		komu_area
+		komunia_area
+		selsk_area
+		great_river_area
+		apus_area
+		anoranu_area
+		laville_area
+		ervu_area
+		zenuta_area
+		enders_area
+		irdolgard_area
+		brownhill_area
+		parmin_plateau_area
+		little_plateau_area
+	}
+}
+
+dargaren_region = {
+	areas = {
+		dargaren_area
+	}
+}
+
+sea_region_71 = {
+	areas = {
+		sea_area_142
+		sea_area_180
+		sea_area_142
+		sea_area_180
+	}
+}
+
+sea_region_70 = {
+	areas = {
+		sea_area_141
+		sea_area_89
+		sea_area_141
+		sea_area_89
+	}
+}
+
+sea_region_72 = {
+	areas = {
+		sea_area_77
+		sea_area_129
+		sea_area_77
+		sea_area_129
+	}
+}
+
+sea_region_6 = {
+	areas = {
+		sea_area_67
+		sea_area_35
+		sea_area_67
+		sea_area_35
+	}
+}
+
+sea_region_5 = {
+	areas = {
+		sea_area_60
+		sea_area_56
+		sea_area_5
+		sea_area_5
+	}
+}
+
+sea_region_4 = {
+	areas = {
+		sea_area_66
+		sea_area_66
+		sea_area_66
+		sea_area_66
+	}
+}
+
+sea_region_3 = {
+	areas = {
+		sea_area_131
+		sea_area_97
+		sea_area_134
+		sea_area_134
+	}
+}
+
+sea_region_9 = {
+	areas = {
+		sea_area_62
+		sea_area_149
+		sea_area_53
+		sea_area_53
+	}
+}
+
+sea_region_8 = {
+	areas = {
+		sea_area_64
+		sea_area_64
+		sea_area_64
+		sea_area_64
+	}
+}
+
+sea_region_7 = {
+	areas = {
+		sea_area_63
+		sea_area_120
+		sea_area_1_1
+		sea_area_47
+		sea_area_1_8
+		sea_area_71
+	}
+}
+
+sea_region_2 = {
+	areas = {
+		sea_area_1_4
+		sea_area_1_4
+		sea_area_1_3
+		sea_area_20
+		sea_area_1_12
+		sea_area_21
+	}
+}
+
+sea_region_1 = {
+	areas = {
+		sea_area_132
+		sea_area_132
+		sea_area_132
+		sea_area_132
+	}
+}
+
+sea_region_0 = {
+	areas = {
+		sea_area_57
+		sea_area_57
+		sea_area_57
+		sea_area_57
+	}
+}
+
+sea_region_11 = {
+	areas = {
+		sea_area_58
+		sea_area_58
+		sea_area_9
+		sea_area_128
+	}
+}
+
+sea_region_10 = {
+	areas = {
+		sea_area_68
+		sea_area_68
+		sea_area_140
+		sea_area_123
+	}
+}
+
+sea_region_13 = {
+	areas = {
+		sea_area_74
+		sea_area_126
+		sea_area_122
+		sea_area_122
+	}
+}
+
+sea_region_12 = {
+	areas = {
+		sea_area_73
+		sea_area_175
+		sea_area_73
+		sea_area_175
+	}
+}
+
+sea_region_15 = {
+	areas = {
+		sea_area_136
+		sea_area_105
+		sea_area_138
+		sea_area_138
+	}
+}
+
+sea_region_14 = {
+	areas = {
+		sea_area_168
+		sea_area_168
+		sea_area_144
+		sea_area_144
+	}
+}
+
+sea_region_17 = {
+	areas = {
+		sea_area_137
+		sea_area_113
+		sea_area_104
+		sea_area_179
+	}
+}
+
+sea_region_16 = {
+	areas = {
+		sea_area_167
+		sea_area_69
+		sea_area_125
+		sea_area_115
+	}
+}
+
+sea_region_19 = {
+	areas = {
+		sea_area_94
+		sea_area_94
+		sea_area_94
+		sea_area_94
+	}
+}
+
+sea_region_18 = {
+	areas = {
+		sea_area_169
+		sea_area_118
+		sea_area_145
+		sea_area_145
+	}
+}
+
+sea_region_20 = {
+	areas = {
+		sea_area_17
+		sea_area_17
+		sea_area_17
+		sea_area_17
+	}
+}
+
+sea_region_22 = {
+	areas = {
+		sea_area_121
+		sea_area_121
+		sea_area_121
+		sea_area_121
+	}
+}
+
+sea_region_21 = {
+	areas = {
+		sea_area_18
+		sea_area_18
+		sea_area_18
+		sea_area_18
+	}
+}
+
+sea_region_24 = {
+	areas = {
+		sea_area_98
+		sea_area_98
+		sea_area_135
+		sea_area_135
+	}
+}
+
+sea_region_23 = {
+	areas = {
+		sea_area_99
+		sea_area_112
+		sea_area_178
+		sea_area_178
+	}
+}
+
+sea_region_26 = {
+	areas = {
+		sea_area_127
+		sea_area_127
+		sea_area_127
+		sea_area_127
+	}
+}
+
+sea_region_25 = {
+	areas = {
+		sea_area_124
+		sea_area_124
+		sea_area_124
+		sea_area_124
+	}
+}
+
+sea_region_49 = {
+	areas = {
+		sea_area_2_2
+		sea_area_108
+		sea_area_1_5
+		sea_area_2_2
+		sea_area_108
+		sea_area_1_5
+		sea_area_2_1
+		sea_area_2_1
+		sea_area_2_1
+		sea_area_2_1
+	}
+}
+
+sea_region_53 = {
+	areas = {
+		sea_area_165
+		sea_area_45
+		sea_area_165
+		sea_area_45
+	}
+}
+
+sea_region_52 = {
+	areas = {
+		sea_area_160
+		sea_area_49
+		sea_area_160
+		sea_area_49
+	}
+}
+
+sea_region_55 = {
+	areas = {
+		sea_area_164
+		sea_area_107
+		sea_area_8
+		sea_area_8
+	}
+}
+
+sea_region_54 = {
+	areas = {
+		sea_area_163
+		sea_area_43
+		sea_area_42
+		sea_area_42
+	}
+}
+
+sea_region_57 = {
+	areas = {
+		sea_area_55
+		sea_area_119
+		sea_area_55
+		sea_area_119
+	}
+}
+
+sea_region_56 = {
+	areas = {
+		sea_area_1_2
+		sea_area_158
+		sea_area_1_2
+		sea_area_158
+	}
+}
+
+sea_region_59 = {
+	areas = {
+		sea_area_151
+		sea_area_174
+		sea_area_151
+		sea_area_174
+	}
+}
+
+sea_region_58 = {
+	areas = {
+		sea_area_146
+		sea_area_38
+		sea_area_146
+		sea_area_38
+	}
+}
+
+sea_region_50 = {
+	areas = {
+		sea_area_103
+		sea_area_103
+		sea_area_103
+		sea_area_103
+	}
+}
+
+sea_region_64 = {
+	areas = {
+		sea_area_52
+		sea_area_34
+		sea_area_52
+		sea_area_34
+	}
+}
+
+sea_region_63 = {
+	areas = {
+		sea_area_51
+		sea_area_65
+		sea_area_51
+		sea_area_65
+	}
+}
+
+sea_region_66 = {
+	areas = {
+		sea_area_2
+		sea_area_2
+		sea_area_2
+		sea_area_2
+	}
+}
+
+sea_region_65 = {
+	areas = {
+		sea_area_84
+		sea_area_84
+		sea_area_84
+		sea_area_84
+	}
+}
+
+sea_region_68 = {
+	areas = {
+		sea_area_82
+		sea_area_75
+		sea_area_82
+		sea_area_75
+	}
+}
+
+sea_region_67 = {
+	areas = {
+		sea_area_85
+		sea_area_86
+		sea_area_143
+		sea_area_143
+	}
+}
+
+sea_region_69 = {
+	areas = {
+		sea_area_4
+		sea_area_116
+		sea_area_4
+		sea_area_116
+	}
+}
+
+sea_region_60 = {
+	areas = {
+		sea_area_154
+		sea_area_130
+		sea_area_80
+		sea_area_78
+	}
+}
+
+sea_region_62 = {
+	areas = {
+		sea_area_48
+		sea_area_48
+		sea_area_7
+		sea_area_7
+	}
+}
+
+sea_region_61 = {
+	areas = {
+		sea_area_155
+		sea_area_114
+		sea_area_155
+		sea_area_114
+	}
+}
+
+sea_region_28 = {
+	areas = {
+		sea_area_176
+		sea_area_176
+		sea_area_161
+		sea_area_46
+	}
+}
+
+sea_region_27 = {
+	areas = {
+		sea_area_30
+		sea_area_30
+		sea_area_50
+		sea_area_106
+	}
+}
+
+sea_region_29 = {
+	areas = {
+		sea_area_171
+		sea_area_171
+		sea_area_171
+		sea_area_171
+	}
+}
+
+sea_region_31 = {
+	areas = {
+		sea_area_173
+		sea_area_173
+		sea_area_173
+		sea_area_173
+	}
+}
+
+sea_region_30 = {
+	areas = {
+		sea_area_170
+		sea_area_170
+		sea_area_59
+		sea_area_117
+	}
+}
+
+sea_region_33 = {
+	areas = {
+		sea_area_102
+		sea_area_102
+		sea_area_102
+		sea_area_102
+	}
+}
+
+sea_region_32 = {
+	areas = {
+		sea_area_172
+		sea_area_172
+		sea_area_172
+		sea_area_172
+	}
+}
+
+sea_region_35 = {
+	areas = {
+		sea_area_111
+		sea_area_37
+		sea_area_162
+		sea_area_27
+		sea_area_1_14
+		sea_area_1_14
+	}
+}
+
+sea_region_34 = {
+	areas = {
+		sea_area_110
+		sea_area_110
+		sea_area_139
+		sea_area_139
+	}
+}
+
+sea_region_37 = {
+	areas = {
+		sea_area_92
+		sea_area_177
+		sea_area_92
+		sea_area_177
+	}
+}
+
+sea_region_36 = {
+	areas = {
+		sea_area_91
+		sea_area_88
+		sea_area_91
+		sea_area_88
+	}
+}
+
+sea_region_39 = {
+	areas = {
+		sea_area_95
+		sea_area_31
+		sea_area_3
+		sea_area_0
+	}
+}
+
+sea_region_38 = {
+	areas = {
+		sea_area_90
+		sea_area_90
+		sea_area_90
+		sea_area_90
+	}
+}
+
+sea_region_42 = {
+	areas = {
+		sea_area_54
+		sea_area_36
+		sea_area_147
+		sea_area_1
+	}
+}
+
+sea_region_41 = {
+	areas = {
+		sea_area_93
+		sea_area_33
+		sea_area_1_11
+		sea_area_1_11
+	}
+}
+
+sea_region_44 = {
+	areas = {
+		sea_area_39
+		sea_area_39
+		sea_area_39
+		sea_area_39
+	}
+}
+
+sea_region_43 = {
+	areas = {
+		sea_area_1_7
+		sea_area_1_7
+		sea_area_1_9
+		sea_area_1_10
+	}
+}
+
+sea_region_46 = {
+	areas = {
+		sea_area_109
+		sea_area_109
+		sea_area_109
+		sea_area_109
+	}
+}
+
+sea_region_45 = {
+	areas = {
+		sea_area_1_13
+		sea_area_100
+		sea_area_1_13
+		sea_area_100
+	}
+}
+
+sea_region_48 = {
+	areas = {
+		sea_area_41
+		sea_area_41
+		sea_area_41
+		sea_area_41
+	}
+}
+
+sea_region_47 = {
+	areas = {
+		sea_area_40
+		sea_area_40
+		sea_area_40
+		sea_area_40
+	}
+}
+
+sea_region_40 = {
+	areas = {
+		sea_area_96
+		sea_area_96
+		sea_area_96
+		sea_area_96
+	}
+}
+
+sinkal_region = {
+	areas = {
+		sinkal_area
+	}
+}
+
+naren_region = {
+	areas = {
+		eastern_line_area
+		western_line_area
+		lozdot_area
+		ronzhan_delta_area
+		tiega_area
+		tropland_area
+		lower_tropland_area
+		orgnitsh_area
+		shartanh_area
+		ronensand_area
+		prshava_area
+		soanos_area
+		erwinhold_area
+		ortrea_highs_area
+		naason_area
+		arangarava_area
+		zhunhpa_area
+		low_zamaria_area
+		upper_zamaria_area
+		astha_laren_area
+		elsen_area
+		ruznava_creek_area
+		lunar_mesa_area
+		trandia_area
+		eail_area
+		zolb_area
+	}
+}
+
+region_96 = {
+	areas = {
+		new_area_650
+		new_area_650
+		new_area_650
+		new_area_650
+	}
+}
+
+region_97 = {
+	areas = {
+		new_area_1_135
+		new_area_1_135
+		new_area_1_136
+		new_area_1070
+		new_area_1_130
+		new_area_2_104
+		new_area_2_86
+		new_area_5_1
+		new_area_582
+		new_area_1_127
+		new_area_2_85
+		new_area_2_85
+	}
+}
+
+region_92 = {
+	areas = {
+		new_area_656
+	}
+}
+
+region_93 = {
+	areas = {
+		new_area_898
+	}
+}
+
+region_90 = {
+	areas = {
+		new_area_1071
+	}
+}
+
+region_87 = {
+	areas = {
+		new_area_1086
+		new_area_1_77
+		new_area_1_78
+		new_area_1_78
+		new_area_1086
+		new_area_1_77
+		new_area_1_78
+		new_area_1_78
+	}
+}
+
+region_88 = {
+	areas = {
+		new_area_1073
+		new_area_1054
+		new_area_1073
+		new_area_1054
+	}
+}
+
+region_85 = {
+	areas = {
+		new_area_3
+		new_area_3
+		new_area_3
+		new_area_3
+	}
+}
+
+region_86 = {
+	areas = {
+		new_area_617
+		new_area_176
+		new_area_1_84
+		new_area_1_84
+		new_area_868
+		new_area_305
+		new_area_824
+		new_area_3_42
+		new_area_3_41
+		new_area_2_53
+		new_area_2_53
+		new_area_3_41
+		new_area_2_53
+		new_area_2_53
+	}
+}
+
+region_83 = {
+	areas = {
+		new_area_618
+		new_area_264
+		new_area_290
+		new_area_290
+		new_area_1038
+		new_area_384
+	}
+}
+
+region_84 = {
+	areas = {
+		new_area_616
+		new_area_616
+		new_area_616
+		new_area_616
+	}
+}
+
+region_81 = {
+	areas = {
+		new_area_619
+		new_area_619
+		new_area_619
+		new_area_619
+	}
+}
+
+region_82 = {
+	areas = {
+		new_area_169
+		new_area_123
+		new_area_1_153
+		new_area_206
+		new_area_485
+	}
+}
+
+sea_region_71 = {
+	areas = {
+		sea_area_142
+		sea_area_180
+		sea_area_142
+		sea_area_180
+	}
+}
+
+sea_region_70 = {
+	areas = {
+		sea_area_141
+		sea_area_89
+		sea_area_141
+		sea_area_89
+	}
+}
+
+sea_region_72 = {
+	areas = {
+		sea_area_77
+		sea_area_129
+		sea_area_77
+		sea_area_129
+	}
+}
+
+region_76 = {
+	areas = {
+		new_area_417
+		new_area_417
+		new_area_1016
+		new_area_1016
+	}
+}
+
+region_77 = {
+	areas = {
+		new_area_659
+		new_area_484
+		new_area_659
+		new_area_484
+	}
+}
+
+region_74 = {
+	areas = {
+		new_area_1_208
+		new_area_1_207
+		new_area_1_207
+		new_area_488
+		new_area_488
+		new_area_2_80
+		new_area_141
+		new_area_1_173
+		new_area_1_173
+		new_area_877
+		new_area_1_173
+		new_area_1_173
+		new_area_877
+	}
+}
+
+region_73 = {
+	areas = {
+		new_area_1_115
+		new_area_1_115
+		new_area_1_116
+		new_area_1_115
+		new_area_1_115
+		new_area_1_116
+	}
+}
+
+region_70 = {
+	areas = {
+		new_area_658
+	}
+}
+
+region_71 = {
+	areas = {
+		new_area_410
+		new_area_557
+		new_area_771
+		new_area_771
+	}
+}
+
+sea_region_6 = {
+	areas = {
+		sea_area_67
+		sea_area_35
+		sea_area_67
+		sea_area_35
+	}
+}
+
+sea_region_5 = {
+	areas = {
+		sea_area_60
+		sea_area_56
+		sea_area_5
+		sea_area_5
+	}
+}
+
+sea_region_4 = {
+	areas = {
+		sea_area_66
+		sea_area_66
+		sea_area_66
+		sea_area_66
+	}
+}
+
+sea_region_3 = {
+	areas = {
+		sea_area_131
+		sea_area_97
+		sea_area_134
+		sea_area_134
+	}
+}
+
+sea_region_9 = {
+	areas = {
+		sea_area_62
+		sea_area_149
+		sea_area_53
+		sea_area_53
+	}
+}
+
+sea_region_8 = {
+	areas = {
+		sea_area_64
+		sea_area_64
+		sea_area_64
+		sea_area_64
+	}
+}
+
+sea_region_7 = {
+	areas = {
+		sea_area_63
+		sea_area_120
+		sea_area_1_1
+		sea_area_47
+		sea_area_1_8
+		sea_area_71
+	}
+}
+
+sea_region_2 = {
+	areas = {
+		sea_area_1_4
+		sea_area_1_4
+		sea_area_1_3
+		sea_area_20
+		sea_area_1_12
+		sea_area_21
+	}
+}
+
+sea_region_1 = {
+	areas = {
+		sea_area_132
+		sea_area_132
+		sea_area_132
+		sea_area_132
+	}
+}
+
+sea_region_0 = {
+	areas = {
+		sea_area_57
+		sea_area_57
+		sea_area_57
+		sea_area_57
+	}
+}
+
+region_319 = {
+	areas = {
+		new_area_477
+		new_area_477
+		new_area_477
+		new_area_477
+	}
+}
+
+region_318 = {
+	areas = {
+		new_area_1112
+	}
+}
+
+region_317 = {
+	areas = {
+		new_area_1114
+	}
+}
+
+region_316 = {
+	areas = {
+		new_area_1_129
+		new_area_1_129
+		new_area_983
+		new_area_983
+	}
+}
+
+region_315 = {
+	areas = {
+		new_area_789
+		new_area_789
+		new_area_789
+		new_area_789
+	}
+}
+
+region_314 = {
+	areas = {
+		new_area_1113
+	}
+}
+
+region_313 = {
+	areas = {
+		new_area_1124
+	}
+}
+
+region_312 = {
+	areas = {
+		new_area_1123
+	}
+}
+
+region_311 = {
+	areas = {
+		new_area_399
+	}
+}
+
+region_310 = {
+	areas = {
+		new_area_2_75
+		new_area_1_151
+		new_area_2_75
+		new_area_1_151
+	}
+}
+
+region_209 = {
+	areas = {
+		new_area_880
+	}
+}
+
+region_208 = {
+	areas = {
+		new_area_40
+	}
+}
+
+region_329 = {
+	areas = {
+		new_area_239
+		new_area_239
+		new_area_239
+		new_area_239
+	}
+}
+
+region_207 = {
+	areas = {
+		new_area_219
+	}
+}
+
+region_328 = {
+	areas = {
+		new_area_481
+		new_area_481
+		new_area_481
+		new_area_481
+	}
+}
+
+region_206 = {
+	areas = {
+		new_area_765
+	}
+}
+
+region_327 = {
+	areas = {
+		new_area_585
+	}
+}
+
+region_205 = {
+	areas = {
+		new_area_60
+		new_area_60
+		new_area_60
+		new_area_60
+	}
+}
+
+region_326 = {
+	areas = {
+		new_area_482
+	}
+}
+
+region_204 = {
+	areas = {
+		new_area_523
+		new_area_523
+		new_area_903
+		new_area_385
+	}
+}
+
+region_325 = {
+	areas = {
+		new_area_101
+		new_area_101
+		new_area_101
+		new_area_101
+	}
+}
+
+region_203 = {
+	areas = {
+		new_area_64
+		new_area_64
+		new_area_64
+		new_area_64
+	}
+}
+
+region_324 = {
+	areas = {
+		new_area_480
+	}
+}
+
+region_202 = {
+	areas = {
+		new_area_667
+		new_area_271
+		new_area_1090
+		new_area_2_102
+		new_area_1_121
+		new_area_1_121
+	}
+}
+
+region_323 = {
+	areas = {
+		new_area_185
+	}
+}
+
+region_201 = {
+	areas = {
+		new_area_763
+		new_area_763
+		new_area_763
+		new_area_763
+	}
+}
+
+region_322 = {
+	areas = {
+		new_area_341
+	}
+}
+
+region_200 = {
+	areas = {
+		new_area_722
+	}
+}
+
+region_321 = {
+	areas = {
+		new_area_577
+		new_area_577
+		new_area_577
+		new_area_577
+	}
+}
+
+region_320 = {
+	areas = {
+		new_area_237
+	}
+}
+
+new_carnivore_region = {
+	areas = {
+		new_carnivore_area
+	}
+}
+
+region_309 = {
+	areas = {
+		new_area_1119
+	}
+}
+
+region_308 = {
+	areas = {
+		new_area_548
+	}
+}
+
+region_307 = {
+	areas = {
+		new_area_1118
+	}
+}
+
+region_306 = {
+	areas = {
+		new_area_388
+		new_area_388
+		new_area_2_83
+		new_area_1_167
+		new_area_388
+		new_area_388
+		new_area_2_83
+		new_area_1_167
+		new_area_1_51
+		new_area_871
+		new_area_1_120
+		new_area_502
+		new_area_1_119
+		new_area_1_119
+	}
+}
+
+region_305 = {
+	areas = {
+		new_area_1117
+	}
+}
+
+region_304 = {
+	areas = {
+		new_area_549
+	}
+}
+
+region_303 = {
+	areas = {
+		new_area_1116
+	}
+}
+
+region_302 = {
+	areas = {
+		new_area_147
+		new_area_147
+		new_area_147
+		new_area_147
+	}
+}
+
+region_301 = {
+	areas = {
+		new_area_1111
+	}
+}
+
+region_300 = {
+	areas = {
+		new_area_1115
+	}
+}
+
+region_3_1 = {
+	areas = {
+		new_area_4_11
+		new_area_4_11
+		new_area_1_16
+		new_area_1_209
+		new_area_2_51
+		new_area_2_51
+		new_area_1_15
+		new_area_2_51
+		new_area_2_51
+		new_area_1_15
+	}
+}
+
+region_199 = {
+	areas = {
+		new_area_67
+	}
+}
+
+region_198 = {
+	areas = {
+		new_area_425
+		new_area_387
+		new_area_303
+		new_area_303
+	}
+}
+
+region_197 = {
+	areas = {
+		new_area_69
+		new_area_273
+		new_area_468
+		new_area_598
+	}
+}
+
+region_196 = {
+	areas = {
+		new_area_463
+		new_area_297
+		new_area_622
+		new_area_622
+	}
+}
+
+region_195 = {
+	areas = {
+		new_area_768
+		new_area_768
+		new_area_768
+		new_area_768
+	}
+}
+
+region_194 = {
+	areas = {
+		new_area_698
+		new_area_584
+		new_area_698
+		new_area_584
+	}
+}
+
+region_193 = {
+	areas = {
+		new_area_767
+		new_area_767
+		new_area_767
+		new_area_767
+	}
+}
+
+carnivore_region = {
+	areas = {
+		carnivore_area
+	}
+}
+
+region_181 = {
+	areas = {
+		new_area_2_20
+		new_area_118
+		new_area_2_20
+		new_area_118
+		new_area_2_19
+		new_area_2_19
+		new_area_717
+		new_area_717
+		new_area_1_13
+		new_area_1_13
+	}
+}
+
+region_180 = {
+	areas = {
+		new_area_430
+		new_area_430
+		new_area_1006
+		new_area_859
+	}
+}
+
+region_4_2 = {
+	areas = {
+		new_area_1_137
+		new_area_4_33
+		new_area_6_5
+		new_area_6_6
+		new_area_1_113
+		new_area_1_113
+		new_area_1_45
+		new_area_2_15
+		new_area_1_96
+		new_area_5_7
+		new_area_2_95
+	}
+}
+
+region_4_1 = {
+	areas = {
+		new_area_2_96
+		new_area_1_140
+		new_area_6_3
+		new_area_1_145
+		new_area_1_145
+		new_area_2_90
+		new_area_6_1
+		new_area_5_5
+		new_area_4_29
+	}
+}
+
+region_179 = {
+	areas = {
+		new_area_977
+	}
+}
+
+region_178 = {
+	areas = {
+		new_area_80
+	}
+}
+
+region_299 = {
+	areas = {
+		new_area_1099
+		new_area_1099
+		new_area_627
+		new_area_321
+	}
+}
+
+region_177 = {
+	areas = {
+		new_area_673
+		new_area_673
+		new_area_673
+		new_area_673
+	}
+}
+
+region_298 = {
+	areas = {
+		new_area_1120
+	}
+}
+
+region_176 = {
+	areas = {
+		new_area_735
+		new_area_735
+		new_area_1_29
+		new_area_737
+		new_area_2_25
+	}
+}
+
+region_297 = {
+	areas = {
+		new_area_542
+		new_area_2_64
+		new_area_755
+		new_area_755
+		new_area_2_94
+		new_area_2_63
+	}
+}
+
+region_175 = {
+	areas = {
+		new_area_275
+		new_area_275
+		new_area_745
+		new_area_745
+	}
+}
+
+region_296 = {
+	areas = {
+		new_area_1126
+	}
+}
+
+region_174 = {
+	areas = {
+		new_area_423
+		new_area_592
+		new_area_632
+		new_area_736
+	}
+}
+
+region_295 = {
+	areas = {
+		new_area_623
+		new_area_623
+		new_area_1034
+		new_area_1034
+	}
+}
+
+region_173 = {
+	areas = {
+		new_area_71
+		new_area_906
+		new_area_686
+		new_area_1_186
+	}
+}
+
+region_294 = {
+	areas = {
+		new_area_1_103
+		new_area_1_103
+		new_area_1_103
+		new_area_1_103
+	}
+}
+
+region_172 = {
+	areas = {
+		new_area_739
+	}
+}
+
+region_293 = {
+	areas = {
+		new_area_300
+		new_area_300
+		new_area_300
+		new_area_300
+	}
+}
+
+region_171 = {
+	areas = {
+		new_area_73
+		new_area_73
+		new_area_173
+		new_area_173
+	}
+}
+
+region_292 = {
+	areas = {
+		new_area_1125
+	}
+}
+
+region_192 = {
+	areas = {
+		new_area_525
+		new_area_525
+		new_area_525
+		new_area_525
+	}
+}
+
+region_191 = {
+	areas = {
+		new_area_666
+		new_area_770
+		new_area_666
+		new_area_770
+	}
+}
+
+region_190 = {
+	areas = {
+		new_area_663
+		new_area_562
+		new_area_349
+		new_area_349
+	}
+}
+
+gilda_region = {
+	areas = {
+		south_zamt_area
+		north_zamt_area
+		hehewig_area
+		samsa_area
+		steinheim_area
+		illim_area
+		humen_area
+		naiamitto_area
+		mannarliana_area
+		gildan_valad_area
+	}
+}
+
+eshlends_region = {
+	areas = {
+		gesat_area
+		reia_area
+		nad_area
+		nad_steppes_area
+		hish_area
+		eshlends_area
+		salem_area
+		north_eshlends_area
+		east_eshlends_area
+		shish_area
+		erg_steppe_area
+	}
+}
+
+region_189 = {
+	areas = {
+		new_area_962
+		new_area_2_101
+		new_area_962
+		new_area_2_101
+	}
+}
+
+region_188 = {
+	areas = {
+		new_area_294
+	}
+}
+
+region_187 = {
+	areas = {
+		new_area_966
+	}
+}
+
+region_184 = {
+	areas = {
+		new_area_974
+		new_area_974
+		new_area_974
+		new_area_974
+	}
+}
+
+region_183 = {
+	areas = {
+		new_area_99
+		new_area_251
+		new_area_720
+		new_area_1_185
+	}
+}
+
+region_182 = {
+	areas = {
+		new_area_732
+		new_area_732
+		new_area_732
+		new_area_732
+	}
+}
+
+region_1_8 = {
+	areas = {
+		new_area_5_11
+		new_area_3_29
+		new_area_2_43
+		new_area_2_43
+		new_area_3_43
+		new_area_2_43
+		new_area_2_43
+		new_area_3_43
+		new_area_2_59
+		new_area_2_91
+		new_area_748
+		new_area_4_21
+		new_area_4_21
+		new_area_2_59
+		new_area_2_91
+		new_area_748
+		new_area_4_21
+		new_area_4_21
+	}
+}
+
+region_1_7 = {
+	areas = {
+		new_area_1_63
+		new_area_563
+		new_area_4_1
+		new_area_2_41
+		new_area_2_41
+		new_area_1_57
+		new_area_1_57
+	}
+}
+
+region_1_6 = {
+	areas = {
+		new_area_2_97
+		new_area_4_16
+		new_area_1_111
+		new_area_3_17
+		new_area_3_17
+		new_area_179
+		new_area_179
+		new_area_3_46
+		new_area_2_37
+		new_area_2_45
+		new_area_2_46
+		new_area_2_46
+		new_area_2_45
+		new_area_2_46
+		new_area_2_46
+	}
+}
+
+region_1_5 = {
+	areas = {
+		new_area_1_117
+		new_area_1_117
+		new_area_1_118
+		new_area_1_118
+		new_area_1_117
+		new_area_1_117
+		new_area_1_118
+		new_area_1_118
+		new_area_2_40
+		new_area_3_11
+		new_area_4_17
+	}
+}
+
+region_1_4 = {
+	areas = {
+		new_area_220
+		new_area_1_27
+		new_area_2_33
+		new_area_1007
+		new_area_935
+		new_area_935
+		new_area_1007
+		new_area_935
+		new_area_935
+	}
+}
+
+region_1_3 = {
+	areas = {
+		new_area_3_3
+		new_area_1_187
+		new_area_1_188
+		new_area_3_3
+		new_area_1_187
+		new_area_1_188
+		new_area_5_3
+		new_area_4_31
+	}
+}
+
+region_1_2 = {
+	areas = {
+		new_area_715
+		new_area_715
+		new_area_2_72
+		new_area_2_71
+		new_area_119
+		new_area_2_35
+		new_area_2_35
+		new_area_3_48
+	}
+}
+
+region_1_1 = {
+	areas = {
+		new_area_171
+		new_area_398
+		new_area_1_105
+		new_area_1_149
+		new_area_6_2
+		new_area_1_106
+		new_area_713
+		new_area_713
+		new_area_1029
+		new_area_2_29
+	}
+}
+
+region_1_9 = {
+	areas = {
+		new_area_784
+		new_area_154
+		new_area_2_61
+		new_area_174
+		new_area_144
+		new_area_3_21
+		new_area_6_4
+		new_area_379
+		new_area_379
+		new_area_579
+	}
+}
+
+region_2_1 = {
+	areas = {
+		new_area_439
+		new_area_1_95
+		new_area_350
+		new_area_2_31
+		new_area_2_31
+		new_area_2_31
+		new_area_2_31
+	}
+}
+
+iela_region = {
+	areas = {
+		iela_area_01
+		iela_area_02
+		iela_area_03
+		iela_area_04
+		iela_area_05
+		iela_area_06
+		iela_area_07
+		iela_area_08
+		iela_area_09
+		iela_area_10
+	}
+}
+
+dager_region = {
+	areas = {
+		dager_area
+	}
+}
+
+region_23 = {
+	areas = {
+		new_area_3_38
+		new_area_3_37
+		new_area_1_191
+		new_area_1_91
+		new_area_1_131
+		new_area_1_92
+		new_area_4_24
+		new_area_2_6
+		new_area_4_23
+		new_area_2_57
+		new_area_2_5
+		new_area_1_37
+	}
+}
+
+region_24 = {
+	areas = {
+		new_area_75
+		new_area_4_18
+		new_area_428
+		new_area_236
+		new_area_2_23
+		new_area_4_15
+		new_area_4_15
+		new_area_1_61
+		new_area_2_39
+		new_area_1_61
+		new_area_2_39
+	}
+}
+
+region_21 = {
+	areas = {
+		new_area_1_166
+		new_area_1_166
+		new_area_1_6
+		new_area_575
+		new_area_2_24
+		new_area_1_17
+		new_area_1_17
+	}
+}
+
+region_22 = {
+	areas = {
+		new_area_2_47
+		new_area_4_25
+		new_area_3_27
+		new_area_1_67
+		new_area_260
+		new_area_1_4
+	}
+}
+
+region_20 = {
+	areas = {
+		new_area_3_33
+		new_area_4_3
+		new_area_1040
+		new_area_51
+		new_area_4_4
+		new_area_4_4
+	}
+}
+
+region_119 = {
+	areas = {
+		new_area_499
+		new_area_499
+		new_area_649
+		new_area_649
+	}
+}
+
+region_118 = {
+	areas = {
+		new_area_884
+	}
+}
+
+region_239 = {
+	areas = {
+		new_area_1027
+	}
+}
+
+sea_region_11 = {
+	areas = {
+		sea_area_58
+		sea_area_58
+		sea_area_9
+		sea_area_128
+	}
+}
+
+region_117 = {
+	areas = {
+		new_area_257
+		new_area_257
+		new_area_257
+		new_area_257
+	}
+}
+
+region_238 = {
+	areas = {
+		new_area_105
+	}
+}
+
+region_359 = {
+	areas = {
+		new_area_1002
+		new_area_1002
+		new_area_1002
+		new_area_1002
+	}
+}
+
+sea_region_10 = {
+	areas = {
+		sea_area_68
+		sea_area_68
+		sea_area_140
+		sea_area_123
+	}
+}
+
+region_237 = {
+	areas = {
+		new_area_1_1
+		new_area_1_1
+		new_area_1_1
+		new_area_1_1
+	}
+}
+
+region_358 = {
+	areas = {
+		new_area_1009
+		new_area_414
+		new_area_1009
+		new_area_414
+	}
+}
+
+sea_region_13 = {
+	areas = {
+		sea_area_74
+		sea_area_126
+		sea_area_122
+		sea_area_122
+	}
+}
+
+region_115 = {
+	areas = {
+		new_area_893
+		new_area_893
+		new_area_893
+		new_area_893
+	}
+}
+
+region_236 = {
+	areas = {
+		new_area_102
+		new_area_102
+		new_area_102
+		new_area_102
+	}
+}
+
+region_357 = {
+	areas = {
+		new_area_776
+	}
+}
+
+sea_region_12 = {
+	areas = {
+		sea_area_73
+		sea_area_175
+		sea_area_73
+		sea_area_175
+	}
+}
+
+region_114 = {
+	areas = {
+		new_area_651
+		new_area_153
+		new_area_651
+		new_area_153
+	}
+}
+
+region_235 = {
+	areas = {
+		new_area_316
+		new_area_316
+		new_area_335
+		new_area_120
+	}
+}
+
+region_356 = {
+	areas = {
+		new_area_779
+		new_area_779
+		new_area_779
+		new_area_779
+	}
+}
+
+sea_region_15 = {
+	areas = {
+		sea_area_136
+		sea_area_105
+		sea_area_138
+		sea_area_138
+	}
+}
+
+region_113 = {
+	areas = {
+		new_area_1_81
+		new_area_1_81
+		new_area_1_81
+		new_area_1_81
+	}
+}
+
+region_234 = {
+	areas = {
+		new_area_587
+		new_area_587
+		new_area_587
+		new_area_587
+	}
+}
+
+region_355 = {
+	areas = {
+		new_area_535
+		new_area_535
+		new_area_535
+		new_area_535
+	}
+}
+
+sea_region_14 = {
+	areas = {
+		sea_area_168
+		sea_area_168
+		sea_area_144
+		sea_area_144
+	}
+}
+
+region_112 = {
+	areas = {
+		new_area_262
+		new_area_262
+		new_area_262
+		new_area_262
+	}
+}
+
+region_233 = {
+	areas = {
+		new_area_695
+		new_area_695
+		new_area_695
+		new_area_695
+	}
+}
+
+region_111 = {
+	areas = {
+		new_area_885
+	}
+}
+
+region_232 = {
+	areas = {
+		new_area_453
+	}
+}
+
+region_353 = {
+	areas = {
+		new_area_985
+		new_area_985
+		new_area_985
+		new_area_985
+	}
+}
+
+region_110 = {
+	areas = {
+		new_area_643
+		new_area_643
+		new_area_643
+		new_area_643
+	}
+}
+
+region_231 = {
+	areas = {
+		new_area_31
+		new_area_31
+		new_area_31
+		new_area_31
+	}
+}
+
+region_230 = {
+	areas = {
+		new_area_554
+		new_area_554
+		new_area_554
+		new_area_554
+	}
+}
+
+region_351 = {
+	areas = {
+		new_area_921
+		new_area_921
+		new_area_921
+		new_area_921
+	}
+}
+
+region_29 = {
+	areas = {
+		new_area_422
+		new_area_997
+		new_area_1_156
+		new_area_892
+		new_area_1_181
+	}
+}
+
+region_350 = {
+	areas = {
+		new_area_928
+		new_area_928
+		new_area_928
+		new_area_928
+	}
+}
+
+region_27 = {
+	areas = {
+		new_area_278
+		new_area_1_165
+		new_area_1_5
+		new_area_1_163
+		new_area_1_163
+		new_area_2_81
+	}
+}
+
+region_14 = {
+	areas = {
+		new_area_1069
+		new_area_1069
+		new_area_1069
+		new_area_1069
+	}
+}
+
+region_15 = {
+	areas = {
+		new_area_837
+		new_area_837
+		new_area_714
+		new_area_987
+		new_area_1_123
+		new_area_1_123
+	}
+}
+
+region_12 = {
+	areas = {
+		new_area_1065
+		new_area_1065
+		new_area_1_34
+		new_area_704
+	}
+}
+
+region_10 = {
+	areas = {
+		new_area_1067
+	}
+}
+
+sea_region_17 = {
+	areas = {
+		sea_area_137
+		sea_area_113
+		sea_area_104
+		sea_area_179
+	}
+}
+
+sea_region_16 = {
+	areas = {
+		sea_area_167
+		sea_area_69
+		sea_area_125
+		sea_area_115
+	}
+}
+
+sea_region_19 = {
+	areas = {
+		sea_area_94
+		sea_area_94
+		sea_area_94
+		sea_area_94
+	}
+}
+
+sea_region_18 = {
+	areas = {
+		sea_area_169
+		sea_area_118
+		sea_area_145
+		sea_area_145
+	}
+}
+
+sea_region_20 = {
+	areas = {
+		sea_area_17
+		sea_area_17
+		sea_area_17
+		sea_area_17
+	}
+}
+
+region_129 = {
+	areas = {
+		new_area_493
+		new_area_493
+		new_area_493
+		new_area_493
+	}
+}
+
+sea_region_22 = {
+	areas = {
+		sea_area_121
+		sea_area_121
+		sea_area_121
+		sea_area_121
+	}
+}
+
+region_128 = {
+	areas = {
+		new_area_197
+		new_area_197
+		new_area_197
+		new_area_197
+	}
+}
+
+region_249 = {
+	areas = {
+		new_area_813
+		new_area_905
+		new_area_813
+		new_area_905
+	}
+}
+
+sea_region_21 = {
+	areas = {
+		sea_area_18
+		sea_area_18
+		sea_area_18
+		sea_area_18
+	}
+}
+
+region_127 = {
+	areas = {
+		new_area_3_1
+		new_area_4_35
+		new_area_2_76
+		new_area_506
+		new_area_1_79
+		new_area_2_34
+	}
+}
+
+region_248 = {
+	areas = {
+		new_area_588
+		new_area_588
+		new_area_588
+		new_area_588
+	}
+}
+
+region_369 = {
+	areas = {
+		new_area_1032
+		new_area_82
+		new_area_1032
+		new_area_82
+	}
+}
+
+sea_region_24 = {
+	areas = {
+		sea_area_98
+		sea_area_98
+		sea_area_135
+		sea_area_135
+	}
+}
+
+region_126 = {
+	areas = {
+		new_area_191
+		new_area_1_202
+		new_area_544
+		new_area_988
+		new_area_1_201
+		new_area_1_201
+	}
+}
+
+region_247 = {
+	areas = {
+		new_area_317
+		new_area_393
+		new_area_483
+		new_area_483
+		new_area_1_21
+		new_area_2_27
+		new_area_2_77
+		new_area_2_28
+		new_area_3_19
+		new_area_3_5
+		new_area_1_174
+	}
+}
+
+region_368 = {
+	areas = {
+		new_area_804
+	}
+}
+
+sea_region_23 = {
+	areas = {
+		sea_area_99
+		sea_area_112
+		sea_area_178
+		sea_area_178
+	}
+}
+
+region_125 = {
+	areas = {
+		new_area_16
+		new_area_793
+		new_area_36
+		new_area_1_193
+		new_area_1_28
+		new_area_1_194
+		new_area_1_169
+		new_area_1_169
+		new_area_653
+		new_area_4_13
+		new_area_1_169
+		new_area_1_169
+		new_area_653
+		new_area_4_13
+	}
+}
+
+region_246 = {
+	areas = {
+		new_area_27
+		new_area_27
+		new_area_27
+		new_area_27
+	}
+}
+
+region_367 = {
+	areas = {
+		new_area_805
+	}
+}
+
+sea_region_26 = {
+	areas = {
+		sea_area_127
+		sea_area_127
+		sea_area_127
+		sea_area_127
+	}
+}
+
+region_124 = {
+	areas = {
+		new_area_800
+		new_area_5_9
+		new_area_371
+		new_area_353
+		new_area_353
+		new_area_1_75
+		new_area_4_9
+		new_area_1_157
+		new_area_1_157
+		new_area_3_40
+		new_area_3_39
+	}
+}
+
+region_245 = {
+	areas = {
+		new_area_637
+		new_area_709
+		new_area_637
+		new_area_709
+	}
+}
+
+region_366 = {
+	areas = {
+		new_area_1030
+	}
+}
+
+sea_region_25 = {
+	areas = {
+		sea_area_124
+		sea_area_124
+		sea_area_124
+		sea_area_124
+	}
+}
+
+region_123 = {
+	areas = {
+		new_area_1_33
+		new_area_211
+		new_area_322
+		new_area_322
+		new_area_1_159
+		new_area_1_159
+		new_area_2_79
+		new_area_1_159
+		new_area_1_159
+		new_area_2_79
+	}
+}
+
+region_244 = {
+	areas = {
+		new_area_29
+		new_area_29
+		new_area_567
+		new_area_567
+	}
+}
+
+region_365 = {
+	areas = {
+		new_area_1039
+		new_area_1039
+		new_area_1039
+		new_area_1039
+	}
+}
+
+region_122 = {
+	areas = {
+		new_area_1075
+		new_area_1075
+		new_area_1075
+		new_area_1075
+	}
+}
+
+region_243 = {
+	areas = {
+		new_area_634
+		new_area_634
+		new_area_634
+		new_area_634
+	}
+}
+
+region_364 = {
+	areas = {
+		new_area_362
+		new_area_362
+		new_area_362
+		new_area_362
+	}
+}
+
+region_121 = {
+	areas = {
+		new_area_848
+		new_area_848
+		new_area_848
+		new_area_848
+	}
+}
+
+region_242 = {
+	areas = {
+		new_area_1022
+		new_area_397
+		new_area_1022
+		new_area_397
+	}
+}
+
+region_363 = {
+	areas = {
+		new_area_116
+		new_area_116
+		new_area_116
+		new_area_116
+	}
+}
+
+region_241 = {
+	areas = {
+		new_area_589
+		new_area_589
+		new_area_589
+		new_area_589
+	}
+}
+
+region_240 = {
+	areas = {
+		new_area_1_73
+		new_area_2_99
+		new_area_1_73
+		new_area_2_99
+	}
+}
+
+region_361 = {
+	areas = {
+		new_area_1004
+	}
+}
+
+region_360 = {
+	areas = {
+		new_area_1005
+	}
+}
+
+region_16 = {
+	areas = {
+		new_area_1_213
+		new_area_4_27
+		new_area_2_12
+		new_area_836
+		new_area_4_28
+		new_area_2_74
+	}
+}
+
+region_219 = {
+	areas = {
+		new_area_46
+	}
+}
+
+region_218 = {
+	areas = {
+		new_area_630
+		new_area_719
+		new_area_150
+		new_area_150
+	}
+}
+
+region_339 = {
+	areas = {
+		new_area_995
+	}
+}
+
+region_217 = {
+	areas = {
+		new_area_210
+		new_area_210
+		new_area_210
+		new_area_210
+		new_area_1_203
+		new_area_1_125
+		new_area_725
+		new_area_725
+		new_area_1_203
+		new_area_1_125
+		new_area_725
+		new_area_725
+	}
+}
+
+region_338 = {
+	areas = {
+		new_area_328
+		new_area_328
+		new_area_328
+		new_area_328
+	}
+}
+
+region_216 = {
+	areas = {
+		new_area_314
+		new_area_314
+		new_area_451
+		new_area_451
+	}
+}
+
+region_337 = {
+	areas = {
+		new_area_566
+	}
+}
+
+region_215 = {
+	areas = {
+		new_area_47
+		new_area_47
+		new_area_984
+		new_area_984
+	}
+}
+
+region_336 = {
+	areas = {
+		new_area_225
+		new_area_2_65
+		new_area_225
+		new_area_2_65
+	}
+}
+
+region_214 = {
+	areas = {
+		new_area_631
+		new_area_901
+		new_area_631
+		new_area_901
+	}
+}
+
+region_335 = {
+	areas = {
+		new_area_466
+		new_area_466
+		new_area_466
+		new_area_466
+	}
+}
+
+region_213 = {
+	areas = {
+		new_area_30
+		new_area_30
+		new_area_30
+		new_area_30
+	}
+}
+
+region_334 = {
+	areas = {
+		new_area_227
+	}
+}
+
+region_212 = {
+	areas = {
+		new_area_553
+		new_area_553
+		new_area_553
+		new_area_553
+	}
+}
+
+region_333 = {
+	areas = {
+		new_area_470
+		new_area_470
+		new_area_470
+		new_area_470
+	}
+}
+
+region_211 = {
+	areas = {
+		new_area_699
+		new_area_699
+		new_area_699
+		new_area_699
+	}
+}
+
+region_332 = {
+	areas = {
+		new_area_330
+	}
+}
+
+region_210 = {
+	areas = {
+		new_area_640
+		new_area_640
+		new_area_640
+		new_area_640
+	}
+}
+
+region_331 = {
+	areas = {
+		new_area_474
+		new_area_474
+		new_area_474
+		new_area_474
+	}
+}
+
+halethin_region = {
+	areas = {
+		halethin_area_01
+		halethin_area_02
+		halethin_area_03
+		halethin_area_04
+		halethin_area_05
+		halethin_area_06
+		halethin_area_07
+		halethin_area_08
+		halethin_area_09
+		halethin_area_10
+		halethin_area_11
+	}
+}
+
+daren_region = {
+	areas = {
+		daren_area_1
+		daren_area_2
+		daren_area_3
+		daren_area_4
+		daren_area_5
+		daren_area_6
+		daren_area_7
+		daren_area_8
+		daren_area_9
+		daren_area_10
+		daren_area_11
+		daren_area_12
+		daren_area_13
+		daren_area_14
+		daren_area_15
+		daren_area_16
+		daren_area_17
+		daren_area_18
+		daren_area_19
+		daren_area_20
+		daren_area_21
+		daren_area_22
+		daren_area_23
+		daren_area_24
+		daren_area_25
+		daren_area_26
+		daren_area_27
+		daren_area_28
+		daren_area_29
+		daren_area_30
+		daren_area_31
+		daren_area_32
+		daren_area_33
+		daren_area_34
+		daren_area_35
+		daren_area_36
+		daren_area_37
+		daren_area_38
+		daren_area_39
+	}
+}
+
+region_5 = {
+	areas = {
+		new_area_491
+		new_area_343
+		new_area_1_204
+		new_area_846
+		new_area_164
+		new_area_943
+		new_area_943
+		new_area_857
+		new_area_4_7
+		new_area_1_132
+		new_area_1_94
+		new_area_4_8
+	}
+}
+
+region_109 = {
+	areas = {
+		new_area_498
+		new_area_376
+		new_area_113
+		new_area_113
+		new_area_455
+		new_area_1_172
+	}
+}
+
+region_6 = {
+	areas = {
+		new_area_1_25
+		new_area_1_25
+		new_area_1095
+		new_area_1095
+		new_area_1_26
+		new_area_1_26
+	}
+}
+
+region_108 = {
+	areas = {
+		new_area_401
+		new_area_711
+		new_area_401
+		new_area_711
+	}
+}
+
+region_229 = {
+	areas = {
+		new_area_35
+		new_area_35
+		new_area_35
+		new_area_35
+	}
+}
+
+region_3 = {
+	areas = {
+		new_area_2_88
+		new_area_2_2
+		new_area_3_35
+		new_area_1_41
+		new_area_392
+		new_area_855
+		new_area_1_147
+		new_area_2_55
+		new_area_1_205
+		new_area_4_5
+		new_area_2_55
+		new_area_1_205
+		new_area_4_5
+	}
+}
+
+region_107 = {
+	areas = {
+		new_area_1089
+		new_area_1058
+		new_area_878
+		new_area_989
+	}
+}
+
+region_228 = {
+	areas = {
+		new_area_636
+		new_area_636
+		new_area_636
+		new_area_636
+	}
+}
+
+region_349 = {
+	areas = {
+		new_area_500
+		new_area_374
+		new_area_500
+		new_area_374
+	}
+}
+
+region_4 = {
+	areas = {
+		new_area_888
+		new_area_716
+		new_area_1_195
+		new_area_1_19
+		new_area_2_17
+		new_area_3_7
+		new_area_3_7
+		new_area_1_47
+		new_area_4_19
+		new_area_3_13
+		new_area_3_13
+		new_area_4_20
+		new_area_4_20
+		new_area_2_11
+		new_area_2_11
+	}
+}
+
+region_106 = {
+	areas = {
+		new_area_256
+		new_area_256
+		new_area_256
+		new_area_256
+	}
+}
+
+region_227 = {
+	areas = {
+		new_area_42
+	}
+}
+
+region_348 = {
+	areas = {
+		new_area_920
+	}
+}
+
+region_9 = {
+	areas = {
+		new_area_839
+		new_area_839
+		new_area_839
+		new_area_839
+	}
+}
+
+region_105 = {
+	areas = {
+		new_area_1_82
+		new_area_333
+		new_area_298
+		new_area_298
+		new_area_1_60
+		new_area_1_171
+	}
+}
+
+region_226 = {
+	areas = {
+		new_area_875
+		new_area_875
+		new_area_875
+		new_area_875
+	}
+}
+
+region_347 = {
+	areas = {
+		new_area_516
+	}
+}
+
+region_104 = {
+	areas = {
+		new_area_1_53
+		new_area_2_108
+		new_area_1_54
+		new_area_2_107
+		new_area_1_53
+		new_area_2_108
+		new_area_1_54
+		new_area_2_107
+		new_area_1_196
+		new_area_1_143
+		new_area_1_107
+		new_area_1_196
+		new_area_1_143
+		new_area_1_107
+	}
+}
+
+region_225 = {
+	areas = {
+		new_area_43
+		new_area_43
+		new_area_15
+		new_area_15
+	}
+}
+
+region_346 = {
+	areas = {
+		new_area_996
+		new_area_996
+		new_area_996
+		new_area_996
+	}
+}
+
+region_7 = {
+	areas = {
+		new_area_833
+		new_area_833
+		new_area_833
+		new_area_833
+	}
+}
+
+region_103 = {
+	areas = {
+		new_area_614
+		new_area_781
+		new_area_614
+		new_area_781
+	}
+}
+
+region_224 = {
+	areas = {
+		new_area_633
+		new_area_98
+		new_area_633
+		new_area_98
+	}
+}
+
+region_345 = {
+	areas = {
+		new_area_512
+		new_area_356
+		new_area_926
+		new_area_926
+		new_area_512
+		new_area_356
+		new_area_926
+		new_area_926
+	}
+}
+
+region_8 = {
+	areas = {
+		new_area_1_31
+		new_area_407
+		new_area_4_36
+		new_area_4_36
+		new_area_1_31
+		new_area_407
+		new_area_4_36
+		new_area_4_36
+	}
+}
+
+region_102 = {
+	areas = {
+		new_area_860
+		new_area_860
+		new_area_860
+		new_area_860
+	}
+}
+
+region_223 = {
+	areas = {
+		new_area_560
+		new_area_560
+		new_area_586
+		new_area_586
+	}
+}
+
+region_344 = {
+	areas = {
+		new_area_751
+		new_area_751
+		new_area_751
+		new_area_751
+	}
+}
+
+region_101 = {
+	areas = {
+		new_area_754
+		new_area_754
+		new_area_778
+		new_area_754
+		new_area_754
+		new_area_778
+		new_area_2_3
+		new_area_1_35
+		new_area_2_3
+		new_area_1_35
+	}
+}
+
+region_222 = {
+	areas = {
+		new_area_45
+		new_area_45
+		new_area_994
+		new_area_994
+	}
+}
+
+region_343 = {
+	areas = {
+		new_area_915
+	}
+}
+
+region_221 = {
+	areas = {
+		new_area_872
+	}
+}
+
+region_342 = {
+	areas = {
+		new_area_752
+		new_area_752
+		new_area_959
+		new_area_959
+	}
+}
+
+region_220 = {
+	areas = {
+		new_area_694
+		new_area_572
+		new_area_389
+		new_area_389
+	}
+}
+
+region_341 = {
+	areas = {
+		new_area_919
+	}
+}
+
+region_340 = {
+	areas = {
+		new_area_757
+	}
+}
+
+region_2 = {
+	areas = {
+		new_area_700
+		new_area_904
+		new_area_661
+		new_area_807
+		new_area_682
+		new_area_5_10
+		new_area_1_76
+	}
+}
+
+region_0 = {
+	areas = {
+		new_area_409
+		new_area_1_206
+		new_area_1_175
+		new_area_193
+		new_area_574
+		new_area_2_66
+		new_area_4_6
+	}
+}
+
+region_69 = {
+	areas = {
+		new_area_820
+	}
+}
+
+region_280 = {
+	areas = {
+		new_area_1128
+	}
+}
+
+region_67 = {
+	areas = {
+		new_area_823
+		new_area_958
+		new_area_823
+		new_area_958
+	}
+}
+
+region_68 = {
+	areas = {
+		new_area_1_97
+		new_area_37
+		new_area_2_30
+		new_area_2_30
+		new_area_1_9
+		new_area_352
+		new_area_2_21
+		new_area_2_22
+		new_area_2_103
+		new_area_2_103
+		new_area_3_10
+		new_area_3_9
+		new_area_2_103
+		new_area_2_103
+		new_area_3_10
+		new_area_3_9
+	}
+}
+
+region_65 = {
+	areas = {
+		new_area_1_199
+		new_area_1_199
+		new_area_1_200
+		new_area_2_7
+		new_area_221
+		new_area_937
+	}
+}
+
+region_66 = {
+	areas = {
+		new_area_1_11
+		new_area_1_11
+		new_area_1_133
+		new_area_1_133
+	}
+}
+
+sea_region_49 = {
+	areas = {
+		sea_area_2_2
+		sea_area_108
+		sea_area_1_5
+		sea_area_2_2
+		sea_area_108
+		sea_area_1_5
+		sea_area_2_1
+		sea_area_2_1
+		sea_area_2_1
+		sea_area_2_1
+	}
+}
+
+region_60 = {
+	areas = {
+		new_area_1_87
+		new_area_907
+		new_area_1_55
+		new_area_3_45
+		new_area_3_45
+	}
+}
+
+sea_region_53 = {
+	areas = {
+		sea_area_165
+		sea_area_45
+		sea_area_165
+		sea_area_45
+	}
+}
+
+sea_region_52 = {
+	areas = {
+		sea_area_160
+		sea_area_49
+		sea_area_160
+		sea_area_49
+	}
+}
+
+sea_region_55 = {
+	areas = {
+		sea_area_164
+		sea_area_107
+		sea_area_8
+		sea_area_8
+	}
+}
+
+sea_region_54 = {
+	areas = {
+		sea_area_163
+		sea_area_43
+		sea_area_42
+		sea_area_42
+	}
+}
+
+sea_region_57 = {
+	areas = {
+		sea_area_55
+		sea_area_119
+		sea_area_55
+		sea_area_119
+	}
+}
+
+region_159 = {
+	areas = {
+		new_area_944
+	}
+}
+
+sea_region_56 = {
+	areas = {
+		sea_area_1_2
+		sea_area_158
+		sea_area_1_2
+		sea_area_158
+	}
+}
+
+region_158 = {
+	areas = {
+		new_area_284
+		new_area_284
+		new_area_504
+		new_area_504
+	}
+}
+
+region_279 = {
+	areas = {
+		new_area_545
+		new_area_545
+		new_area_545
+		new_area_545
+	}
+}
+
+sea_region_59 = {
+	areas = {
+		sea_area_151
+		sea_area_174
+		sea_area_151
+		sea_area_174
+	}
+}
+
+region_157 = {
+	areas = {
+		new_area_440
+	}
+}
+
+region_278 = {
+	areas = {
+		new_area_1122
+	}
+}
+
+sea_region_58 = {
+	areas = {
+		sea_area_146
+		sea_area_38
+		sea_area_146
+		sea_area_38
+	}
+}
+
+region_156 = {
+	areas = {
+		new_area_677
+		new_area_908
+		new_area_677
+		new_area_908
+	}
+}
+
+region_277 = {
+	areas = {
+		new_area_1121
+	}
+}
+
+region_155 = {
+	areas = {
+		new_area_282
+	}
+}
+
+region_276 = {
+	areas = {
+		new_area_790
+		new_area_790
+		new_area_790
+		new_area_790
+	}
+}
+
+region_154 = {
+	areas = {
+		new_area_607
+		new_area_939
+		new_area_607
+		new_area_939
+	}
+}
+
+region_275 = {
+	areas = {
+		new_area_1105
+	}
+}
+
+region_153 = {
+	areas = {
+		new_area_604
+		new_area_594
+		new_area_604
+		new_area_594
+	}
+}
+
+region_274 = {
+	areas = {
+		new_area_1094
+	}
+}
+
+region_152 = {
+	areas = {
+		new_area_601
+		new_area_601
+		new_area_32
+		new_area_32
+	}
+}
+
+region_273 = {
+	areas = {
+		new_area_1045
+	}
+}
+
+region_151 = {
+	areas = {
+		new_area_245
+	}
+}
+
+region_272 = {
+	areas = {
+		new_area_377
+		new_area_359
+		new_area_196
+		new_area_143
+		new_area_3_23
+	}
+}
+
+region_150 = {
+	areas = {
+		new_area_840
+	}
+}
+
+region_271 = {
+	areas = {
+		new_area_11
+	}
+}
+
+region_270 = {
+	areas = {
+		new_area_818
+		new_area_818
+		new_area_818
+		new_area_818
+	}
+}
+
+sea_region_50 = {
+	areas = {
+		sea_area_103
+		sea_area_103
+		sea_area_103
+		sea_area_103
+	}
+}
+
+region_170 = {
+	areas = {
+		new_area_738
+		new_area_738
+		new_area_738
+		new_area_738
+	}
+}
+
+region_291 = {
+	areas = {
+		new_area_163
+	}
+}
+
+region_290 = {
+	areas = {
+		new_area_785
+		new_area_785
+		new_area_785
+		new_area_785
+	}
+}
+
+region_57 = {
+	areas = {
+		new_area_3_47
+		new_area_1_65
+		new_area_1_12
+		new_area_4_26
+		new_area_1_134
+		new_area_514
+		new_area_1_74
+		new_area_2_100
+		new_area_1_66
+		new_area_1_66
+		new_area_1_89
+		new_area_1_69
+		new_area_2_49
+	}
+}
+
+region_54 = {
+	areas = {
+		new_area_1
+		new_area_62
+		new_area_1_148
+		new_area_1
+		new_area_62
+		new_area_1_148
+	}
+}
+
+region_52 = {
+	areas = {
+		new_area_1082
+		new_area_1082
+		new_area_1106
+		new_area_1106
+	}
+}
+
+region_50 = {
+	areas = {
+		new_area_1084
+		new_area_17
+		new_area_20
+		new_area_964
+	}
+}
+
+sea_region_64 = {
+	areas = {
+		sea_area_52
+		sea_area_34
+		sea_area_52
+		sea_area_34
+	}
+}
+
+sea_region_63 = {
+	areas = {
+		sea_area_51
+		sea_area_65
+		sea_area_51
+		sea_area_65
+	}
+}
+
+sea_region_66 = {
+	areas = {
+		sea_area_2
+		sea_area_2
+		sea_area_2
+		sea_area_2
+	}
+}
+
+sea_region_65 = {
+	areas = {
+		sea_area_84
+		sea_area_84
+		sea_area_84
+		sea_area_84
+	}
+}
+
+sea_region_68 = {
+	areas = {
+		sea_area_82
+		sea_area_75
+		sea_area_82
+		sea_area_75
+	}
+}
+
+sea_region_67 = {
+	areas = {
+		sea_area_85
+		sea_area_86
+		sea_area_143
+		sea_area_143
+	}
+}
+
+region_169 = {
+	areas = {
+		new_area_94
+		new_area_94
+		new_area_94
+		new_area_94
+	}
+}
+
+region_168 = {
+	areas = {
+		new_area_432
+		new_area_323
+		new_area_432
+		new_area_323
+	}
+}
+
+region_289 = {
+	areas = {
+		new_area_159
+		new_area_159
+		new_area_232
+		new_area_232
+	}
+}
+
+sea_region_69 = {
+	areas = {
+		sea_area_4
+		sea_area_116
+		sea_area_4
+		sea_area_116
+	}
+}
+
+region_167 = {
+	areas = {
+		new_area_675
+	}
+}
+
+region_288 = {
+	areas = {
+		new_area_863
+		new_area_311
+		new_area_863
+		new_area_311
+	}
+}
+
+region_166 = {
+	areas = {
+		new_area_980
+	}
+}
+
+region_287 = {
+	areas = {
+		new_area_621
+	}
+}
+
+region_165 = {
+	areas = {
+		new_area_718
+	}
+}
+
+region_286 = {
+	areas = {
+		new_area_124
+		new_area_124
+		new_area_229
+		new_area_2_13
+		new_area_1_43
+		new_area_1_43
+	}
+}
+
+region_164 = {
+	areas = {
+		new_area_249
+		new_area_918
+		new_area_448
+		new_area_83
+	}
+}
+
+region_285 = {
+	areas = {
+		new_area_1104
+	}
+}
+
+naiamy_region = {
+	areas = {
+		elenie_area
+		alsipa_area
+		alsipa_tunnel_area
+		naiamy_cross_area
+		naiamy_tunnel_south_area
+		naiamy_tunnel_east_area
+		deep_borderlands_area
+		deep_realm_area
+		naiamy_tunnel_north_area
+	}
+}
+
+region_163 = {
+	areas = {
+		new_area_680
+		new_area_726
+		new_area_1_99
+		new_area_1_59
+		new_area_1_100
+		new_area_1_100
+	}
+}
+
+region_284 = {
+	areas = {
+		new_area_1_104
+		new_area_106
+		new_area_3_8
+		new_area_3_8
+		new_area_1_104
+		new_area_106
+		new_area_3_8
+		new_area_3_8
+	}
+}
+
+sea_region_60 = {
+	areas = {
+		sea_area_154
+		sea_area_130
+		sea_area_80
+		sea_area_78
+	}
+}
+
+region_162 = {
+	areas = {
+		new_area_940
+	}
+}
+
+region_283 = {
+	areas = {
+		new_area_302
+		new_area_302
+		new_area_302
+		new_area_302
+	}
+}
+
+region_161 = {
+	areas = {
+		new_area_941
+	}
+}
+
+region_282 = {
+	areas = {
+		new_area_1103
+	}
+}
+
+sea_region_62 = {
+	areas = {
+		sea_area_48
+		sea_area_48
+		sea_area_7
+		sea_area_7
+	}
+}
+
+region_160 = {
+	areas = {
+		new_area_280
+		new_area_280
+		new_area_479
+		new_area_479
+	}
+}
+
+region_281 = {
+	areas = {
+		new_area_864
+		new_area_864
+		new_area_864
+		new_area_864
+	}
+}
+
+sea_region_61 = {
+	areas = {
+		sea_area_155
+		sea_area_114
+		sea_area_155
+		sea_area_114
+	}
+}
+
+region_47 = {
+	areas = {
+		new_area_1080
+		new_area_408
+		new_area_1080
+		new_area_408
+	}
+}
+
+region_48 = {
+	areas = {
+		new_area_1081
+	}
+}
+
+region_45 = {
+	areas = {
+		new_area_1056
+		new_area_418
+		new_area_1056
+		new_area_418
+	}
+}
+
+region_46 = {
+	areas = {
+		new_area_1057
+	}
+}
+
+region_44 = {
+	areas = {
+		new_area_828
+	}
+}
+
+region_42 = {
+	areas = {
+		new_area_690
+		new_area_3_49
+		new_area_2_105
+		new_area_218
+		new_area_507
+		new_area_1_93
+		new_area_1_93
+		new_area_1_189
+		new_area_1_189
+		new_area_3_31
+		new_area_1_189
+		new_area_1_189
+		new_area_3_31
+	}
+}
+
+sea_region_28 = {
+	areas = {
+		sea_area_176
+		sea_area_176
+		sea_area_161
+		sea_area_46
+	}
+}
+
+region_40 = {
+	areas = {
+		new_area_55
+		new_area_55
+		new_area_1_7
+		new_area_1_101
+		new_area_1_102
+		new_area_1_102
+	}
+}
+
+sea_region_27 = {
+	areas = {
+		sea_area_30
+		sea_area_30
+		sea_area_50
+		sea_area_106
+	}
+}
+
+sea_region_29 = {
+	areas = {
+		sea_area_171
+		sea_area_171
+		sea_area_171
+		sea_area_171
+	}
+}
+
+sea_region_31 = {
+	areas = {
+		sea_area_173
+		sea_area_173
+		sea_area_173
+		sea_area_173
+	}
+}
+
+sea_region_30 = {
+	areas = {
+		sea_area_170
+		sea_area_170
+		sea_area_59
+		sea_area_117
+	}
+}
+
+sea_region_33 = {
+	areas = {
+		sea_area_102
+		sea_area_102
+		sea_area_102
+		sea_area_102
+	}
+}
+
+region_139 = {
+	areas = {
+		new_area_648
+		new_area_648
+		new_area_435
+		new_area_629
+		new_area_1_2
+		new_area_526
+	}
+}
+
+sea_region_32 = {
+	areas = {
+		sea_area_172
+		sea_area_172
+		sea_area_172
+		sea_area_172
+	}
+}
+
+region_138 = {
+	areas = {
+		new_area_253
+		new_area_253
+		new_area_253
+		new_area_253
+	}
+}
+
+region_259 = {
+	areas = {
+		new_area_639
+		new_area_639
+		new_area_301
+		new_area_301
+		new_area_639
+		new_area_639
+		new_area_301
+		new_area_301
+	}
+}
+
+sea_region_35 = {
+	areas = {
+		sea_area_111
+		sea_area_37
+		sea_area_162
+		sea_area_27
+		sea_area_1_14
+		sea_area_1_14
+	}
+}
+
+region_137 = {
+	areas = {
+		new_area_1_83
+		new_area_1_83
+		new_area_449
+		new_area_128
+	}
+}
+
+region_258 = {
+	areas = {
+		new_area_1019
+		new_area_1028
+		new_area_1019
+		new_area_1028
+	}
+}
+
+sea_region_34 = {
+	areas = {
+		sea_area_110
+		sea_area_110
+		sea_area_139
+		sea_area_139
+	}
+}
+
+region_136 = {
+	areas = {
+		new_area_489
+		new_area_38
+		new_area_489
+		new_area_38
+	}
+}
+
+region_257 = {
+	areas = {
+		new_area_1092
+	}
+}
+
+sea_region_37 = {
+	areas = {
+		sea_area_92
+		sea_area_177
+		sea_area_92
+		sea_area_177
+	}
+}
+
+region_135 = {
+	areas = {
+		new_area_403
+	}
+}
+
+region_256 = {
+	areas = {
+		new_area_1018
+		new_area_991
+		new_area_1018
+		new_area_991
+	}
+}
+
+sea_region_36 = {
+	areas = {
+		sea_area_91
+		sea_area_88
+		sea_area_91
+		sea_area_88
+	}
+}
+
+region_255 = {
+	areas = {
+		new_area_345
+	}
+}
+
+region_133 = {
+	areas = {
+		new_area_247
+		new_area_375
+		new_area_325
+		new_area_510
+	}
+}
+
+region_254 = {
+	areas = {
+		new_area_1_177
+		new_area_1_177
+		new_area_1_177
+		new_area_1_177
+	}
+}
+
+region_253 = {
+	areas = {
+		new_area_1091
+	}
+}
+
+gultamal_region = {
+	areas = {
+		gultamal_area_01
+		gultamal_area_02
+		gultamal_area_03
+		gultamal_area_04
+		gultamal_area_05
+		gultamal_area_06
+		gultamal_area_07
+		gultamal_area_08
+		gultamal_area_10
+		gultamal_area_11
+		gultamal_area_12
+		gultamal_area_13
+		gultamal_area_14
+		gultamal_area_15
+		gultamal_area_16
+		gultamal_area_17
+		gultamal_area_18
+		gultamal_area_19
+		gultamal_area_20
+		gultamal_area_21
+		gultamal_area_22
+		gultamal_area_23
+	}
+}
+
+region_131 = {
+	areas = {
+		new_area_248
+		new_area_1_141
+		new_area_2_87
+		new_area_2_87
+		new_area_1_42
+		new_area_287
+		new_area_2_1
+		new_area_1_39
+	}
+}
+
+region_252 = {
+	areas = {
+		new_area_1010
+	}
+}
+
+malai_region = {
+	areas = {
+		padov_area
+		olea_area
+		direv_area
+		erens_area
+		pantur_area
+		shinren_area
+		anupas_area
+		parne_area
+		malward_area
+		zen_area
+		renaku_area
+		centula_area
+		komu_area
+		komunia_area
+		selsk_area
+		great_river_area
+		apus_area
+		anoranu_area
+		laville_area
+		ervu_area
+		zenuta_area
+		enders_area
+		irdolgard_area
+		brownhill_area
+		parmin_plateau_area
+		little_plateau_area
+	}
+}
+
+region_130 = {
+	areas = {
+		new_area_198
+		new_area_198
+		new_area_198
+		new_area_198
+	}
+}
+
+region_251 = {
+	areas = {
+		new_area_1096
+	}
+}
+
+region_250 = {
+	areas = {
+		new_area_383
+	}
+}
+
+region_49 = {
+	areas = {
+		new_area_1083
+		new_area_95
+		new_area_1083
+		new_area_95
+	}
+}
+
+region_370 = {
+	areas = {
+		new_area_1036
+	}
+}
+
+region_36 = {
+	areas = {
+		new_area_58
+		new_area_976
+		new_area_2_68
+		new_area_58
+		new_area_976
+		new_area_2_68
+		new_area_1_155
+		new_area_1_155
+		new_area_2_73
+		new_area_5_12
+		new_area_2_67
+	}
+}
+
+region_37 = {
+	areas = {
+		new_area_1_3
+		new_area_729
+		new_area_1_70
+		new_area_2_9
+		new_area_1_49
+		new_area_2_10
+		new_area_2_10
+		new_area_1_139
+		new_area_2_89
+		new_area_1_211
+		new_area_3_25
+		new_area_346
+		new_area_346
+	}
+}
+
+dargaren_region = {
+	areas = {
+		dargaren_area
+	}
+}
+
+region_34 = {
+	areas = {
+		new_area_1061
+		new_area_175
+		new_area_1061
+		new_area_175
+	}
+}
+
+region_35 = {
+	areas = {
+		new_area_1_23
+		new_area_691
+		new_area_97
+		new_area_28
+		new_area_1_24
+		new_area_1_24
+	}
+}
+
+region_32 = {
+	areas = {
+		new_area_1_71
+		new_area_2_84
+		new_area_1_85
+		new_area_1_72
+		new_area_909
+		new_area_909
+		new_area_1_52
+		new_area_187
+		new_area_593
+		new_area_1_184
+		new_area_1_183
+		new_area_593
+		new_area_1_184
+		new_area_1_183
+	}
+}
+
+region_33 = {
+	areas = {
+		new_area_1060
+		new_area_891
+		new_area_1060
+		new_area_891
+	}
+}
+
+region_30 = {
+	areas = {
+		new_area_1063
+	}
+}
+
+region_31 = {
+	areas = {
+		new_area_441
+		new_area_1_109
+		new_area_2_93
+		new_area_1053
+		new_area_1102
+		new_area_5_4
+		new_area_4_14
+		new_area_2_69
+		new_area_1_179
+		new_area_1_179
+		new_area_3_15
+		new_area_3_15
+		new_area_2_69
+		new_area_1_179
+		new_area_1_179
+		new_area_3_15
+		new_area_3_15
+	}
+}
+
+sea_region_39 = {
+	areas = {
+		sea_area_95
+		sea_area_31
+		sea_area_3
+		sea_area_0
+	}
+}
+
+sea_region_38 = {
+	areas = {
+		sea_area_90
+		sea_area_90
+		sea_area_90
+		sea_area_90
+	}
+}
+
+sea_region_42 = {
+	areas = {
+		sea_area_54
+		sea_area_36
+		sea_area_147
+		sea_area_1
+	}
+}
+
+sea_region_41 = {
+	areas = {
+		sea_area_93
+		sea_area_33
+		sea_area_1_11
+		sea_area_1_11
+	}
+}
+
+sea_region_44 = {
+	areas = {
+		sea_area_39
+		sea_area_39
+		sea_area_39
+		sea_area_39
+	}
+}
+
+sea_region_43 = {
+	areas = {
+		sea_area_1_7
+		sea_area_1_7
+		sea_area_1_9
+		sea_area_1_10
+	}
+}
+
+region_149 = {
+	areas = {
+		new_area_842
+	}
+}
+
+sea_region_46 = {
+	areas = {
+		sea_area_109
+		sea_area_109
+		sea_area_109
+		sea_area_109
+	}
+}
+
+region_148 = {
+	areas = {
+		new_area_600
+		new_area_600
+		new_area_600
+		new_area_600
+	}
+}
+
+region_269 = {
+	areas = {
+		new_area_135
+		new_area_135
+		new_area_135
+		new_area_135
+	}
+}
+
+sea_region_45 = {
+	areas = {
+		sea_area_1_13
+		sea_area_100
+		sea_area_1_13
+		sea_area_100
+	}
+}
+
+region_147 = {
+	areas = {
+		new_area_487
+		new_area_551
+		new_area_487
+		new_area_551
+	}
+}
+
+region_268 = {
+	areas = {
+		new_area_310
+	}
+}
+
+sea_region_48 = {
+	areas = {
+		sea_area_41
+		sea_area_41
+		sea_area_41
+		sea_area_41
+	}
+}
+
+region_267 = {
+	areas = {
+		new_area_14
+		new_area_529
+		new_area_14
+		new_area_529
+	}
+}
+
+sea_region_47 = {
+	areas = {
+		sea_area_40
+		sea_area_40
+		sea_area_40
+		sea_area_40
+	}
+}
+
+region_145 = {
+	areas = {
+		new_area_490
+		new_area_780
+		new_area_354
+		new_area_354
+	}
+}
+
+region_266 = {
+	areas = {
+		new_area_792
+		new_area_792
+		new_area_792
+		new_area_792
+	}
+}
+
+region_144 = {
+	areas = {
+		new_area_889
+		new_area_794
+		new_area_950
+		new_area_950
+	}
+}
+
+region_265 = {
+	areas = {
+		new_area_1109
+	}
+}
+
+region_143 = {
+	areas = {
+		new_area_647
+		new_area_647
+		new_area_647
+		new_area_647
+	}
+}
+
+region_264 = {
+	areas = {
+		new_area_370
+	}
+}
+
+region_142 = {
+	areas = {
+		new_area_497
+		new_area_497
+		new_area_801
+		new_area_558
+	}
+}
+
+region_263 = {
+	areas = {
+		new_area_550
+	}
+}
+
+region_141 = {
+	areas = {
+		new_area_405
+		new_area_405
+		new_area_405
+		new_area_405
+	}
+}
+
+region_262 = {
+	areas = {
+		new_area_373
+	}
+}
+
+region_140 = {
+	areas = {
+		new_area_255
+	}
+}
+
+region_261 = {
+	areas = {
+		new_area_1024
+		new_area_1024
+		new_area_184
+		new_area_184
+	}
+}
+
+region_260 = {
+	areas = {
+		new_area_635
+	}
+}
+
+sea_region_40 = {
+	areas = {
+		sea_area_96
+		sea_area_96
+		sea_area_96
+		sea_area_96
+	}
+}
+
+region_39 = {
+	areas = {
+		new_area_1_178
+		new_area_1_161
+		new_area_1_162
+		new_area_1_197
+		new_area_1_197
+		new_area_4_2
+		new_area_4_2
+	}
+}
+

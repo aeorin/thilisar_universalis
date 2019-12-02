@@ -215,6 +215,31 @@ gultar_group = {
     }
 }
 
+gultam_group = {
+    gultam_culture = {
+        male_names = {
+            Hehi Giddi Auri
+        }
+        female_names = {
+            Axi Aura Ati
+        }
+        dynasty_names = {
+            Pati Sali Puli
+        }
+    }
+    goblin_culture = {
+        male_names = {
+            Hhhh Ggddi Aari
+        }
+        female_names = {
+            Axx Arra Att
+        }
+        dynasty_names = {
+            Ptti Ssli Plli
+        }
+    }
+}
+
 undead_group = {
     necromantic_culture = {
         male_names = {

@@ -1,0 +1,145 @@
+namespace = gultar_fall
+
+province_event = {
+	id = gultar_fall.1
+	title = "gultar_fall.1.t"
+	desc = "gultar_fall.1.d"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    magic_presence = 100
+	    owner = {
+	        has_country_flag = anti_magic_shielding
+	    }
+	    culture_group = gultar_group
+	}
+
+	mean_time_to_happen = {
+		days = 5000
+	}
+
+	option = {
+		name = "gultar_fall.1.o.1"
+	}
+}
+
+#goblinization
+province_event = {
+	id = gultar_fall.2
+	title = "gultar_fall.2.t"
+	desc = "gultar_fall.2.d"
+	picture = RELIGION_eventPicture
+
+	major = no
+
+	trigger = {
+	    magic_presence = 100
+	    NOT = {
+            owner = {
+                has_country_flag = anti_magic_shielding
+            }
+	    }
+	    culture_group = gultar_group
+	}
+
+	mean_time_to_happen = {
+		days = 50
+	}
+
+	option = {
+		name = "gultar_fall.2.o.1"
+		trigger = {
+		    always = yes
+        }
+        ai_chance = { factor = 1 }
+        add_unrest = 30
+        change_culture = goblin_culture
+        add_local_autonomy = 50
+        if = { limit = { base_tax = 10 } add_base_tax = -1 }
+        if = { limit = { base_tax = 8 } add_base_tax = -1 }
+        if = { limit = { base_tax = 6 } add_base_tax = -1 }
+        if = { limit = { base_tax = 4 } add_base_tax = -1 }
+        if = { limit = { base_tax = 2 } add_base_tax = -1 }
+
+        if = { limit = { base_production  = 10 } add_base_production = -1 }
+        if = { limit = { base_production  = 8 }  add_base_production = -1 }
+        if = { limit = { base_production  = 6 }  add_base_production = -1 }
+        if = { limit = { base_production  = 4 }  add_base_production = -1 }
+        if = { limit = { base_production  = 2 }  add_base_production = -1 }
+	}
+
+	option = {
+        name = "gultar_fall.2.o.2"
+        ai_chance = { factor = 20 }
+        trigger = {
+            any_neighbor_province = {
+                culture_group = gultar_group
+            }
+        }
+        add_unrest = 10
+        change_culture = goblin_culture
+        add_local_autonomy = 100
+        if = { limit = { base_tax = 12 } add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
+        if = { limit = { base_tax = 9 }  add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
+        if = { limit = { base_tax = 8 }  add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
+        if = { limit = { base_tax = 6 }  add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
+        if = { limit = { base_tax = 3 }  add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
+
+        if = { limit = { base_production = 12 } add_base_production = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_production = 1 } }
+        if = { limit = { base_production = 9 }  add_base_production = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_production = 1 } }
+        if = { limit = { base_production = 8 }  add_base_production = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_production = 1 } }
+        if = { limit = { base_production = 6 }  add_base_production = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_production = 1 } }
+        if = { limit = { base_production = 3 }  add_base_production = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_production = 1 } }
+
+        if = { limit = { base_manpower = 12 } add_base_manpower = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_manpower = 1 } }
+        if = { limit = { base_manpower = 9 }  add_base_manpower = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_manpower = 1 } }
+        if = { limit = { base_manpower = 8 }  add_base_manpower = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_manpower = 1 } }
+        if = { limit = { base_manpower = 6 }  add_base_manpower = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_manpower = 1 } }
+        if = { limit = { base_manpower = 3 }  add_base_manpower = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_manpower = 1 } }
+    }
+
+	option = {
+		name = "gultar_fall.2.o.3"
+        ai_chance = { factor = 1000 }
+		trigger = {
+            any_neighbor_province = {
+                culture_group = gultam_group
+            }
+            OR = {
+                base_tax = 2
+                base_production  = 2
+                base_manpower  = 2
+            }
+        }
+        add_unrest = 5
+        if = { limit = { base_tax = 10 } add_base_tax = -1 }
+        if = { limit = { base_tax = 8 } add_base_tax = -1 }
+        if = { limit = { base_tax = 6 } add_base_tax = -1 }
+        if = { limit = { base_tax = 4 } add_base_tax = -1 }
+        if = { limit = { base_tax = 2 } add_base_tax = -1 }
+
+        if = { limit = { base_production  = 10 } add_base_production = -1 }
+        if = { limit = { base_production  = 8 }  add_base_production = -1 }
+        if = { limit = { base_production  = 6 }  add_base_production = -1 }
+        if = { limit = { base_production  = 4 }  add_base_production = -1 }
+        if = { limit = { base_production  = 2 }  add_base_production = -1 }
+
+        if = { limit = { base_manpower  = 10 } add_base_manpower = -1 }
+        if = { limit = { base_manpower  = 8 }  add_base_manpower = -1 }
+        if = { limit = { base_manpower  = 6 }  add_base_manpower = -1 }
+        if = { limit = { base_manpower  = 4 }  add_base_manpower = -1 }
+        if = { limit = { base_manpower  = 2 }  add_base_manpower = -1 }
+
+        random_neighbor_province = {
+            limit = {culture_group = gultam_group}
+            add_base_tax = 1
+            add_base_production = 1
+            add_base_manpower = 1
+            add_unrest = 5
+            add_local_autonomy = 20
+
+        }
+	}
+}
