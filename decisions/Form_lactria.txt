@@ -28,12 +28,37 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			primary_culture = lactrian_human_culture
-            owns = 840
-            owns = 842
             owns = 844
-            owns = 2635
-            owns = 2649
-            owns = 2650
+            OR = {
+                owns = 842
+                owns = 2635
+                owns = 2649
+                owns = 2650
+            }
+            OR = {
+                owns = 840
+                owns = 2635
+                owns = 2649
+                owns = 2650
+            }
+            OR = {
+                owns = 840
+                owns = 842
+                owns = 2649
+                owns = 2650
+            }
+            OR = {
+                owns = 840
+                owns = 842
+                owns = 2635
+                owns = 2650
+            }
+            OR = {
+                owns = 840
+                owns = 842
+                owns = 2635
+                owns = 2649
+            }
 		}
 		effect = {
 			change_tag = LAC

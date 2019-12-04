@@ -1,31 +1,31 @@
 namespace = gultar_fall
 
-province_event = {
-	id = gultar_fall.1
-	title = "gultar_fall.1.t"
-	desc = "gultar_fall.1.d"
-	picture = RELIGION_eventPicture
+#province_event = {
+#	id = gultar_fall.1
+#	title = "gultar_fall.1.t"
+#	desc = "gultar_fall.1.d"
+#	picture = RELIGION_eventPicture
+#
+#	major = no
+#
+#	trigger = {
+#	    magic_presence = 100
+#	    owner = {
+#	        has_country_flag = anti_magic_shielding
+#	    }
+#	    culture_group = gultar_group
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 5000
+#	}
+#
+#	option = {
+#		name = "gultar_fall.1.o.1"
+#	}
+#}
 
-	major = no
-
-	trigger = {
-	    magic_presence = 100
-	    owner = {
-	        has_country_flag = anti_magic_shielding
-	    }
-	    culture_group = gultar_group
-	}
-
-	mean_time_to_happen = {
-		days = 5000
-	}
-
-	option = {
-		name = "gultar_fall.1.o.1"
-	}
-}
-
-#goblinization
+#gultamization
 province_event = {
 	id = gultar_fall.2
 	title = "gultar_fall.2.t"
@@ -55,8 +55,15 @@ province_event = {
         }
         ai_chance = { factor = 1 }
         add_unrest = 30
-        change_culture = goblin_culture
+        change_culture = gultam_culture
+        add_core = GUL
+        change_religion = totemism
         add_local_autonomy = 50
+
+        owner = {
+            add_stability = -1
+        }
+
         if = { limit = { base_tax = 10 } add_base_tax = -1 }
         if = { limit = { base_tax = 8 } add_base_tax = -1 }
         if = { limit = { base_tax = 6 } add_base_tax = -1 }
@@ -79,8 +86,15 @@ province_event = {
             }
         }
         add_unrest = 10
-        change_culture = goblin_culture
+        change_culture = gultam_culture
+        add_core = GUL
+        change_religion = totemism
         add_local_autonomy = 100
+
+        owner = {
+            add_stability = -1
+        }
+
         if = { limit = { base_tax = 12 } add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
         if = { limit = { base_tax = 9 }  add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
         if = { limit = { base_tax = 8 }  add_base_tax = -2 random_neighbor_province = { limit = {culture_group = gultar_group} add_base_tax = 1 } }
@@ -114,6 +128,11 @@ province_event = {
             }
         }
         add_unrest = 5
+
+        owner = {
+            add_stability = -1
+        }
+
         if = { limit = { base_tax = 10 } add_base_tax = -1 }
         if = { limit = { base_tax = 8 } add_base_tax = -1 }
         if = { limit = { base_tax = 6 } add_base_tax = -1 }

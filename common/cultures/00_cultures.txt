@@ -91,6 +91,17 @@ elf_group = {
                  Noldor Telleri Vanyar
              }
          }
+    dark_elf_culture = {
+         male_names = {
+             Tenn Rimbë Úlúmë
+         }
+         female_names = {
+             Enomentielva Nai hwesta
+         }
+         dynasty_names = {
+             Ayali Cuilornelyava hestuvar
+         }
+     }
     #dark elves
     #fallen elves
 }

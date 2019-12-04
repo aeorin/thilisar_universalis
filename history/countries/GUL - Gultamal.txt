@@ -1,0 +1,6 @@
+government = monarchy
+mercantilism = 10
+technology_group = western
+religion = totemism
+primary_culture = gultam_culture
+capital = 4694

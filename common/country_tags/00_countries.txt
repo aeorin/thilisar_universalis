@@ -155,5 +155,6 @@ PRO = "countries/Providence.txt"
 RDM = "countries/Redemption.txt"
 SLV = "countries/Salvation.txt"
 ZAR = "countries/Zaren.txt"
+GUL = "countries/Gultamal.txt"
 
 ################################
