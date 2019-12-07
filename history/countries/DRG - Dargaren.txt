@@ -1,0 +1,6 @@
+government = monarchy
+mercantilism = 10
+technology_group = western
+religion = nahuatl
+primary_culture = dark_elf_culture
+capital = 4797

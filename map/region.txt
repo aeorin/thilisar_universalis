@@ -231,9 +231,31 @@ malai_region = {
 	}
 }
 
+wilderness_region = {
+    areas = {
+        wilderness_area_1
+        wilderness_area_2
+        wilderness_area_3
+        wilderness_area_4
+        wilderness_area_5
+        wilderness_area_6
+        wilderness_area_7
+    }
+}
+
 dargaren_region = {
 	areas = {
-		dargaren_area
+		dargaren_area_01
+		dargaren_area_02
+		dargaren_area_03
+		dargaren_area_04
+		dargaren_area_05
+		dargaren_area_06
+		dargaren_area_07
+		dargaren_area_08
+		dargaren_area_09
+		dargaren_area_10
+		dargaren_area_11
 	}
 }
 

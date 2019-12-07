@@ -30,34 +30,36 @@ country_decisions = {
 			primary_culture = lactrian_human_culture
             owns = 844
             OR = {
-                owns = 842
-                owns = 2635
-                owns = 2649
-                owns = 2650
-            }
-            OR = {
-                owns = 840
-                owns = 2635
-                owns = 2649
-                owns = 2650
-            }
-            OR = {
-                owns = 840
-                owns = 842
-                owns = 2649
-                owns = 2650
-            }
-            OR = {
-                owns = 840
-                owns = 842
-                owns = 2635
-                owns = 2650
-            }
-            OR = {
-                owns = 840
-                owns = 842
-                owns = 2635
-                owns = 2649
+                AND = {
+                    owns = 842
+                    owns = 2635
+                    owns = 2649
+                    owns = 2650
+                }
+                AND = {
+                    owns = 840
+                    owns = 2635
+                    owns = 2649
+                    owns = 2650
+                }
+                AND = {
+                    owns = 840
+                    owns = 842
+                    owns = 2649
+                    owns = 2650
+                }
+                AND = {
+                    owns = 840
+                    owns = 842
+                    owns = 2635
+                    owns = 2650
+                }
+                AND = {
+                    owns = 840
+                    owns = 842
+                    owns = 2635
+                    owns = 2649
+                }
             }
 		}
 		effect = {

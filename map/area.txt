@@ -13804,12 +13804,28 @@ new_area_346 {
 	4494
 }
 
+## wilderness_region ############
+wilderness_area_1 = { 4835 4830 4849 }
+wilderness_area_2 = { 4851 4840 4838 4850 }
+wilderness_area_3 = { 4848 4832 4842 }
+wilderness_area_4 = { 4843 4845 }
+wilderness_area_5 = { 4839 4846 4841 }
+wilderness_area_6 = { 4837 4844 4833 }
+wilderness_area_7 = { 4836 4831 4847 }
+
 ## dargaren_region ############
 
-dargaren_area {
-	2018
-	2602
-}
+dargaren_area_01 { 4828 4808 4825 4803 }
+dargaren_area_02 { 4821 4800 4818 4801 }
+dargaren_area_03 { 4810 4802 4813 }
+dargaren_area_04 { 4798 4819 4797 }
+dargaren_area_05 { 4809 4823 4799 }
+dargaren_area_06 { 4814 4796 4811 }
+dargaren_area_07 { 4804 4829 4817 4795 }
+dargaren_area_08 { 4812 4820 4794 }
+dargaren_area_09 { 4790 4816 4791 }
+dargaren_area_10 { 4807 4815 4826 }
+dargaren_area_11 { 4793 4805 4792 }
 
 ## region_34 ############
 

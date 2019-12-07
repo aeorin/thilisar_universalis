@@ -157,4 +157,7 @@ SLV = "countries/Salvation.txt"
 ZAR = "countries/Zaren.txt"
 GUL = "countries/Gultamal.txt"
 
+###Dargaren
+DRG = "countries/Dargaren.txt"
+
 ################################

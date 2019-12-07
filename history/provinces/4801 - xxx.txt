@@ -1,0 +1,8 @@
+culture = dark_elf_culture
+religion = nahuatl
+owner = DRG
+controller = DRG
+add_core = DRG
+base_tax = 3
+base_production = 3
+base_manpower = 3

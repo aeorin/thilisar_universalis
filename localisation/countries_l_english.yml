@@ -212,6 +212,9 @@
  HAL:0 "Halethin"
  HAL_ADJ:0 "Halethine"
  ################################################################################################################
+ DRG:0 "Dargaren"
+ DRG_ADJ:0 "Dargareni"
+ ################################################################################################################
  IEL:0 "Iela"
  ORO:0 "Oros"
  PRI:0 "Paria"
@@ -235,12 +238,14 @@
  RDM:0 "Redemption"
  SLV:0 "Salvation"
  ZAR:0 "Zaren"
+ GUL:0 "Gultamal"
  ANT_ADJ:0 "Antiochi"
  JUD_ADJ:0 "Judgemental"
  PRO_ADJ:0 "Providential"
  RDM_ADJ:0 "Redemptinal"
  SLV_ADJ:0 "Salvational"
  ZAR_ADJ:0 "Zareni"
+ GUL_ADJ:0 "Gultamali"
  ################################################################################################################
  NAT:0 "Natives"
  PIR:0 "Pirates"
