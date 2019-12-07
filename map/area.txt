@@ -202,16 +202,25 @@ zolb_area {
 	822
 }
 
-## new_carnivore_region ############
+## carnivorea_region ############
 
-new_carnivore_area {
-	2606
-	2592
-}
+carnivorea_area_01 { 4891 4892 4893 4894 }
+carnivorea_area_02 { 4895 4896 4897 4898 }
+carnivorea_area_03 { 4899 4900 4901 }
 
-## carnivore_region ############
+## new_carnivor_region ############
 
-carnivore_area {
+new_carnivor_area_01 { 4880 4865 4885 4857 }
+new_carnivor_area_02 { 4874 4883 4873 4881 4886 }
+new_carnivor_area_03 { 4884 4870 4875 }
+new_carnivor_area_04 { 4876 4879 4878 4877 4882 }
+new_carnivor_area_05 { 4870 4868 4867 4875 }
+new_carnivor_area_06 { 4887 4871 4872 }
+new_carnivor_area_07 { 4888 4866 4890 4869 4889 }
+
+## carnivor_region ############
+
+carnivor_area {
 	2604
 }
 
@@ -4504,9 +4513,9 @@ new_area_237 {
 	366
 }
 
-## new_carnivore_region ############
+## new_carnivor_region ############
 
-new_carnivore_area {
+new_carnivor_area {
 	2606
 	2592
 }
@@ -4874,9 +4883,9 @@ new_area_767 {
 	2020
 }
 
-## carnivore_region ############
+## carnivor_region ############
 
-carnivore_area {
+carnivor_area {
 	2604
 }
 

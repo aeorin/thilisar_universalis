@@ -3,8 +3,8 @@
 thilisar_superregion = {
     sinkal_region
     naren_region
-    new_carnivore_region
-    carnivore_region
+    new_carnivor_region
+    carnivor_region
     gilda_region
     eshlends_region
     iela_region

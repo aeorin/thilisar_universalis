@@ -35,15 +35,15 @@ naren_region = {
 	}
 }
 
-new_carnivore_region = {
+new_carnivor_region = {
 	areas = {
-		new_carnivore_area
+		new_carnivor_area
 	}
 }
 
-carnivore_region = {
+carnivor_region = {
 	areas = {
-		carnivore_area
+		carnivor_area
 	}
 }
 
@@ -1493,9 +1493,23 @@ region_320 = {
 	}
 }
 
-new_carnivore_region = {
+carnivorea_region = {
+    areas = {
+        carnivorea_area_01
+        carnivorea_area_02
+        carnivorea_area_03
+    }
+}
+
+new_carnivor_region = {
 	areas = {
-		new_carnivore_area
+        new_carnivor_area_01
+        new_carnivor_area_02
+        new_carnivor_area_03
+        new_carnivor_area_04
+        new_carnivor_area_05
+        new_carnivor_area_06
+        new_carnivor_area_07
 	}
 }
 
@@ -1650,9 +1664,9 @@ region_193 = {
 	}
 }
 
-carnivore_region = {
+carnivor_region = {
 	areas = {
-		carnivore_area
+		carnivor_area
 	}
 }
 
