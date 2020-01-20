@@ -3,12 +3,28 @@
 ## thilisar #####################
 #################################
 
-## sinkal_region ############
+## carnivor_region ############
 
-sinkal_area {
-	2004
-	973
-}
+carnivor_area_01 = { 4968 4943 4946 4989 }
+carnivor_area_02 = { 4990 4991 4992 4944 4945 }
+carnivor_area_03 = { 5000 5002 5004 }
+carnivor_area_04 = { 4959 4971 4983 5003 }
+carnivor_area_05 = { 4978 4947 5017 }
+carnivor_area_06 = { 4996 4961 4964 4984 }
+carnivor_area_07 = { 4963 4962 4960 4985 }
+carnivor_area_08 = { 4995 4994 4972 4993 }
+carnivor_area_09 = { 4967 4986 4966 4965 }
+carnivor_area_10 = { 5007 5008 5009 }
+carnivor_area_11 = { 4951 4981 4956 4954 4957 }
+carnivor_area_12 = { 4952 4953 4955 4969 4980 }
+carnivor_area_13 = { 5018 5015 5013 }
+carnivor_area_14 = { 4975 5010 4974 4979 }
+carnivor_area_15 = { 4987 4973 5011 }
+carnivor_area_16 = { 5016 5001 4988 5012 }
+carnivor_area_17 = { 5014 4999 4998 }
+carnivor_area_18 = { 4997 4958 4970 4982 }
+carnivor_area_19 = { 4976 5006 5005 }
+carnivor_area_20 = { 4977 4948 4949 4950 }
 
 ## naren_region ############
 
@@ -204,13 +220,13 @@ zolb_area {
 
 ## carnivorea_region ############
 
-carnivorea_area_01 { 4891 4892 4893 4894 }
+carnivorea_area_01 { 4891 4892 4893 4894 4857 }
 carnivorea_area_02 { 4895 4896 4897 4898 }
 carnivorea_area_03 { 4899 4900 4901 }
 
 ## new_carnivor_region ############
 
-new_carnivor_area_01 { 4880 4865 4885 4857 }
+new_carnivor_area_01 { 4880 4865 4885 }
 new_carnivor_area_02 { 4874 4883 4873 4881 4886 }
 new_carnivor_area_03 { 4884 4870 4875 }
 new_carnivor_area_04 { 4876 4879 4878 4877 4882 }
@@ -2934,10 +2950,17 @@ sea_area_96 {
 
 ## sinkal_region ############
 
-sinkal_area {
-	2004
-	973
-}
+sinkal_area_01 { 4905 4904 4906 }
+sinkal_area_02 { 4910 4908 4903 }
+sinkal_area_03 { 4909 4902 4907 }
+sinkal_area_04 { 4911 4912 4928 4926 }
+sinkal_area_05 { 4916 4927 4917 4925 }
+sinkal_area_06 { 4930 4931 4921 }
+sinkal_area_07 { 4913 4914 4915 }
+sinkal_area_08 { 4939 4932 4935 4933 }
+sinkal_area_09 { 4936 4938 4937 4922 }
+sinkal_area_10 { 4934 4918 4919 4920 }
+sinkal_area_11 { 4941 4940 4924 4942 4923 }
 
 ## naren_region ############
 

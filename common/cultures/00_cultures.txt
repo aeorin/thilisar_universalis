@@ -198,6 +198,20 @@ human_group = {
     }
 }
 
+animalistic_group = {
+    sinkal_culture = {
+        male_names = {
+            Yaren Umrus Or-Imur
+        }
+        female_names = {
+            Intra Ata-Ala
+        }
+        dynasty_names = {
+            Tinli Horlus Amudzati
+        }
+    }
+}
+
 druidic_group = {
     crystal_druidic_culture = {
         male_names = {

@@ -1322,7 +1322,7 @@ pagan = {
 		heretic = { BEAR_SPIRIT }	
 	}
 	
-	inti = {
+	furry = {
 		color = { 64 115 115 }
 		icon = 18
 		country = {
@@ -1340,7 +1340,7 @@ pagan = {
 		}
 		
 		authority = yes
-		religious_reforms = yes
+		religious_reforms = no
 		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { INTI_HERETIC }	
@@ -1363,7 +1363,7 @@ pagan = {
 		
 		doom = no
 		declare_war_in_regency = yes
-		religious_reforms = yes
+		religious_reforms = no
 		reform_tooltip = NAHUATL_REFORM_TOOLTIP
 		
 		heretic = { NAHUATL_HERETIC }	

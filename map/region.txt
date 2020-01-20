@@ -1,6 +1,16 @@
 sinkal_region = {
 	areas = {
-		sinkal_area
+		sinkal_area_01
+        sinkal_area_02
+        sinkal_area_03
+        sinkal_area_04
+        sinkal_area_05
+        sinkal_area_06
+        sinkal_area_07
+        sinkal_area_08
+        sinkal_area_09
+        sinkal_area_10
+        sinkal_area_11
 	}
 }
 
@@ -43,7 +53,26 @@ new_carnivor_region = {
 
 carnivor_region = {
 	areas = {
-		carnivor_area
+		carnivor_area_01
+        carnivor_area_02
+        carnivor_area_03
+        carnivor_area_04
+        carnivor_area_05
+        carnivor_area_06
+        carnivor_area_07
+        carnivor_area_08
+        carnivor_area_09
+        carnivor_area_10
+        carnivor_area_11
+        carnivor_area_12
+        carnivor_area_13
+        carnivor_area_14
+        carnivor_area_15
+        carnivor_area_16
+        carnivor_area_17
+        carnivor_area_18
+        carnivor_area_19
+        carnivor_area_20
 	}
 }
 

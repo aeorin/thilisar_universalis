@@ -1,0 +1,8 @@
+culture = gultar_culture
+religion = atheism
+base_tax = 1
+base_production = 1
+base_manpower = 1
+controller = CAR
+owner = CAR
+add_core = CAR

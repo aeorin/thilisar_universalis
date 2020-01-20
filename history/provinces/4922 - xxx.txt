@@ -1,0 +1,8 @@
+culture = sinkal_culture
+religion = furry
+base_tax = 4
+base_production = 1
+base_manpower = 4
+controller = SIN
+owner = SIN
+add_core = SIN

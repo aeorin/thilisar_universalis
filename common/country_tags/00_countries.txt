@@ -160,4 +160,10 @@ GUL = "countries/Gultamal.txt"
 ###Dargaren
 DRG = "countries/Dargaren.txt"
 
+###Sinkal
+SIN = "countries/Sinkal.txt"
+
+###Carnivor
+CAR = "countries/Carnivor.txt"
+
 ################################

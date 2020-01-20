@@ -1,0 +1,6 @@
+government = republic
+mercantilism = 10
+technology_group = eastern
+religion = furry
+primary_culture = sinkal_culture
+capital = 4930

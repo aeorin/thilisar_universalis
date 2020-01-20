@@ -1,0 +1,54 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 111 211 211}
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Sangirius #0" = 20
+	"Euclio #0" = 20
+	"Tyndarus #0" = 20
+	"Lena #0" = 20
+	"Cacitus #0" = 20
+}
+
+leader_names = {
+    Amricola
+    Dilto
+    Citrio
+    Aumenio
+}
+
+ship_names = {
+	Muna Namu
+}
+
+
+army_names = {
+	"$PROVINCE$ Batallion"
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}
