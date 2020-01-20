@@ -2948,6 +2948,18 @@ sea_area_96 {
 ## afroeurasia ##################
 #################################
 
+## transinkal_region ############
+
+transinkal_area_01 { 5053 5021 5039 5041 }
+transinkal_area_02 { 5050 5051 5052 5037 }
+transinkal_area_03 { 5027 5029 5035 5033 5031 }
+transinkal_area_04 { 5054 5026 2004 5020 }
+transinkal_area_05 { 5022 5043 5028 5024 }
+transinkal_area_06 { 5030 5042 5044 5034 5040 }
+transinkal_area_07 { 5038 5036 5032 5046 }
+transinkal_area_08 { 5048 5047 5049 }
+transinkal_wasteland_area = { 5019 5025 }
+
 ## sinkal_region ############
 
 sinkal_area_01 { 4905 4904 4906 }
@@ -2961,6 +2973,7 @@ sinkal_area_08 { 4939 4932 4935 4933 }
 sinkal_area_09 { 4936 4938 4937 4922 }
 sinkal_area_10 { 4934 4918 4919 4920 }
 sinkal_area_11 { 4941 4940 4924 4942 4923 }
+sinkal_wasteland_area = { 4855 4852 }
 
 ## naren_region ############
 

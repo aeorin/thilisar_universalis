@@ -11,6 +11,21 @@ sinkal_region = {
         sinkal_area_09
         sinkal_area_10
         sinkal_area_11
+        sinkal_wasteland_area
+	}
+}
+
+transsinkal_region = {
+	areas = {
+         transinkal_area_01
+         transinkal_area_02
+         transinkal_area_03
+         transinkal_area_04
+         transinkal_area_05
+         transinkal_area_06
+         transinkal_area_07
+         transinkal_area_08
+         transinkal_wasteland_area
 	}
 }
 
@@ -945,12 +960,6 @@ sea_region_40 = {
 		sea_area_96
 		sea_area_96
 		sea_area_96
-	}
-}
-
-sinkal_region = {
-	areas = {
-		sinkal_area
 	}
 }
 
