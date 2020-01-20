@@ -413,6 +413,44 @@ druidic_ideas = {
 	}
 }
 
+satyr_ideas = {
+	start = {
+		tolerance_heathen = 2
+	}
+
+	bonus = {
+		monarch_diplomatic_power = 2
+	}
+
+	trigger = {
+		culture_group = satyr_group
+	}
+	free = yes		#will be added at load.
+
+	esoteric_wonders = {
+		monthly_splendor = 1
+	}
+	enchanted_fabrics = {
+		dip_tech_cost_modifier = -0.05
+	}
+	tribal_barter = {
+		interest = -1
+	}
+	planar_replenishment = {
+		war_exhaustion = -0.5
+	}
+	ognixg = {
+		production_efficiency = 0.1
+	}
+	nimble_warlocks = {
+		movement_speed = 0.1
+		backrow_artillery_damage = 0.1
+	}
+	harmonious_habitats = {
+		development_cost = -0.1
+	}
+}
+
 #malaian_ideas = {
 #	start = {
 #		diplomatic_upkeep = 1
