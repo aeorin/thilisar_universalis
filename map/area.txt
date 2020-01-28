@@ -276,18 +276,31 @@ transinkal_wasteland_area = { 5019 5025 }
 
 ## sinkal_region ############
 
-sinkal_area_01 { 4905 4904 4906 }
-sinkal_area_02 { 4910 4908 4903 }
-sinkal_area_03 { 4909 4902 4907 }
-sinkal_area_04 { 4911 4912 4928 4926 }
-sinkal_area_05 { 4916 4927 4917 4925 }
-sinkal_area_06 { 4930 4931 4921 }
-sinkal_area_07 { 4913 4914 4915 }
-sinkal_area_08 { 4939 4932 4935 4933 }
-sinkal_area_09 { 4936 4938 4937 4922 }
-sinkal_area_10 { 4934 4918 4919 4920 }
-sinkal_area_11 { 4941 4940 4924 4942 4923 }
+sinkal_area_01 = { 4905 4904 4906 }
+sinkal_area_02 = { 4910 4908 4903 }
+sinkal_area_03 = { 4909 4902 4907 }
+sinkal_area_04 = { 4911 4912 4928 4926 }
+sinkal_area_05 = { 4916 4927 4917 4925 }
+sinkal_area_06 = { 4930 4931 4921 }
+sinkal_area_07 = { 4913 4914 4915 }
+sinkal_area_08 = { 4939 4932 4935 4933 }
+sinkal_area_09 = { 4936 4938 4937 4922 }
+sinkal_area_10 = { 4934 4918 4919 4920 }
+sinkal_area_11 = { 4941 4940 4924 4942 4923 }
 sinkal_wasteland_area = { 4855 4852 }
+
+
+#################################
+## thilisar oceans ##############
+#################################
+
+daren_sea_area = { 1725 1508 1557 1683 1556 1506 1507 }
+grey_sea_area = { 1687 1729 1561 1697 1510 1737 1560 1486 }
+turdev_sea_area = { 1587 1509 1518 1682 1512 }
+kaldev_sea_area = { 1505 1502 1487 1693 1500 1715 }
+noldev_sea_area = { 1501 1736 1488 1681 1686 1489 }
+halethin_sea_area = { 1511 1728 1699 1499 }
+dager_sea_area = { 1721 1727 1689 }
 
 
 #################################
@@ -329,7 +342,7 @@ lower_andalucia_area = { 224 225 1748 1749 4548 }
 upper_andalucia_area = { 222 223 226 4546 }
 castille_area = { 215 217 2755 4551 }
 toledo_area = { 219 221 2751 2754 4547 }
-asturias_area = {  207 1745 4552 1746 }
+asturias_area = { 207 1745 4552 1746 }
 galicia_area = { 206 4554 4555 4558 }
 baleares_area = { 333 4559 4560 }
 basque_country = { 209 210 2989 }
@@ -375,7 +388,7 @@ east_anglia_area = { 238 1860 4370 }
 
 jutland_area = { 15 1984 4142 4149 }
 denmark_area = { 12 14 1981 1983 }
-skaneland_area = { 6  26 1982 4165 }
+skaneland_area = { 6 26 1982 4165 }
 gotaland_area = { 2 3 25 4166 }
 vastra_gotaland_area = { 7 16 4163 4164 }
 svealand_area = { 5 8 1985 }
@@ -405,9 +418,9 @@ malopolska_area = { 262 4527 2960 }
 red_ruthenia_area = { 261 1940 2424 2961 4541 }
 podolia_volhynia_area = { 281 4540 1943 }
 volhynia_area = { 279 2962 4539 4538 }
-pripyat_area = {  278 1941 4537 4545 }
+pripyat_area = { 278 1941 4537 4545 }
 podlasie_area = { 269 277 1937 }
-mazovia_area = { 256 257  1938 4525 }
+mazovia_area = { 256 257 1938 4525 }
 central_poland_area = { 258 1939 4533 4533 }
 sandomierz_area = { 260 2959 259 }
 kuyavia_area = { 4523 1859 4524 4528 }
@@ -441,7 +454,7 @@ kazan_area = { 1082 2422 4264 }
 samara_area = { 473 1081 2423 }
 lower_yik_area = { 469 474 2365 2367 }
 nogai_area = { 465 470 471 472 2366 }
-ural_area = { 1080 1078 1780 2427 2441 }
+ural_area = { 1078 1780 2427 2441 }
 pomor_area = { 313 1776 1958 4258 }
 arkhangelsk_area = { 1955 4122 4256 4257 }
 bashkiria_area = { 475 1965 1966 2420 2444 }
@@ -660,13 +673,13 @@ northern_australia_area = { 2730 2731 2732 }
 eastern_australia_area = { 1091 1092 1093 1094 2733 }
 southern_australia_area = { 1085 1089 1090 2734 }
 murray_river_area = { 1086 1087 1088 2735 2736 }
-northern_polynesia_area = { 979 1240 1997 }
+northern_polynesia_area = { 1240 1997 }
 eastern_polynesia_area = { 1244 1987 1988 }
 polynesia_area = { 1243 1989 1990 1992 }
 te_ika_a_maui_area = { 1106 1107 1108 2737 2739 }
 te_waipounamu_area = { 1109 1246 2738 }
 
-## West Africa					       ##
+## West Africa					     ##
 
 western_sahara_area = { 1127 1128 1129 1130 2271 }
 cap_verde_area = { 1096 1111 }
@@ -697,7 +710,7 @@ benin_area = { 1147 2289 2290 2294 }
 sao_tome_area = { 1097 1306 }
 west_africa_coast_area = { 1126 1139 1141 2257 2258 }
 guinea_coast_area = { 1118 1119 2241 2242 }
-south_atlantic_islands_area = { 1095 2025 }
+south_atlantic_islands_area = { 2025 }
 matamba_area = { 2948 4082 4084 }
 coastal_kongo = { 1166 1168 4078 4079 4080 }
 kongo_area = { 798 1169 1170 1901 2949 }
@@ -705,7 +718,7 @@ angola_namibia_area = { 1098 1167 1171 1172 1174 }
 cape_of_good_hope_area = { 833 1175 1177 1179 1180 }
 south_african_plateau_area = { 1176 1178 2856 2880 2864 }
 
-## Greater Persia		               ##
+## Greater Persia		              ##
 
 makran_area = { 434 575 2231 2232 2233 }
 sistan_area = { 435 2224 2229 2230 }
@@ -881,11 +894,11 @@ kamchatka_area = { 1034 1035 1038 1041 2440 }
 kolyma_area = { 1036 1037 1039 1040 2439 }
 okhotsk_area = { 1043 1044 1047 1052 }
 yakutia_area = { 1045 1051 1054 2435 2437 }
-sakha_area = { 1042 1046 2438 }
+sakha_area = { 1042 1046 }
 buryatia_area = { 1055 1056 1057 1058 2446 }
-tunguska_area = { 1059 1061 2431 2432 2436 }
+tunguska_area = { 1059 1061 2431 2432 }
 central_siberia_area = { 1064 1067 1068 1070 2430 }
-kara_area = { 1069 1072 1073 2445 4691 }
+kara_area = { 1072 4691 }
 ob_area = { 480 2428 2429 2433 }
 irkutsk_area = { 1060 1062 1063 2442 2443 }
 perm_area = { 1077 1755 1963 1964 4129 }
@@ -989,3 +1002,34 @@ berring_sea_area = { 1445 1562 1677 1678 1680 }
 tasman_sea_area = { 1421 1423 1424 1425 1426 1427 1428 1429 }
 coral_sea_area = { 1405 1406 1407 1411 1412 }
 philipine_sea_area = { 1396 1397 1439 1402 1403 1435 1436 1437 1438 1390 1391 1404 1440 4224 4357 4358 }
+
+banda_arafura_seas_area = { 1356 1357 1401 1408 1409 1410 }
+gulf_of_alaska_area = { 1558 1559 }
+sea_of_grau_area = { 1544 1545 1546 }
+chilean_sea_area = { 1539 1540 1541 1542 1543 }
+gulf_of_panama_area = { 1547 1548 1549 1550 }
+bay_of_biscay_area = { 1274 1275 1276 1277 1278 }
+english_channel_area = { 1271 1272 }
+caribbean_sea_area = { 1513 1514 1515 1516 1517 1519 1520 1521 1522 1523 }
+sea_of_labrador_area = { 1483 1484 1493 1494 1495 1496 }
+hudson_bay_sea_area = { 1485 }
+denmark_strait_area = { 1477 1480 1481 1482 1610 1924 }
+gulf_of_guinea_sea_area = { 1464 1465 1466 }
+cape_of_storms_area = { 1459 1460 }
+skeleton_coast_area = { 1461 1462 1463 }
+east_pacific_ocean_area = { 1430 1431 1432 1433 1434 1442 1443 1444 1666 1667 1668 1669 1670 1671 1672 1673 1674 1675 1676 1679 1691 1698 1734 }
+polynesian_triangle_area = { 1692 1713 1720 1722 1723 1724 1726 1731 1732 1733 1735 1738 1739 }
+south_pacific_area = { 1700 1701 1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 1716 1717 1718 1719 1730 1740 1741 }
+north_pacific_area = { 1684 1685 1688 1690 1694 1695 1696 1714 }
+north_pacific_coast_area = { 1551 1552 1553 1554 1555 }
+coast_of_brazil_sea_area = { 1530 1531 1532 1533 1534 1584 1590 1591 1592 1596 }
+coast_of_guyana_area = { 1527 1528 1529 1576 1577 }
+celtic_sea_area = { 1284 1285 1288 1289 }
+west_african_coast_sea_area = { 1467 1468 1469 1470 1471 1472 1578 1579 }
+south_atlantic_area = { 1585 1586 1597 1598 1599 1600 1601 1602 1603 1604 1605 1606 1608 1609 }
+argentine_sea_area = { 1535 1536 1537 1538 1588 1589 1593 1594 1595 1607 }
+gulf_of_st_lawrence_area = { 1490 1491 }
+gulf_stream_area = { 1492 1504 1570 1571 }
+sargasso_sea_area = { 1526 1568 1569 1572 1573 1574 1575 1581 1582 1583 }
+north_atlantic_area = { 1283 1286 1287 1290 1291 1292 1478 1479 1497 1498 1563 1565 1564 1566 1567 1580 }
+bahama_channel_area = { 1503 1524 1525 }

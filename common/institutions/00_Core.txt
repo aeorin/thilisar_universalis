@@ -33,6 +33,7 @@ feudalism = {
 			region = gilda_region
 			region = daren_region
 			region = gultamal_region
+			region = dargaren_region
 			culture_group = elosven_group
 			AND = {
 			    region = malai_region
@@ -371,6 +372,33 @@ magic_presence = {
 				owner = {
 					has_institution = magic_presence
 				}
+			}
+		}
+		modifier = {
+			factor = 5
+			scale = yes
+			potential = {
+				province_id = 5017
+				any_province = {
+                    limit = {
+                        province_id = 4695
+                    }
+                    owner = {
+                        has_institution = magic_presence
+                    }
+                }
+			}
+
+			custom_trigger_tooltip = {
+				province_id = 5017
+				any_province = {
+                    limit = {
+                        province_id = 4695
+                    }
+                    owner = {
+                        has_institution = magic_presence
+                    }
+                }
 			}
 		}
 	}
