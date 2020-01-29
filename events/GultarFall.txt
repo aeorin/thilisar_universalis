@@ -54,7 +54,7 @@ province_event = {
 		    always = yes
         }
         ai_chance = { factor = 1 }
-        add_unrest = 30
+        add_unrest = 50
         change_culture = gultam_culture
         add_core = GUL
         change_religion = totemism
@@ -85,7 +85,7 @@ province_event = {
                 culture_group = gultar_group
             }
         }
-        add_unrest = 10
+        add_unrest = 40
         change_culture = gultam_culture
         add_core = GUL
         change_religion = totemism
@@ -127,7 +127,7 @@ province_event = {
                 base_manpower  = 2
             }
         }
-        add_unrest = 5
+        add_unrest = 20
 
         owner = {
             add_stability = -1
@@ -156,9 +156,8 @@ province_event = {
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
-            add_unrest = 5
+            add_unrest = 20
             add_local_autonomy = 20
-
         }
 	}
 }

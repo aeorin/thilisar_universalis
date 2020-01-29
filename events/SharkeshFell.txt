@@ -41,7 +41,7 @@ country_event = {
 			change_religion = shamanism
 			change_culture = general_orc_culture
 			add_core = ZHU
-			add_unrest = 30
+			add_unrest = 130
 		}
 	}
 

@@ -57,9 +57,9 @@ zolb_area = { 1006 2511 2930 822 }
 
 ## carnivorea_region ############
 
-carnivorea_area_01 { 4891 4892 4893 4894 4857 }
-carnivorea_area_02 { 4895 4896 4897 4898 }
-carnivorea_area_03 { 4899 4900 4901 }
+carnivorea_area_01 = { 4891 4892 4893 4894 4857 }
+carnivorea_area_02 = { 4895 4896 4897 4898 }
+carnivorea_area_03 = { 4899 4900 4901 }
 carnivorea_wasteland_area = { 4859 4854 4861 }
 
 ## new_carnivor_region ############
@@ -241,7 +241,7 @@ little_plateau_area = { 2576 2577 2012 990 }
 ## wilderness_region ############
 
 wilderness_area_1 = { 4835 4830 4849 }
-wilderness_area_2 = { 4851 4840 4838 4850 }
+wilderness_area_2 = { 4851 4840 4838 4850 5055 }
 wilderness_area_3 = { 4848 4832 4842 }
 wilderness_area_4 = { 4843 4845 }
 wilderness_area_5 = { 4839 4846 4841 }
@@ -250,28 +250,28 @@ wilderness_area_7 = { 4836 4831 4847 }
 
 ## dargaren_region ############
 
-dargaren_area_01 { 4828 4808 4825 4803 }
-dargaren_area_02 { 4821 4800 4818 4801 }
-dargaren_area_03 { 4810 4802 4813 }
-dargaren_area_04 { 4798 4819 4797 }
-dargaren_area_05 { 4809 4823 4799 }
-dargaren_area_06 { 4814 4796 4811 }
-dargaren_area_07 { 4804 4829 4817 4795 }
-dargaren_area_08 { 4812 4820 4794 }
-dargaren_area_09 { 4790 4816 4791 }
-dargaren_area_10 { 4807 4815 4826 }
-dargaren_area_11 { 4793 4805 4792 }
+dargaren_area_01 = { 4828 4808 4825 4803 }
+dargaren_area_02 = { 4821 4800 4818 4801 }
+dargaren_area_03 = { 4810 4802 4813 }
+dargaren_area_04 = { 4798 4819 4797 }
+dargaren_area_05 = { 4809 4823 4799 }
+dargaren_area_06 = { 4814 4796 4811 }
+dargaren_area_07 = { 4804 4829 4817 4795 }
+dargaren_area_08 = { 4812 4820 4794 }
+dargaren_area_09 = { 4790 4816 4791 }
+dargaren_area_10 = { 4807 4815 4826 }
+dargaren_area_11 = { 4793 4805 4792 }
 
 ## transinkal_region ############
 
-transinkal_area_01 { 5053 5021 5039 5041 }
-transinkal_area_02 { 5050 5051 5052 5037 }
-transinkal_area_03 { 5027 5029 5035 5033 5031 }
-transinkal_area_04 { 5054 5026 2004 5020 }
-transinkal_area_05 { 5022 5043 5028 5024 }
-transinkal_area_06 { 5030 5042 5044 5034 5040 }
-transinkal_area_07 { 5038 5036 5032 5046 }
-transinkal_area_08 { 5048 5047 5049 }
+transinkal_area_01 = { 5053 5021 5039 5041 }
+transinkal_area_02 = { 5050 5051 5052 5037 }
+transinkal_area_03 = { 5027 5029 5035 5033 5031 }
+transinkal_area_04 = { 5054 5026 2004 5020 }
+transinkal_area_05 = { 5022 5043 5028 5024 }
+transinkal_area_06 = { 5030 5042 5044 5034 5040 }
+transinkal_area_07 = { 5038 5036 5032 5046 }
+transinkal_area_08 = { 5048 5047 5049 }
 transinkal_wasteland_area = { 5019 5025 }
 
 ## sinkal_region ############
