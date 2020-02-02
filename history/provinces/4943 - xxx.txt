@@ -3,6 +3,6 @@ religion = atheism
 base_tax = 10
 base_production = 10
 base_manpower = 10
-controller = CAR
 owner = CAR
+controller = CAR
 add_core = CAR
