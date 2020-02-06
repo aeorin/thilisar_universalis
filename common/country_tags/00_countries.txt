@@ -164,6 +164,6 @@ DRG = "countries/Dargaren.txt"
 SIN = "countries/Sinkal.txt"
 
 ###Carnivor
-CAR = "countries/Carnivor.txt"
+CRV = "countries/Carnivor.txt"
 
 ################################

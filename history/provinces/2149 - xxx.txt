@@ -1,5 +1,5 @@
 culture = pygmy_human_culture
-religion = catholic
+religion = dragonas
 base_tax = 1
 base_production = 1
 base_manpower = 1

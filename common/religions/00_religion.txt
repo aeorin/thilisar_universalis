@@ -15,7 +15,11 @@ christian = {
 	flag_emblem_index_range = { 1 57 }
 
 	
-	
+
+	dragonas = {
+		color = { 150 150 150 }
+	}
+
 	catholic = {
 		color = { 204 204 0 }
 		icon = 1
