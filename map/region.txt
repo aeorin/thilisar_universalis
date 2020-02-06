@@ -1055,6 +1055,7 @@ bengal_region = {
 
 west_india_region = {
 	areas = {
+	    south_gujarat
 		marwar_area
 		mewar_area
 		jaipur_area
@@ -1131,21 +1132,17 @@ burma_region = {
 	}
 }
 
-japan_region = {
+vrijburt_region = {
 	areas = {
-		hokkaido_area
 		hokuriku_area
 		kanto_area
 		eastern_kanto_area
-		kyushu_area
 		chubu_area
 		eastern_chubu_area
 		kinai_area
 		thohoku_area
 		saigoku_area
 		sanindo_area
-		shikoku_area
-		northern_kyushu
 	}
 	monsoon = {
 		00.06.01
@@ -1247,6 +1244,10 @@ malaya_region = {	#Western Indonesia Malaya.
 
 moluccas_region = {
 	areas = {
+		hokkaido_area
+		kyushu_area
+		shikoku_area
+		northern_kyushu
 		molluca_area
 		sulawesi_area
 		luzon_area
