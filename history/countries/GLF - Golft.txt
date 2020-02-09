@@ -1,0 +1,6 @@
+government = monarchy
+mercantilism = 40
+technology_group = western
+religion = norse
+primary_culture = vrijburt_human_culture
+capital = 4359

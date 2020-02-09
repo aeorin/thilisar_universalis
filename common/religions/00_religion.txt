@@ -230,6 +230,14 @@ christian = {
 		}
 	}
 
+	norse = {
+	    color = { 10 10 50 }
+		country = {
+			navy_tradition = 1
+			naval_morale = 0.2
+		}
+	}
+
 	anglican = {
 		color = { 135 77 255 }
 		icon = 28

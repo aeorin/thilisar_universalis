@@ -166,4 +166,12 @@ SIN = "countries/Sinkal.txt"
 ###Carnivor
 CRV = "countries/Carnivor.txt"
 
+###Vrijburt
+NIJ = "countries/Nijm.txt"
+JUR = "countries/Jurb.txt"
+GAA = "countries/Gaah.txt"
+GLF = "countries/Golft.txt"
+WAA = "countries/Waalvijk.txt"
+UIT = "countries/Uits.txt"
+
 ################################

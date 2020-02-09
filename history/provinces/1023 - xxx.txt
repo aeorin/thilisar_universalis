@@ -1,5 +1,8 @@
-culture = pygmy_human_culture
-religion = dragonas
-base_tax = 1
-base_production = 1
-base_manpower = 1
+culture = vrijburt_human_culture
+religion = norse
+base_tax = 2
+base_production = 2
+base_manpower = 2
+owner = NIJ
+controller = NIJ
+core = NIJ

@@ -1,5 +1,8 @@
-culture = pygmy_human_culture
-religion = dragonas
+culture = vrijburt_human_culture
+religion = norse
 base_tax = 1
-base_production = 1
+base_production = 3
 base_manpower = 1
+owner = GAA
+controller = GAA
+core = GAA

@@ -1,5 +1,8 @@
-culture = pygmy_human_culture
-religion = dragonas
+culture = vrijburt_human_culture
+religion = norse
 base_tax = 1
 base_production = 1
 base_manpower = 1
+owner = JUR
+controller = JUR
+core = JUR

@@ -196,6 +196,17 @@ human_group = {
             Tinli Horlus Amudzati
         }
     }
+    vrijburt_human_culture = {
+        male_names = {
+            Gust Sijmen Jaap Sejrt
+        }
+        female_names = {
+            Krisje Kaatje Mirte
+        }
+        dynasty_names = {
+            Pijpers Maij Rijkof
+        }
+    }
 }
 
 animalistic_group = {
