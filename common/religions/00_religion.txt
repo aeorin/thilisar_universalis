@@ -20,6 +20,20 @@ christian = {
 		color = { 150 150 150 }
 	}
 
+	naar = {
+	    color = { 100 50 20 }
+	    icon = 7
+		allowed_conversion = {
+			reformed
+		}
+
+		country = {
+			production_efficiency = 0.25
+			global_tax_modifier = -0.20
+			development_cost = -0.05
+		}
+	}
+
 	catholic = {
 		color = { 204 204 0 }
 		icon = 1

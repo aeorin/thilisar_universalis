@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 155 180 209}
+color = { 238 115 9 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -33,10 +33,10 @@ historical_units = {
 }
 
 monarch_names = {
-	"Farin #0" = 25
-	"Fundin #0" = 25
+	"Naain #0" = 25
+	"Daain #0" = 25
 	"Malgor #0" = 25
-	"Froor #0" = 25
+	"Durin #0" = 25
 }
 
 leader_names = {

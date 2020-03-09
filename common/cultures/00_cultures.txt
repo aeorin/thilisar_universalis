@@ -326,13 +326,35 @@ undead_group = {
 dwarven_group = {
     naiamy_dwarwen_culture = {
         male_names = {
-            Har Var Sar Gar Par
+            Farin Fundin Malgor Froor
         }
         female_names = {
             Vir Zir Mir Lir
         }
         dynasty_names = {
-            Goklar Madlar
+            Froor
+        }
+    }
+    trpaslui_dwarwen_culture = {
+        male_names = {
+            Thrain Balin Thoor Malgor
+        }
+        female_names = {
+            Vir Zir Mir Lir
+        }
+        dynasty_names = {
+            Thorian
+        }
+    }
+    thalosi_dwarwen_culture = {
+        male_names = {
+            Durin Naain Daain Malgor
+        }
+        female_names = {
+            Vir Zir Mir Lir
+        }
+        dynasty_names = {
+            Durinian
         }
     }
 }

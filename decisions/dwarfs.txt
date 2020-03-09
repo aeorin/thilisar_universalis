@@ -1,0 +1,22 @@
+country_decisions = {
+
+	adapt_dwarven_life = {
+		major = no
+		potential = {
+		    culture_group = dwarven_group
+		}
+		allow = {
+		    culture_group = dwarven_group
+		    religion = naar
+		}
+		effect = {
+		    set_hre_heretic_religion = reformed
+		    enable_hre_leagues = yes
+		    set_global_flag = second_religious_war
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

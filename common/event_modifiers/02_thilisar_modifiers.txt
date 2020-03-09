@@ -21,3 +21,8 @@ gultar_technology = {
     enemy_core_creation = 0.9
     siege_ability = 5.0
 }
+dwarven_life = {
+    colonists = 1
+    development_cost = -0.05
+    core_creation = 0.3
+}

@@ -7,6 +7,38 @@
 ###########################################
 # Custom modifiers
 ###########################################
+
+dwarven_tunnel = {
+	potential = {
+		always = yes
+	}
+
+	#viewer = {
+	#}
+
+	trigger = {
+	    OR = {
+	        has_terrain = tunnel_network
+	        has_terrain = tunnel
+	    }
+		owner = {
+            culture_group = dwarven_group
+		}
+	}
+
+	development_cost = -0.2
+	local_production_efficiency = 0.2
+
+	#Province scope
+	on_activation = {
+
+	}
+
+	on_deactivation = {
+
+	}
+
+}
 #TODO
 
 ###########################################

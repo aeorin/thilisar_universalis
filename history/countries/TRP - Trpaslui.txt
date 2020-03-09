@@ -3,5 +3,5 @@ government_rank = 1
 mercantilism = 5
 technology_group = muslim
 religion = naar
-primary_culture = naiamy_dwarwen_culture
-capital = 2014	# Deep Realm
+primary_culture = trpaslui_dwarwen_culture
+capital = 4699	# trpaslui
