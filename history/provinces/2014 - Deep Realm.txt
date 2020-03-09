@@ -1,6 +1,3 @@
-owner = DEE
-controller = DEE
-add_core = DEE
 culture = naiamy_dwarwen_culture
 religion = jewish
 base_tax = 3

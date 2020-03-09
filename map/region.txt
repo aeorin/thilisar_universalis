@@ -208,6 +208,15 @@ gultamal_region = {
 		gultamal_area_21
 		gultamal_area_22
 		gultamal_area_23
+		gultamal_tunnel_area_01
+        gultamal_tunnel_area_02
+        gultamal_tunnel_area_03
+        gultamal_tunnel_area_04
+        gultamal_tunnel_area_05
+        gultamal_tunnel_area_06
+        gultamal_tunnel_area_07
+        gultamal_tunnel_area_08
+        gultamal_tunnel_area_09
 	}
 }
 

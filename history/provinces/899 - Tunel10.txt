@@ -1,11 +1,8 @@
-owner = DEE
-controller = DEE
-add_core = DEE
 culture = naiamy_dwarwen_culture
 religion = jewish
 base_tax = 1
 base_production = 1
-trade_goods = iron	#fustians
+trade_goods = iron
 base_manpower = 1
 
 hre = no

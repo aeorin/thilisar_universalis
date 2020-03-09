@@ -208,6 +208,16 @@ gultamal_area_20 = { 4733 4732 4753 4764 }
 gultamal_area_21 = { 4747 4746 }
 gultamal_area_22 = { 4752 4706 4765 }
 gultamal_area_23 = { 4770 4771 4767 }
+gultamal_tunnel_area_01 = { 5057 5076 5060 5092}
+gultamal_tunnel_area_02 = { 5077 5061 5078 }
+gultamal_tunnel_area_03 = { 5062 5079 5063 5070 5064 }
+gultamal_tunnel_area_04 = { 5081 5065 5082 }
+gultamal_tunnel_area_05 = { 5066 5083 5067 }
+gultamal_tunnel_area_06 = { 5069 5085 5068 5084 }
+gultamal_tunnel_area_07 = { 5088 5060 5087 }
+gultamal_tunnel_area_08 = { 5086 5074 5089 5072 5071 }
+gultamal_tunnel_area_09 = { 5080 5074 5091 5075 }
+
 
 ## malai_region ############
 
