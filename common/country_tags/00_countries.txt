@@ -157,10 +157,10 @@ SLV = "countries/Salvation.txt"
 ZAR = "countries/Zaren.txt"
 GUL = "countries/Gultamal.txt"
 #dwarvs
-DOR = "coutnries/Dorfalan.txt"
-TRP = "coutnries/Trpaslui.txt"
-DIR = "coutnries/Diros.txt"
-THA = "coutnries/Thalos.txt"
+DOR = "countries/Dorfalan.txt"
+TRP = "countries/Trpaslui.txt"
+DIR = "countries/Diros.txt"
+THA = "countries/Thalos.txt"
 
 ###Dargaren
 DRG = "countries/Dargaren.txt"

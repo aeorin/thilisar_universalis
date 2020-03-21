@@ -1,5 +1,5 @@
 namespace = dwarves
-province_event = {
+country_event = {
 	id = dwarves.1
 	title = "EVTNAMEDWARVES1.t"
 	desc = "EVTNAMEDWARVES1.d"
@@ -10,11 +10,14 @@ province_event = {
 
 	trigger = {
         is_year = 51
-        province_id = 4699
-        NOT = {
-            has_province_flag = dwarves_created
+#        province_id = 4699
+        4699 = {
+            NOT = {
+                has_province_flag = dwarves_created
 
+            }
         }
+        tag = REB
 	}
 
 	mean_time_to_happen = {
@@ -23,14 +26,16 @@ province_event = {
 
 	option = {
 		name = "EVTNAMEDWARVES1.o"
-        change_religion = naar
-        set_province_flag = dwarves_created
-        cede_province = TRP
-        add_core = TRP
-        change_culture = trpaslui_dwarven_culture
-        add_base_tax = 2
-        add_base_production  = 4
-        add_base_manpower  = 2
+		4699 = {
+            change_religion = naar
+            set_province_flag = dwarves_created
+            cede_province = TRP
+            add_core = TRP
+            change_culture = trpaslui_dwarven_culture
+            add_base_tax = 2
+            add_base_production  = 4
+            add_base_manpower  = 2
+        }
 	}
 }
 
