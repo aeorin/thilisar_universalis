@@ -5077,7 +5077,7 @@ province;red;green;blue;x;x
 5077;100;200;100;tunnelwalls;x
 5078;100;200;101;tunnelwalls;x
 5079;100;200;102;tunnelwalls;x
-5070;100;200;103;tunnelwalls;x
+5080;100;200;103;tunnelwalls;x
 5081;100;200;104;tunnelwalls;x
 5082;100;200;105;tunnelwalls;x
 5083;100;200;106;tunnelwalls;x
@@ -5087,6 +5087,10 @@ province;red;green;blue;x;x
 5087;100;200;110;tunnelwalls;x
 5088;100;200;111;tunnelwalls;x
 5089;100;200;112;tunnelwalls;x
-5080;100;200;113;tunnelwalls;x
+5090;100;200;113;tunnelwalls;x
 5091;100;200;114;tunnelwalls;x
 5092;100;200;17;tunnelwalls;x
+5093;100;200;115;tunnel;x
+5094;100;200;116;tunnel;x
+5095;100;200;117;tunnel;x
+5096;100;200;118;tunnel;x

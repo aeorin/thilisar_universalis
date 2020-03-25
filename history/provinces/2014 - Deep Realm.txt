@@ -2,7 +2,7 @@ culture = naiamy_dwarwen_culture
 religion = jewish
 base_tax = 3
 base_production = 6
-trade_goods = gold	#fustians
+trade_goods = gold
 base_manpower = 3
 
 hre = no
@@ -25,4 +25,16 @@ discovered_by = muslim
     discovered_by = NAD
     discovered_by = ORE
     discovered_by = GES
+}
+
+50.12.25 = {
+        religion = naar
+        #set_province_flag = dwarves_created
+        owner = DEE
+        controller = DEE
+        add_core = DEE
+        culture = trpaslui_dwarven_culture
+        base_tax = 3
+        base_production  = 6
+        base_manpower  = 3
 }

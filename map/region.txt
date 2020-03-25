@@ -217,6 +217,7 @@ gultamal_region = {
         gultamal_tunnel_area_07
         gultamal_tunnel_area_08
         gultamal_tunnel_area_09
+        gultamal_tunnel_area_10
 	}
 }
 

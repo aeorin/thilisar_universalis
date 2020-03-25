@@ -3,3 +3,15 @@ religion = catholic
 base_tax = 1
 base_production = 1
 base_manpower = 1
+
+50.12.25 = {
+        religion = naar
+        #set_province_flag = dwarves_created
+        owner = DIR
+        controller = DIRDIR
+        add_core = DIR
+        culture = trpaslui_dwarven_culture
+        base_tax = 3
+        base_production  = 6
+        base_manpower  = 3
+}

@@ -9,15 +9,13 @@ country_event = {
     hidden = yes
 
 	trigger = {
+	    tag = CRV
         is_year = 51
-#        province_id = 4699
         4699 = {
             NOT = {
                 has_province_flag = dwarves_created
-
             }
         }
-        tag = REB
 	}
 
 	mean_time_to_happen = {
@@ -39,7 +37,7 @@ country_event = {
 	}
 }
 
-province_event = {
+country_event = {
 	id = dwarves.2
 	title = "EVTNAMEDWARVES2.t"
 	desc = "EVTNAMEDWARVES2.d"
@@ -49,11 +47,12 @@ province_event = {
     hidden = yes
 
 	trigger = {
+	    tag = CRV
         is_year = 51
-        province_id = 5061
-        NOT = {
-            has_province_flag = dwarves_created
-
+        5061 = {
+            NOT = {
+                has_province_flag = dwarves_created
+            }
         }
 	}
 
@@ -63,18 +62,20 @@ province_event = {
 
 	option = {
 		name = "EVTNAMEDWARVES2.o"
-        change_religion = naar
-        set_province_flag = dwarves_created
-        cede_province = DIR
-        add_core = DIR
-        change_culture = trpaslui_dwarven_culture
-        add_base_tax = 2
-        add_base_production  = 4
-        add_base_manpower  = 2
+		5061 = {
+            change_religion = naar
+            set_province_flag = dwarves_created
+            cede_province = DIR
+            add_core = DIR
+            change_culture = trpaslui_dwarven_culture
+            add_base_tax = 2
+            add_base_production  = 4
+            add_base_manpower  = 2
+        }
 	}
 }
 
-province_event = {
+country_event = {
 	id = dwarves.3
 	title = "EVTNAMEDWARVES3.t"
 	desc = "EVTNAMEDWARVES3.d"
@@ -85,10 +86,11 @@ province_event = {
 
 	trigger = {
         is_year = 51
-        province_id = 5071
-        NOT = {
-            has_province_flag = dwarves_created
+        5071 = {
+            NOT = {
+                has_province_flag = dwarves_created
 
+            }
         }
 	}
 
@@ -98,19 +100,21 @@ province_event = {
 
 	option = {
 		name = "EVTNAMEDWARVES3.o"
-        change_religion = naar
-        set_province_flag = dwarves_created
-        cede_province = DOR
-        add_core = DOR
-        change_culture = thalosi_dwarven_culture
-        add_base_tax = 2
-        add_base_production  = 4
-        add_base_manpower  = 2
+        5071 = {
+            change_religion = naar
+            set_province_flag = dwarves_created
+            cede_province = DOR
+            add_core = DOR
+            change_culture = thalosi_dwarven_culture
+            add_base_tax = 2
+            add_base_production  = 4
+            add_base_manpower  = 2
+        }
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = dwarves.4
 	title = "EVTNAMEDWARVES4.t"
 	desc = "EVTNAMEDWARVES4.d"
@@ -121,10 +125,11 @@ province_event = {
 
 	trigger = {
         is_year = 51
-        province_id = 5063
-        NOT = {
-            has_province_flag = dwarves_created
+        5063 = {
+            NOT = {
+                has_province_flag = dwarves_created
 
+            }
         }
 	}
 
@@ -134,19 +139,21 @@ province_event = {
 
 	option = {
 		name = "EVTNAMEDWARVES4.o"
-        change_religion = naar
-        set_province_flag = dwarves_created
-        cede_province = THA
-        add_core = THA
-        change_culture = thalosi_dwarven_culture
-        add_base_tax = 2
-        add_base_production  = 4
-        add_base_manpower  = 2
+        5063 = {
+            change_religion = naar
+            set_province_flag = dwarves_created
+            cede_province = THA
+            add_core = THA
+            change_culture = thalosi_dwarven_culture
+            add_base_tax = 2
+            add_base_production  = 4
+            add_base_manpower  = 2
+        }
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = dwarves.5
 	title = "EVTNAMEDWARVES5.t"
 	desc = "EVTNAMEDWARVES5.d"
@@ -158,11 +165,16 @@ province_event = {
 	trigger = {
         is_year = 51
         OR = {
-            province_id = 899
-            province_id = 2014
-        }
-        NOT = {
-            has_province_flag = dwarves_created
+            899 =  {
+                NOT = {
+                    has_province_flag = dwarves_created
+                }
+            }
+            2014 = {
+                NOT = {
+                    has_province_flag = dwarves_created
+                }
+            }
         }
 	}
 
@@ -172,13 +184,44 @@ province_event = {
 
 	option = {
 		name = "EVTNAMEDWARVES5.o"
-        change_religion = naar
-        set_province_flag = dwarves_created
-        cede_province = DEE
-        add_core = DEE
-        change_culture = naiamy_dwarwen_culture
-        add_base_tax = 2
-        add_base_production  = 4
-        add_base_manpower  = 2
+		if = {
+		    limit = {
+		        2014 =  {
+                    NOT = {
+                        has_province_flag = dwarves_created
+                    }
+                }
+		    }
+		    2014 =  {
+                change_religion = naar
+                set_province_flag = dwarves_created
+                cede_province = DEE
+                add_core = DEE
+                change_culture = naiamy_dwarwen_culture
+                add_base_tax = 2
+                add_base_production  = 4
+                add_base_manpower  = 2
+		    }
+		}
+		if = {
+		    limit = {
+		        899 =  {
+                    NOT = {
+                        has_province_flag = dwarves_created
+                    }
+                }
+		    }
+		    899 =  {
+                change_religion = naar
+                set_province_flag = dwarves_created
+                cede_province = DEE
+                add_core = DEE
+                change_culture = naiamy_dwarwen_culture
+                add_base_tax = 2
+                add_base_production  = 4
+                add_base_manpower  = 2
+		    }
+		}
+
 	}
 }

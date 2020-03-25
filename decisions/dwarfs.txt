@@ -10,9 +10,12 @@ country_decisions = {
 		    religion = naar
 		}
 		effect = {
-		    set_hre_heretic_religion = reformed
-		    enable_hre_leagues = yes
-		    set_global_flag = second_religious_war
+		    add_country_modifier = {
+                name = dwarven_life
+                duration = -1
+                desc = DWARVEN_LIFE_DESC_TOOLTIP
+                hidden = no
+            }
 		}
 		ai_will_do = {
 			factor = 1

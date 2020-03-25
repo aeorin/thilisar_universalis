@@ -583,7 +583,7 @@ colonial_australia = {
         #South East Asia IV
         636 637 638 639 640 641 642 643 644 645 646
         4348 4349 4350 4351 4352 4353 4354 4355 4356 #More Philippines
-        2741 4186
+        2741 4186 4193
 	}
 
 	# Specific
