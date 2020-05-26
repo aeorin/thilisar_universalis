@@ -1,5 +1,5 @@
-age_of_discovery = {
-	start = 1400
+age_of_decline = {
+	start = 1
 	
 	can_start = {
 		always = yes
@@ -9,25 +9,6 @@ age_of_discovery = {
 	
 
 	objectives = {
-		obj_discover_america = {
-			allow = {
-				capital_scope = {
-					OR = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = obj_discover_america_tooltip
-					OR = {
-						north_america = { has_discovered = ROOT }
-						south_america = { has_discovered = ROOT }
-						new_world = { has_discovered = ROOT }
-					}
-				}
-		}
 		obj_100_development = {
 			allow = {
 				capital_scope = {
@@ -39,23 +20,20 @@ age_of_discovery = {
 				}
 			}
 			total_development = 100
-
 		}
 		
 		
 		
-	
-		obj_5_centers_of_trade = {
+
+		obj_grain_exporter = {
 			calc_true_if = {
 				all_owned_province = {
-					OR = {
-						province_has_center_of_trade_of_level = 2
-						province_has_center_of_trade_of_level = 3
-					}
+                    trade_goods = grain
+					base_production = 9
 					controlled_by = owner
 					is_core = ROOT
 				}
-				amount = 5
+				amount = 3
 			}
 		}
 		obj_30_development_city = {
@@ -68,10 +46,10 @@ age_of_discovery = {
 				}
 			}
 		}
-		obj_renaissance = {
-	 		has_institution = renaissance
+		obj_gods = {
+	 		has_institution = gods
 	 		all_state_province = {
-	 			renaissance = 100
+	 			gods = 100
 	 		}
 		}
 		
