@@ -193,8 +193,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_obj_renaissance"
-		texturefile = "gfx/interface/ages/obj_renaissance.dds"
+		name = "GFX_obj_gods"
+		texturefile = "gfx/interface/ages/obj_gods.dds"
 	}
 	
 	spriteType = {
@@ -395,8 +395,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ab_colony_boost_development"
-		texturefile = "gfx/interface/ages/ab_colony_boost_development.dds"
+		name = "GFX_ab_cunning_siege_tactics"
+		texturefile = "gfx/interface/ages/ab_cunning_siege_tactics.dds"
 	}
 	
 	spriteType = {
@@ -405,23 +405,23 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_ab_ottoman_siege_ability"
-		texturefile = "gfx/interface/ages/ab_ottoman_siege_ability.dds"
+		name = "GFX_ab_satyr_determination"
+		texturefile = "gfx/interface/ages/ab_satyr_determination.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ab_portugal_colonial_growth"
-		texturefile = "gfx/interface/ages/ab_portugal_colonial_growth.dds"
+		name = "GFX_ab_gultar_ascendancy"
+		texturefile = "gfx/interface/ages/ab_gultar_ascendancy.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ab_venice_ship_trade"
-		texturefile = "gfx/interface/ages/ab_venice_ship_trade.dds"
+		name = "GFX_ab_imperial_legacy"
+		texturefile = "gfx/interface/ages/ab_imperial_legacy.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ab_denmark_reduced_lib_desire"
-		texturefile = "gfx/interface/ages/ab_denmark_reduced_lib_desire.dds"
+		name = "GFX_ab_elvish_exclaves"
+		texturefile = "gfx/interface/ages/ab_elvish_exclaves.dds"
 	}	
 	
 	spriteType = {

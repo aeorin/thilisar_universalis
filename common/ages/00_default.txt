@@ -133,16 +133,12 @@ age_of_decline = {
 				factor = 10
 			}
 		}
-		ab_colony_boost_development = {
-			rule = {
-				can_colony_boost_development = yes
+		ab_cunning_siege_tactics = {
+			modifier = {
+		        siege_ability = 0.1
 			}
 			ai_will_do = {
 				factor = 10
-				modifier = {
-					factor = 0
-					NOT = { num_of_colonists = 1 }
-				}
 			}
 		}
 		
@@ -154,58 +150,57 @@ age_of_decline = {
 				factor = 10
 			}
 		}
-		
-		ab_ottoman_siege_ability = {
+
+		ab_satyr_determination = {
 			allow = {
-				tag = TUR
+				primary_culture = satyr_culture
 			}
 			modifier = {
-				siege_ability = 0.33
+				defensiveness = 0.75
+				war_exhaustion = -0.2
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
-		
-		ab_portugal_colonial_growth = {
-		
+
+		ab_gultar_ascendancy = {
 			allow = {
-				tag = POR
+				primary_culture = gultar_culture
 			}
 			modifier = {
 				global_colonial_growth = 50
+				colonists = 1
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
-		ab_denmark_reduced_lib_desire = {
-		
+
+		ab_imperial_legacy = {
+
 			allow = {
-				tag = DAN
+				tag = IMO
 			}
 			modifier = {
-				reduced_liberty_desire = 30
+				diplomatic_upkeep = 2
+				diplomatic_reputation = 5
 			}
 			ai_will_do = {
 				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
 			}
 		}
-		ab_venice_ship_trade = {
-		
+
+		ab_elvish_exclaves = {
 			allow = {
-				tag = VEN
+                OR = {
+                    tag = LMS
+                    tag = AHA
+                    tag = WER
+                }
 			}
 			modifier = {
-				global_ship_trade_power = 0.5
+				production_efficiency = 0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -215,7 +210,7 @@ age_of_decline = {
 }
 
 age_of_reformation = {
-	start = 1530
+	start = 55
 	
 	can_start = {
 		is_religion_enabled = protestant
