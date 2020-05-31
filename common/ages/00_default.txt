@@ -209,7 +209,7 @@ age_of_decline = {
 	}
 }
 
-age_of_reformation = {
+age_of_novelties = {
 	start = 55
 	
 	can_start = {
@@ -220,11 +220,10 @@ age_of_reformation = {
 	religious_conflicts = yes
 	
 	objectives = {
-		obj_christian_convert = {
+		obj_pick_god = {
 			OR = {
 				religion = protestant
 				religion = reformed
-				religion = anglican
 			}
 		}
 		
@@ -241,9 +240,13 @@ age_of_reformation = {
 				check_variable = { which = num_converted_religion value = 10 }
 			}
 		}
-		
-		obj_colonial_empire = {
-			colony = 5
+
+		obj_join_league = {
+			OR = {
+			    in_league = protestant
+			    in_league = catholic
+			    in_league = reformed
+			}
 		}
 		
 		obj_force_converted = {
@@ -253,18 +256,18 @@ age_of_reformation = {
 			}
 		}
 		
-		obj_asian_trade = {
+		obj_magical_trade = {
 			OR = {
 				trading_bonus = {
 					trade_goods = spices
 					value = yes
 				}
 				trading_bonus = {
-					trade_goods = chinaware
+					trade_goods = gems
 					value = yes
 				}
 				trading_bonus = {
-					trade_goods = silk
+					trade_goods = dyes
 					value = yes
 				}
 			
@@ -272,23 +275,40 @@ age_of_reformation = {
 		
 		
 		}
-		
-		obj_unify_culture = {	
-			is_subject = no
-			has_unified_culture_group = yes
+
+		obj_apply_novelties = {
+			NOT = {
+                calc_true_if = {
+                    all_owned_province = {
+                        NOT = {
+                            development = 7
+                        }
+                    }
+                    amount = 1
+                }
+			}
+			custom_trigger_tooltip = {
+				tooltip = obj_apply_novelties_tooltip
+				has_country_flag = force_converted
+			}
 		}
 	}	
 	
 	
 	abilities = {
-	
-		ab_allow_religion_enforced = {
-			effect = {
-				custom_tooltip = religion_enforced_edict
-				set_country_flag = religion_enforced_edict
+
+		ab_next_generation = {
+			modifier = {
+			    monarch_admin_power = 1
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 100
+				modifier = {
+					factor = 0
+				    NOT = {
+				        government = monarchy
+				    }
+				}
 			}
 		}
 	
@@ -355,54 +375,57 @@ age_of_reformation = {
 			}
 		}
 
-	
-		ab_spain_tercio = {
+
+		ab_zhuchu_fiersness = {
 			allow = {
-				tag = SPA
+				tag = ZHU
 			}
 			modifier = {
 				shock_damage_received = -0.3
+				land_morale = 0.3
 			}
 			ai_will_do = {
-				factor = 100
+				factor = 500
 			}
 		}
-		ab_mughal_artillery = {
+
+		ab_dareni_filibusters = {
 			allow = {
-				tag = MUG
+				primary_culture = daren_human_culture
 			}
 			modifier = {
-				artillery_cost = -0.5
+				land_maintenance_modifier = -0.2
+				land_forcelimit_modifier = 0.2
 			}
 			ai_will_do = {
-				factor = 100
+				factor = 500
 			}
 		}
-		
-		ab_polish_legitimacy = {
+
+		ab_dargareni_ambushers = {
+			allow = {
+                tag = DRG
+			}
+			modifier = {
+				shock_damage = 0.5
+			}
+			ai_will_do = {
+				factor = 500
+			}
+		}
+
+		ab_elosven_utilities = {
 			allow = {
 				OR = {
-					tag = PLC
-					tag = POL
+				    primary_culture = low_elosven_culture
+				    primary_culture = high_elosven_culture
 				}
 			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.33
+				development_cost = -0.3
 			}
 			ai_will_do = {
-				factor = 100
-			}
-		}
-		
-		ab_persia_reinforce = {
-			allow = {
-				tag = PER
-			}
-			modifier = {
-				reinforce_cost_modifier = -0.3
-			}
-			ai_will_do = {
-				factor = 100
+				factor = 500
 			}
 		}
 	
