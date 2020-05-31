@@ -562,7 +562,7 @@ magic_study = {
 #######################################
 # New World = Necromancy
 #######################################
-controlled_necomancy = {
+controlled_necromancy = {
 	penalty = 0.3
 
 	bonus = {
@@ -639,7 +639,7 @@ controlled_necomancy = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
 				any_friendly_coast_border_province = {
-					controlled_necomancy = 100
+					controlled_necromancy = 100
 				}
 			}
 
@@ -652,7 +652,7 @@ controlled_necomancy = {
 				has_port = yes
 				NOT = {
 					any_friendly_coast_border_province = {
-						controlled_necomancy = 100
+						controlled_necromancy = 100
 					}
 				}
 			}
@@ -660,7 +660,7 @@ controlled_necomancy = {
 				tooltip = tooltip_neighbor_port_province_new_world
 				has_port = yes
 				any_neighbor_province = {
-					controlled_necomancy = 100
+					controlled_necromancy = 100
 				}
 			}
 		}
@@ -694,15 +694,15 @@ controlled_necomancy = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = controlled_necomancy
+					has_institution = controlled_necromancy
 				}
 			}
 
 			custom_trigger_tooltip = {
-				tooltip = tooltip_controlled_necomancy_embraced
+				tooltip = tooltip_controlled_necromancy_embraced
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = controlled_necomancy
+					has_institution = controlled_necromancy
 				}
 			}
 		}

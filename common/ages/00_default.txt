@@ -440,32 +440,23 @@ age_of_novelties = {
 
 
 
-age_of_absolutism = {
-	start = 1620
+age_of_occultism = {
+	start = 155
 	
 	can_start = {
-		is_institution_enabled = global_trade
+		is_year = 145
 	}
-	
-	
-	absolutism = {
-		harsh_treatment = 1
-		stability = 1
-		decrease_autonomy_command = 1
-		strengthen_government = 2
-		
-		increase_autonomy_command = -2
-		debase_currency = -1
-		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
-		war_exhaustion = -1
-	}
-	
-	
-	
+
 	objectives = {
-		obj_3_trade_companies = {
-			num_of_trade_companies = 3
+		obj_40_dev_city = {
+			custom_trigger_tooltip = {
+				tooltip = obj_40_dev_city_tooltip
+				any_owned_province = {
+					is_core = ROOT
+					controlled_by = owner
+					development = 30
+				}
+			}
 		}
 		
 		obj_universities = {
@@ -475,18 +466,26 @@ age_of_absolutism = {
 		obj_large_forcelimit = {
 			land_forcelimit = 200
 		}
-		
-		obj_90_absolutism = {
-			absolutism = 90
+
+		obj_necromancy = {
+	 		has_institution = controlled_necromancy
+	 		all_state_province = {
+	 			controlled_necromancy = 100
+	 		}
 		}
-		
-		obj_emperor_of_china = {
-			is_emperor_of_china = yes
-			imperial_mandate = 50
+
+		obj_shamans = {
+	 		has_institution = shamans
+	 		all_state_province = {
+	 			shamans = 100
+	 		}
 		}
-		
-		obj_cultures_accepted = {
-			num_accepted_cultures = 5
+
+		obj_control_ore_trade = {
+            trading_bonus = {
+                trade_goods = sugar
+                value = yes
+            }
 		}
 		
 		obj_win_religious_war = {
@@ -502,11 +501,11 @@ age_of_absolutism = {
 	
 	
 	abilities = {
-	
-		ab_allow_edict_of_absolutism = {
-			effect = {
-				custom_tooltip = edict_of_absolutism_tt
-				set_country_flag = edict_of_absolutism
+
+		ab_occult_literacy = {
+			modifier = {
+				trade_efficiency = 0.1
+				diplomatic_reputation = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -532,22 +531,32 @@ age_of_absolutism = {
 		}
 
 
-		ab_autonomy = {
+		ab_progressive_governing = {
 			modifier = {
-				autonomy_change_time = -0.5
+				embracement_cost = -0.2
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 1000
+				modifier = {
+					factor = 0
+					has_institution = controlled_necromancy
+					has_institution = shamans
+				}
 			}
 		}
 
 
-		ab_harsh_treatment = {
+		ab_occult_mindset = {
 			modifier = {
-				harsh_treatment_cost = -0.5
+				global_institution_spread = 0.5
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 1000
+				modifier = {
+					factor = 0
+					has_institution = controlled_necromancy
+					has_institution = shamans
+				}
 			}
 		}
 
@@ -561,59 +570,63 @@ age_of_absolutism = {
 			}
 		}
 
-		ab_yearly_absolutism = {
+		ab_occult_artisans = {
 			modifier = {
-				yearly_absolutism = 1
+				global_trade_goods_size_modifier = 0.1
+				global_unrest = -1
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
 	
-	
-		ab_france_fire_damage = {
+
+		ab_erg_growth = {
 			allow = {
-				tag = FRA
+				primary_culture = eshlends_culture
+				primary_culture = nad_culture
+				primary_culture = hish_culture
 			}
 			modifier = {
-				fire_damage = 0.2
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_dutch_anti_corruption = {
-			allow = {
-				tag = NED
-			}
-			modifier = {
-				yearly_corruption = -0.2
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}	
-		ab_sweden_manpower = {
-			allow = {
-				tag = SWE
-			}
-			modifier = {
-				manpower_recovery_speed = 0.35
+				discipline = 0.2
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
 
-		ab_manchu_banner = {
+		ab_gultam_tribes = {
 			allow = {
-				OR = {
-					tag = MCH
-					tag = QNG
-				}
+				primary_culture = gultam_culture
 			}
 			modifier = {
-				amount_of_banners = 0.5
+				diplomatic_reputation = 3
+				diplomatic_upkeep = 3
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_gildan_entrenchment = {
+			allow = {
+				tag = GIL
+			}
+			modifier = {
+				defensiveness = 2.00
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_halethine_harmony = {
+			allow = {
+                tag = HAL
+			}
+			modifier = {
+				stability_cost_modifier = -0.5
+				local_tax_modifier = 0.3
 			}
 			ai_will_do = {
 				factor = 100
@@ -623,10 +636,10 @@ age_of_absolutism = {
 }
 
 age_of_revolutions = {
-	start = 1710
+	start = 300
 	
 	can_start = {
-		is_institution_enabled = enlightenment
+		is_institution_enabled = crystaline_magic
 	}
 	
 	absolutism = {

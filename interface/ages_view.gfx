@@ -41,7 +41,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_age_of_absolutism"
+		name = "GFX_age_of_occultism"
 		texturefile = "gfx/interface/ages/age_of_absolutism.dds"
 	}
 
@@ -109,7 +109,7 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_icon_age_of_absolutism_g"
+		name = "GFX_icon_age_of_occultism_g"
 		texturefile = "gfx/interface/ages/icon_age_of_absolutism_g.dds"
 	}
 
@@ -264,7 +264,7 @@ spriteTypes = {
 
 	# Age of Absolutism Objectives
 	spriteType = {
-		name = "GFX_obj_3_trade_companies"
+		name = "GFX_obj_40_dev_city"
 		texturefile = "gfx/interface/ages/obj_3_trade_companies.dds"
 	}
 	
@@ -279,17 +279,17 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_obj_90_absolutism"
+		name = "GFX_obj_necromancy"
 		texturefile = "gfx/interface/ages/obj_90_absolutism.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_obj_emperor_of_china"
+		name = "GFX_obj_shamans"
 		texturefile = "gfx/interface/ages/obj_emperor_of_china.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_obj_cultures_accepted"
+		name = "GFX_obj_control_ore_trade"
 		texturefile = "gfx/interface/ages/obj_cultures_accepted.dds"
 	}
 	
@@ -491,7 +491,7 @@ spriteTypes = {
 	
 	# Age of Absolutism Abilities
 	spriteType = {
-		name = "GFX_ab_allow_edict_of_absolutism"
+		name = "GFX_ab_occult_literacy"
 		texturefile = "gfx/interface/ages/ab_allow_edict_of_absolutism.dds"
 	}
 	
@@ -506,12 +506,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ab_autonomy"
+		name = "GFX_ab_progressive_governing"
 		texturefile = "gfx/interface/ages/ab_autonomy.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ab_harsh_treatment"
+		name = "GFX_ab_occult_mindset"
 		texturefile = "gfx/interface/ages/ab_harsh_treatment.dds"
 	}
 	
@@ -521,27 +521,27 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ab_yearly_absolutism"
+		name = "GFX_ab_occult_artisans"
 		texturefile = "gfx/interface/ages/ab_yearly_absolutism.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ab_france_fire_damage"
+		name = "GFX_ab_erg_growth"
 		texturefile = "gfx/interface/ages/ab_france_fire_damage.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ab_dutch_anti_corruption"
+		name = "GFX_ab_gultam_tribes"
 		texturefile = "gfx/interface/ages/ab_dutch_anti_corruption.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ab_sweden_manpower"
+		name = "GFX_ab_gildan_entrenchment"
 		texturefile = "gfx/interface/ages/ab_sweden_manpower.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ab_manchu_banner"
+		name = "GFX_ab_halethine_harmony"
 		texturefile = "gfx/interface/ages/ab_manchu_banner.dds"
 	}	
 	
