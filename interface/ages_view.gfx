@@ -290,7 +290,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_obj_control_ore_trade"
-		texturefile = "gfx/interface/ages/obj_cultures_accepted.dds"
+		texturefile = "gfx/interface/ages/obj_control_ore_trade.dds"
 	}
 	
 	spriteType = {
@@ -492,7 +492,7 @@ spriteTypes = {
 	# Age of Absolutism Abilities
 	spriteType = {
 		name = "GFX_ab_occult_literacy"
-		texturefile = "gfx/interface/ages/ab_allow_edict_of_absolutism.dds"
+		texturefile = "gfx/interface/ages/ab_occult_literacy.dds"
 	}
 	
 	spriteType = {
@@ -522,27 +522,27 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ab_occult_artisans"
-		texturefile = "gfx/interface/ages/ab_yearly_absolutism.dds"
+		texturefile = "gfx/interface/ages/ab_occult_artisans.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ab_erg_growth"
-		texturefile = "gfx/interface/ages/ab_france_fire_damage.dds"
+		texturefile = "gfx/interface/ages/ab_erg_growth.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ab_gultam_tribes"
-		texturefile = "gfx/interface/ages/ab_dutch_anti_corruption.dds"
+		texturefile = "gfx/interface/ages/ab_gultam_tribes.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ab_gildan_entrenchment"
-		texturefile = "gfx/interface/ages/ab_sweden_manpower.dds"
+		texturefile = "gfx/interface/ages/ab_gildan_entrenchment.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ab_halethine_harmony"
-		texturefile = "gfx/interface/ages/ab_manchu_banner.dds"
+		texturefile = "gfx/interface/ages/ab_halethine_harmony.dds"
 	}	
 	
 
